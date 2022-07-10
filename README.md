@@ -18,6 +18,10 @@
  8. The gold is shown  
     diabled under1000gold(40lvl under),diabled under2000gold(38~69lvl),diabled under5000gold(over 70lvl)
  9. The normal item which has 6 soc is able (cristal sword, halberd, and so on)
+ 10. CLUB NORMAL ITEM FOR RUNE WORD IS AVAILABLE ON STARTER FILTER
+ 11. SOME ENHANCED DAMAGE ITEM IS AVAILABLE ON STARTER FILTER.
+ 12. MAGIC SKILLER ITEM IS AVAILABLE ON STARTER FILTER
+ 13. NORMAL1 AND NORMAL2 HAS DIFFERENTIAL FOR SYMBOL.
  
 ----------------------------------------------------------------------------------------------------------------------
 
