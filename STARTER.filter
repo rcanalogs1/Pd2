@@ -553,8 +553,8 @@ ItemDisplay[(aqv OR cqv) NMAG]:
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                             RUNES                                           //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR ro7)]: %TAN%%RUNENAME% %PURPLE%[%RUNENUM%]
-ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR ro7s)]: %TAN%%RUNENAME% %PURPLE%[%RUNENUM%] %WHITE%* %GREEN%%QTY%
+ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07)]: %TAN%%RUNENAME% %PURPLE%[%RUNENUM%]
+ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR r07s)]: %TAN%%RUNENAME% %PURPLE%[%RUNENUM%] %WHITE%* %GREEN%%QTY%
 ItemDisplay[(r08 OR r11 OR r12 OR r15 OR r18 OR r19)]:%DOT-50%%GOLD%****    %TAN%%RUNENAME% %PURPLE%[%RUNENUM%]    %GOLD%****
 ItemDisplay[(r08s OR r11s OR r12s OR r15s OR r18s OR r19s)]:%DOT-50%%GOLD%****    %TAN%%RUNENAME% %PURPLE%[%RUNENUM%] %WHITE%* %GREEN%%QTY%    %GOLD%****
 ItemDisplay[(r09 OR r10 OR r13 OR r14 OR r16 OR r17)]: %GOLD%****    %TAN%%RUNENAME% %PURPLE%[%RUNENUM%]    %GOLD%****
