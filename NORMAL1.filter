@@ -1773,6 +1773,8 @@ ItemDisplay[UNI !ID 7gw ETH]: %DOT-0C% %GOLD%@@@@     %TAN%ETH Deaths Web     %G
 //Unique Throwing Weapons
 ItemDisplay[UNI !ID 7bk !ETH]: %DOT-0C% %GOLD%@@@@     %RED%Warshrike     %GOLD%@@@@ 
 ItemDisplay[UNI !ID 7bk ETH]: %DOT-0C% %GOLD%@@@@     %TAN%ETH Warshrike     %GOLD%@@@@ 
+ItemDisplay[UNI !ID 7b8 !ETH]: %DOT-0C% %GOLD%@@@@     %RED%Lacerator     %GOLD%@@@@
+ItemDisplay[UNI !ID 7b8 ETH]: %DOT-0C% %GOLD%@@@@     %PURPLE%ETH %RED%Lacerator     %GOLD%@@@@
 //Unique Amazon only items
 ItemDisplay[UNI !ID ama !ETH]: %DOT-0C% %GOLD%@@@@     %RED%Titans Revenge     %GOLD%@@@@ 
 ItemDisplay[UNI !ID ama ETH]: %DOT-0C% %GOLD%@@@@     %TAN%ETH Titans Revenge     %GOLD%@@@@ 
@@ -2310,8 +2312,6 @@ ItemDisplay[UNI !ID 9ta !ETH]: %GRAY%@@@@      %TAN%The Scalper%TAN%      %GRAY%
 ItemDisplay[UNI !ID 9ta ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%The Scalper%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID 7ta !ETH]: %GRAY%@@@@      %TAN%Gimmershred%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID 7ta ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Gimmershred%TAN%      %GRAY%@@@@ 
-ItemDisplay[UNI !ID 7b8 !ETH]: %GRAY%@@@@      %TAN%Lacerator%TAN%      %GRAY%@@@@ 
-ItemDisplay[UNI !ID 7b8 ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Lacerator%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID 7s7 !ETH]: %GRAY%@@@@      %TAN%Demon's Arch%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID 7s7 ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Demon's Arch%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID 7gl ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Wraith Flight%TAN%      %GRAY%@@@@ 
