@@ -2347,6 +2347,91 @@ ItemDisplay[UNI !ID drd !ETH]: %GRAY%@@@@      %TAN%Spirit Keeper%TAN%      %GRA
 ItemDisplay[UNI !ID drd ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Spirit Keeper%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID pae !ETH]: %GRAY%@@@@      %TAN%Dragonscale%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID pae ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Dragonscale%TAN%      %GRAY%@@@@ 
+
+//PD2 uniq
+ItemDisplay[UNI !ID ame !ETH]: %GRAY%@@@@      %TAN%Zeraes Resolve%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID ame ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Zeraes Resolve%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID am5 !ETH]: %GRAY%@@@@      %TAN%True Silver%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID am5 ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%True Silver%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID 9ar !ETH]: %GRAY%@@@@      %TAN%Mage Slayer%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID 9ar ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Mage Slayer%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID 7tw !ETH]: %GRAY%@@@@      %TAN%Stalkers Cull%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID 7tw ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Stalkers Cull%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID 7qr !ETH]: %GRAY%@@@@      %TAN%Aidans Scar%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID 7qr ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Aidans Scar%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID ob6 !ETH]: %GRAY%@@@@      %TAN%Tempest%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID ob6 ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Tempest%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID 7gl !ETH]: %GRAY%@@@@      %TAN%Wraith Flight%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID 7qs !ETH]: %GRAY%@@@@      %TAN%Akarats Devotion%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID 7qs ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Akarats Devotion%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID 6bs !ETH]: %GRAY%@@@@      %TAN%Brimstone Rain%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID 6bs ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Brimstone Rain%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID 7bs !ETH]: %GRAY%@@@@      %TAN%Hadriels Hand%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID 7bs ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Hadriels Hand%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID 7fb !ETH]: %GRAY%@@@@      %TAN%Odium%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID 7fb ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Odium%TAN%      %GRAY%@@@@ 
+
+//helm
+ItemDisplay[UNI !ID uhl !ETH]: %GRAY%@@@@      %TAN%Overlords Helm%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID uhl ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Overlords Helm%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID ba6 !ETH]: %GRAY%@@@@      %TAN%Cyclopean Roar%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID ba6 ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Cyclopean Roar%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID baf !ETH]: %GRAY%@@@@      %TAN%Raekors Virtue%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID baf ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Raekors Virtue%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID dr2 !ETH]: %GRAY%@@@@      %TAN%Quetzalcoatl%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID dr2 ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Quetzalcoatl%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID drf !ETH]: %GRAY%@@@@      %TAN%Ursas Nightmare%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID drf ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Ursas Nightmare%TAN%      %GRAY%@@@@ 
+
+//chest
+ItemDisplay[UNI !ID utp !ETH]: %GRAY%@@@@      %TAN%Purgatory%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID utp ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Purgatory%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID uth !ETH]: %GRAY%@@@@      %TAN%Dark Abyss%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID uth ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Dark Abyss%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID uhn !ETH]: %GRAY%@@@@      %TAN%Cage of the Unsullied%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID uhn ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Cage of the Unsullied%TAN%      %GRAY%@@@@ 
+
+//shield
+ItemDisplay[UNI !ID ne6 !ETH]: %GRAY%@@@@      %TAN%Kalans Legacy%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID ne6 ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Kalans Legacy%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID ned !ETH]: %GRAY%@@@@      %TAN%Martyrdom%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID ned ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Martyrdom%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID pa3 !ETH]: %GRAY%@@@@      %TAN%Sankekurs Fall%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID pa3 ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Sankekurs Fall%TAN%      %GRAY%@@@@ 
+
+//glove
+ItemDisplay[UNI !ID utg !ETH]: %GRAY%@@@@      %TAN%Occultist%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID utg ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Occultist%TAN%      %GRAY%@@@@ 
+
+//boots
+ItemDisplay[UNI !ID ulb !ETH]: %GRAY%@@@@      %TAN%Mermans Sprocket%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID ulb ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Mermans Sprocket%TAN%      %GRAY%@@@@ 
+
+ItemDisplay[UNI !ID utb !ETH]: %GRAY%@@@@      %TAN%Itheraels Path%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID utb ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Itheraels Path%TAN%      %GRAY%@@@@ 
+
+//belt
+ItemDisplay[UNI !ID utc !ETH]: %GRAY%@@@@      %TAN%Band of Skulls%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID utc ETH]: %GRAY%@@@@      %PURPLE%ETH %TAN%Band of Skulls%TAN%      %GRAY%@@@@ 
+
 //Unique Normal Non Poppular
 ItemDisplay[UNI !ID (WEAPON OR ARMOR) !ETH]:%TAN%%NAME%%RED%*
 ItemDisplay[UNI !ID (aqv OR cqv)]:%TAN%%NAME%%RED%*
