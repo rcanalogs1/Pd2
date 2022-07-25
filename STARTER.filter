@@ -138,11 +138,11 @@ ItemDisplay[NMAG !ETH !RW !INF SOCK=0 ILVL>40 (6ws OR 8ws OR wst) FILTLVL>1]: %W
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                       MISC                                                  //
 /////////////////////////////////////////////////////////////////////////////////////////////////
+ItemDisplay[box]:%NAME% %ORANGE%[L%ILVL%]%CONTINUE%
+ItemDisplay[box]:%NAME%{(REPAIR/RECHARGE: ZOD+PSKULL+ETHEREAL ITEM, HIGH REROLLING RARE: PSKULL+JORDAN+RARE, JEWEL FRAGMENTS: JEWEL+KEY, UBER1: MADAWC+TALIC+KORLIC, UBER2:BRAIN OR HORN OR EYE+KEY, UBER3: SOUL+BLACKSOUL+PUREDEMONIC, UBER4: TORCH+VOID+JAWBONE)}
 ItemDisplay[(bbb OR ass OR bkd OR bks OR box OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz)]:%TAN%%NAME%
 ItemDisplay[tbk]:%WHITE%%NAME% %WHITE%* %GREEN%%QTY%
 ItemDisplay[ibk]:%WHITE%%NAME% %WHITE%* %GREEN%%QTY%
-ItemDisplay[box]:%NAME% %ORANGE%[L%ILVL%]%CONTINUE%
-ItemDisplay[box]:%NAME%{(REPAIR/RECHARGE: ZOD+PSKULL+ETHEREAL ITEM, HIGH REROLLING RARE: PSKULL+JORDAN+RARE, JEWEL FRAGMENTS: JEWEL+KEY, UBER1: MADAWC+TALIC+KORLIC, UBER2:BRAIN OR HORN OR EYE+KEY, UBER3: SOUL+BLACKSOUL+PUREDEMONIC, UBER4: TORCH+VOID+JAWBONE)}
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                       POTION                                                //
 /////////////////////////////////////////////////////////////////////////////////////////////////
