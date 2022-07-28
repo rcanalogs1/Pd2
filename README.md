@@ -24,7 +24,9 @@
  13. NORMAL1 AND NORMAL2 HAS DIFFERENTIAL FOR SYMBOL.
  
 ----------------------------------------------------------------------------------------------------------------------
-
+#Update
+ 1. 7/25 Corruption Option update
+ 2. 7/26 Demoncrossbow added for Faith 
 
 # DM 
   1. Reddit : DamageFunny3572
