@@ -27,7 +27,8 @@
 #Update
  1. 7/25 Corruption Option update
  2. 7/26 Demoncrossbow added for Faith
- 3. 7/26 bud fixed 
+ 3. 7/26 bug fixed 
+ 4. 7/29 Corruption bug fixed for ring/amulet and armor modification No.40
 
 # DM 
   1. Reddit : DamageFunny3572
