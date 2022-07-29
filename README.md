@@ -26,7 +26,8 @@
 ----------------------------------------------------------------------------------------------------------------------
 #Update
  1. 7/25 Corruption Option update
- 2. 7/26 Demoncrossbow added for Faith 
+ 2. 7/26 Demoncrossbow added for Faith
+ 3. 7/26 bud fixed 
 
 # DM 
   1. Reddit : DamageFunny3572
