@@ -5,8 +5,8 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPiLLLaa%2Fhit-counter)](https://hits.seeyoufarm.com)
 ### Preview
 
- ### This is the first Pd2 Filter for Everyone and Korean. It has special character for several things. 
- ### Please feed back to me what is your ne
+ ### This is the first Pd2 Filter for Everyone. 
+ ### Please feed back to me what is your needs.
  
  1. NON MAGIC ITEM is shown until 14(Or Potion LV60)
  2. MAGIC / RARE ITEMS is shown until Normal
@@ -18,9 +18,8 @@
     diabled under1000gold(40lvl under),diabled under2000gold(38~69lvl),diabled under5000gold(over 70lvl)
  8. The normal item which has 6 soc is able (cristal sword, halberd, and so on)
  9. CLUB NORMAL ITEM FOR RUNE WORD IS AVAILABLE ON STARTER FILTER
- 10. SOME ENHANCED DAMAGE ITEM IS AVAILABLE ON STARTER FILTER.
- 11. MAGIC SKILLER ITEM IS AVAILABLE ON STARTER FILTER (UNDER LEVEL 80)
- 12. NORMAL1 AND NORMAL2 HAS DIFFERENTIAL FOR SYMBOL.
+ 10. MAGIC SKILLER ITEM IS AVAILABLE ON STARTER FILTER (UNDER LEVEL 80)
+ 11. NORMAL1 AND NORMAL2 HAS DIFFERENTIAL FOR SYMBOL.
  
 ----------------------------------------------------------------------------------------------------------------------
 ### Update
