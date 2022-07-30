@@ -6,7 +6,7 @@
 # Preview
 
  ### This is the first Pd2 Filter for Everyone and Korean. It has special character for several things. 
- ### Please feed back to me what is your needs.
+ ### Please feed back to me what is your ne
  
  1. NON MAGIC ITEM is shown until 14(Or Potion LV60)
  2. MAGIC / RARE ITEMS is shown until Normal
@@ -29,6 +29,7 @@
  2. 7/26 Demoncrossbow added for Faith
  3. 7/26 bug fixed 
  4. 7/29 Corruption bug fixed for ring/amulet and armor modification No.40
+ 5. 7/30 ID/TP/HP4/MP4 activated till Normal
 
 # DM 
   1. Reddit : DamageFunny3572
