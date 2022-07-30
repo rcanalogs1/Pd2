@@ -148,26 +148,26 @@ ItemDisplay[ibk]:%WHITE%%NAME% %WHITE%* %GREEN%%QTY%
 /////////////////////////////////////////////////////////////////////////////////////////////////
 ItemDisplay[hp5]:%RED%!%WHITE%HP
 ItemDisplay[mp5]:%BLUE%!%WHITE%MP
-ItemDisplay[hp4 DIFF<2]:%RED%!%WHITE%HP4
-ItemDisplay[hp4 DIFF=2]:
+ItemDisplay[hp4 DIFF<1]:%RED%!%WHITE%HP4
+ItemDisplay[hp4 DIFF=1]:
 ItemDisplay[hp3 CLVL<30]:%RED%!%WHITE%HP3
 ItemDisplay[hp3 CLVL>29]:
 ItemDisplay[hp2 CLVL<16]:%RED%!%WHITE%HP2
 ItemDisplay[hp2 CLVL>15]:
 ItemDisplay[hp1 CLVL<10]:%RED%!%WHITE%HP1
 ItemDisplay[hp1 CLVL>9]:
-ItemDisplay[mp4 DIFF<2]:%BLUE%!%WHITE%MP4
-ItemDisplay[mp4 DIFF=2]:
+ItemDisplay[mp4 DIFF<1]:%BLUE%!%WHITE%MP4
+ItemDisplay[mp4 DIFF=1]:
 ItemDisplay[mp3 CLVL<30]:%BLUE%!%WHITE%MP3
 ItemDisplay[mp3 CLVL>29]:
 ItemDisplay[mp2 CLVL<16]:%BLUE%!%WHITE%MP2
 ItemDisplay[mp2 CLVL>15]: 
 ItemDisplay[mp1 CLVL<10]:%BLUE%!%WHITE%MP1
 ItemDisplay[mp1 CLVL>9]:
-ItemDisplay[tsc DIFF<2]:%BLUE%*%WHITE%TP
-ItemDisplay[tsc DIFF=2]:
-ItemDisplay[isc DIFF<2]:%RED%*%WHITE%ID
-ItemDisplay[isc DIFF=2]:
+ItemDisplay[tsc DIFF<1]:%BLUE%*%WHITE%TP
+ItemDisplay[tsc DIFF=1]:
+ItemDisplay[isc DIFF<1]:%RED%*%WHITE%ID
+ItemDisplay[isc DIFF=1]:
 ItemDisplay[rvl]:%PURPLE%RP %ORANGE%70%
 ItemDisplay[rvs]:%PURPLE%RP %WHITE%35%
 ItemDisplay[key CLVL<30]:Key%PURPLE%*
