@@ -440,22 +440,51 @@ ItemDisplay[toa]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%Token%WHIT
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                   PD2 Corruption Items                                      //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[wss]: %MAP-62%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%Shard%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[lbox]: %MAP-62%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%Puzzlebox%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[lpp]: %MAP-62%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%Puzzlepiece%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
+ItemDisplay[wss]: %MAP-62%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%Shard%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@ {%NL%%GOLD%corrupts items%NL%}
+ItemDisplay[lbox]: %MAP-62%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%Puzzlebox%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@ {%NL%%GOLD%sockets items%NL%}
+ItemDisplay[lpp]: %MAP-62%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%Puzzlepiece%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@ {%NL%%GOLD%sockets items (not uniques,sets) items%NL%}
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                      PD2 ITEM                                              //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[rkey]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[lsvl]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[llmr]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[rera]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[imra]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[upma]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[imma]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[scou]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[upmp]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[scrb]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@
+ItemDisplay[rkey]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Skeleton Key : unlimited use key %NL%}
+ItemDisplay[lsvl]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Makes item Ethereal : %RED%Vial of Lightsong %WHITE%+ %GREEN%Item%NL%%BLUE%doesnt work with set items or items that lack durability (indestructible items)%NL%}
+ItemDisplay[llmr]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Mirrors items : %RED%Lilith's Mirror %WHITE%+ %GREEN%Item%NL%%BLUE%color changed to white,black and cannot be used in any cube recipes%NL%}
+ItemDisplay[jewf]: %GOLD%%NAME%%WHITE%* %GREEN%%QTY% {%NL%%GOLD%Jewel Fragments : stackable jewel%NL%}
+ItemDisplay[cwss]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Tainted Worldstone Shard : corrupts Annihilus, from Rathma %NL%}
+ItemDisplay[rid]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Horadrim Almanac : unlimited ID tome, from Rathma %NL%}
+ItemDisplay[rtp]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Horadrim Navigator : unlimited TP tome, from Rathma %NL%}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//                               PD2 MAP ORB ITEM                                              //
+/////////////////////////////////////////////////////////////////////////////////////////////////
+ItemDisplay[imma]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Arcane Orb : upgrade map (common -> magic) %NL%}
+ItemDisplay[imra]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Zakarum Orb : upgrade map (common -> rare) %NL%}
+ItemDisplay[upma]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Angelic Orb : upgrade map (magic -> rare) %NL%}
+ItemDisplay[scou]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Orb of Destruction : downgrade map (to common) %NL%}
+ItemDisplay[rera]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Horadrim Orb : reroll rare map %NL%}
+ItemDisplay[upmp]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Cartographers Orb : combine maps into a higher tier %NL%}
+ItemDisplay[scrb]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Horadrim Scarab : turns t3 maps into dungeons %NL%}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//                                      UBER                                                   //
+/////////////////////////////////////////////////////////////////////////////////////////////////
+ItemDisplay[uba]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Relic of the Ancients : accesses Uber Ancients%NL%}
+ItemDisplay[ubaa]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Sigil of Madawc : Uber Ancients ingredient, from T1 maps%NL%}
+ItemDisplay[ubab]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Sigil of Talic : Uber Ancients ingredient, from T2 maps%NL%}
+ItemDisplay[ubac]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Sigil of Korlic : Uber Ancients ingredient, from T3 maps%NL%}
+ItemDisplay[ubtm]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Pandemonium Talisman : accesses Uber Tristram%NL%}
+
+ItemDisplay[dcma]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Vision of Terror : accesses Diablo Clone%NL%}
+ItemDisplay[dcso]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Prime Evil Soul : DClone ingredient, from Hell Diablo,Baal%NL%}
+ItemDisplay[dcbl]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Pure Demonic Essence : Diablo Clone ingredient, from map bosses%NL%}
+ItemDisplay[dcho]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Black Soulstone : Diablo Clone ingredient, from Uber Tristram%NL%}
+
+ItemDisplay[rtma]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Voidstone : accesses Rathma%NL%}
+ItemDisplay[rtmv]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Splinter of the Void : Rathma ingredient, from Mendeln map event%NL%}
+ItemDisplay[rtmo]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%TrangOuls Jawbone : Rathma ingredient, from undead%NL%}
+ItemDisplay[rtmf]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Ancient Bone Fragments : TrangOuls Jawbone ingredient,from undead%NL%}
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//                                    Uber Keys                                               //
+/////////////////////////////////////////////////////////////////////////////////////////////////
+ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr OR std)]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %DARK_GREEN%%NAME%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                      PD2 Maps                                               //
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -514,60 +543,37 @@ ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID STAT80>0]:%NAME% %GREEN%MF %CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID STAT360>0]:%NAME% %RED%C %CONTINUE%
 //T1
-ItemDisplay[t11 ID]:%NAME%{%GOLD%(Ruins of Viz-Jun Map : %RED%FIRE 145 %YELLOW%LIGHTNING 120 %BLUE%COLD 160 %GREEN%POISON 120%GOLD%)}
-ItemDisplay[t12 ID]:%NAME%{%GOLD%(Horazon s Memory Map : %RED%FIRE 135 %YELLOW%LIGHTNING 120 %YELLOW%LIGHTNING 1000(LIGHTNING SPIRE)%GOLD%)}
-ItemDisplay[t13 ID]:%NAME%{%GOLD%(Bastion Keep Map : %RED%FIRE 120 %YELLOW%LIGHTNING 135 %GREEN%POISON 120%GOLD%)}
-ItemDisplay[t14 ID]:%NAME%{%GOLD%(Sanatorium Map : %RED%FIRE 130 %BLUE%COLD 130 %GREEN%POISON 140%GOLD%)}
-ItemDisplay[t15 ID]:%NAME%{%GOLD%(Royal Crypts Map : %RED%FIRE 150%GOLD%)}
+ItemDisplay[t11 ID]:%NAME%{%NL%%GOLD%(Ruins of Viz-Jun Map : %RED%FIRE 145 %YELLOW%LIGHTNING 120 %BLUE%COLD 160 %GREEN%POISON 120%GOLD%)%NL%}
+ItemDisplay[t12 ID]:%NAME%{%NL%%GOLD%(Horazon s Memory Map : %RED%FIRE 135 %YELLOW%LIGHTNING 120 %YELLOW%LIGHTNING 1000(LIGHTNING SPIRE)%GOLD%)%NL%}
+ItemDisplay[t13 ID]:%NAME%{%NL%%GOLD%(Bastion Keep Map : %RED%FIRE 120 %YELLOW%LIGHTNING 135 %GREEN%POISON 120%GOLD%)%NL%}
+ItemDisplay[t14 ID]:%NAME%{%NL%%GOLD%(Sanatorium Map : %RED%FIRE 130 %BLUE%COLD 130 %GREEN%POISON 140%GOLD%)%NL%}
+ItemDisplay[t15 ID]:%NAME%{%NL%%GOLD%(Royal Crypts Map : %RED%FIRE 150%GOLD%)%NL%}
 //T2
-ItemDisplay[t21 ID]:%NAME%{%GOLD%(Phlegethon Map : %RED%FIRE 140 %YELLOW%LIGHTNING 120 %GREEN%POISON 120%GOLD%)}
-ItemDisplay[t22 ID]:%NAME%{%GOLD%(Torajan Jungle Map : %BLUE%COLD 140%GOLD%)}
-ItemDisplay[t23 ID]:%NAME%{%GOLD%(Arreat Battlefield Map : %RED%FIRE 130 %GREEN%POISON 115%GOLD%)}
-ItemDisplay[t24 ID]:%NAME%{%GOLD%(Tomb of Zoltun Kulle Map : %YELLOW%LIGHTNING 120 %BLUE%COLD 150 %GREEN%POISON 110%GOLD%)}
-ItemDisplay[t25 ID]:%NAME%{%GOLD%(Sewers of Harrogath Map : %RED%FIRE 125 %YELLOW%LIGHTNING 135 %GREEN%POISON 110%GOLD%)}
-ItemDisplay[t26 ID]:%NAME%{%GOLD%(Shadows of Westmarch : %ORANGE%MAGIC 120 %RED%FIRE 110 %BLUE%COLD 150%GOLD%)}
+ItemDisplay[t21 ID]:%NAME%{%NL%%GOLD%(Phlegethon Map : %RED%FIRE 140 %YELLOW%LIGHTNING 120 %GREEN%POISON 120%GOLD%)%NL%}
+ItemDisplay[t22 ID]:%NAME%{%NL%%GOLD%(Torajan Jungle Map : %BLUE%COLD 140%GOLD%)%NL%}
+ItemDisplay[t23 ID]:%NAME%{%NL%%GOLD%(Arreat Battlefield Map : %RED%FIRE 130 %GREEN%POISON 115%GOLD%)%NL%}
+ItemDisplay[t24 ID]:%NAME%{%NL%%GOLD%(Tomb of Zoltun Kulle Map : %YELLOW%LIGHTNING 120 %BLUE%COLD 150 %GREEN%POISON 110%GOLD%)%NL%}
+ItemDisplay[t25 ID]:%NAME%{%NL%%GOLD%(Sewers of Harrogath Map : %RED%FIRE 125 %YELLOW%LIGHTNING 135 %GREEN%POISON 110%GOLD%)%NL%}
+ItemDisplay[t26 ID]:%NAME%{%NL%%GOLD%(Shadows of Westmarch : %ORANGE%MAGIC 120 %RED%FIRE 110 %BLUE%COLD 150%GOLD%)%NL%}
 //T3
-ItemDisplay[t31 ID]:%NAME%{%GOLD%(River of Blood Map : %RED%FIRE 125 %YELLOW%LIGHTNING 120 %BLUE%COLD 140,180%GOLD%)}
-ItemDisplay[t32 ID]:%NAME%{%GOLD%(Throne of Insanity Map : %RED%FIRE 115,130 %YELLOW%LIGHTNING 120 %BLUE%COLD 125 %GREEN%POISON 115%GOLD%)}
-ItemDisplay[t33 ID]:%NAME%{%GOLD%(Lost Temple Map : %ORANGE%MAGIC 100 %RED%FIRE 120 %YELLOW%LIGHTNING 115 %BLUE%COLD 110 %GREEN%POISON 120%GOLD%)}
-ItemDisplay[t34 ID]:%NAME%{%GOLD%(Ancestral Trial Map : %WHITE%PHY 100 %RED%FIRE 120 %YELLOW%LIGHTNING 110 %GREEN%POISON 120%GOLD%)}
-ItemDisplay[t35 ID]:%NAME%{%GOLD%(Blood Moon Map : %RED%G%ORANGE%O%YELLOW%O%GREEN%D %BLUE%L%PURPLE%U%RED%C%GREEN%K%YELLOW%!%GOLD%)}
-ItemDisplay[t36 ID]:%NAME%{%GOLD%(Fall of Caldeum Map : %YELLOW%LIGHTNING 100 %GREEN%POISON 110%GOLD%)}
-ItemDisplay[t37 ID]:%NAME%{%GOLD%(Pandemonium Citadel Map : %WHITE%PHY 100 %RED%FIRE 140 %YELLOW%LIGHTNING 140 %BLUE%COLD 130 %GREEN%POISON 135%GOLD%)}
-ItemDisplay[t38 ID]:%NAME%{%GOLD%(Canyon of Sescheron Map : %RED%FIRE 110 %YELLOW%LIGHTNING 110,160 %BLUE%COLD 180 %GREEN%POISON 110%GOLD%)}
-ItemDisplay[t39 ID]:%NAME%{%GOLD%(Kehjistan Marketplace Map : %ORANGE%MAGIC 100 %RED%FIRE 170 %YELLOW%LIGHTNING 120 %GREEN%POISON 120 %GREEN%POISON 1000(FIRE TOWER)%GOLD%)}
+ItemDisplay[t31 ID]:%NAME%{%NL%%GOLD%(River of Blood Map : %RED%FIRE 125 %YELLOW%LIGHTNING 120 %BLUE%COLD 140,180%GOLD%)%NL%}
+ItemDisplay[t32 ID]:%NAME%%NL%{%GOLD%(Throne of Insanity Map : %RED%FIRE 115,130 %YELLOW%LIGHTNING 120 %BLUE%COLD 125 %GREEN%POISON 115%GOLD%)%NL%}
+ItemDisplay[t33 ID]:%NAME%{%NL%%GOLD%(Lost Temple Map : %ORANGE%MAGIC 100 %RED%FIRE 120 %YELLOW%LIGHTNING 115 %BLUE%COLD 110 %GREEN%POISON 120%GOLD%)%NL%}
+ItemDisplay[t34 ID]:%NAME%{%NL%%GOLD%(Ancestral Trial Map : %WHITE%PHY 100 %RED%FIRE 120 %YELLOW%LIGHTNING 110 %GREEN%POISON 120%GOLD%)%NL%}
+ItemDisplay[t35 ID]:%NAME%{%NL%%GOLD%(Blood Moon Map : %RED%G%ORANGE%O%YELLOW%O%GREEN%D %BLUE%L%PURPLE%U%RED%C%GREEN%K%YELLOW%!%GOLD%)%NL%}
+ItemDisplay[t36 ID]:%NAME%{%NL%%GOLD%(Fall of Caldeum Map : %YELLOW%LIGHTNING 100 %GREEN%POISON 110%GOLD%)%NL%}
+ItemDisplay[t37 ID]:%NAME%{%NL%%GOLD%(Pandemonium Citadel Map : %WHITE%PHY 100 %RED%FIRE 140 %YELLOW%LIGHTNING 140 %BLUE%COLD 130 %GREEN%POISON 135%GOLD%)%NL%}
+ItemDisplay[t38 ID]:%NAME%{%NL%%GOLD%(Canyon of Sescheron Map : %RED%FIRE 110 %YELLOW%LIGHTNING 110,160 %BLUE%COLD 180 %GREEN%POISON 110%GOLD%)%NL%}
+ItemDisplay[t39 ID]:%NAME%{%NL%%GOLD%(Kehjistan Marketplace Map : %ORANGE%MAGIC 100 %RED%FIRE 170 %YELLOW%LIGHTNING 120 %GREEN%POISON 120 %GREEN%POISON 1000(FIRE TOWER)%GOLD%)%NL%}
 //T4
-ItemDisplay[t41 ID]:%NAME%{%GOLD%(Cathedral of Light Map : %WHITE%PHY 150,180 %ORANGE%MAGIC 180 %RED%FIRE 180 %YELLOW%LIGHTNING 180 %BLUE%COLD 120,180 %GREEN%POISON 180%GOLD%)}
-ItemDisplay[t42 ID]:%NAME%{%GOLD%(Plains of Torment Map : %WHITE%PHY 150,180 %ORANGE%MAGIC 180 %RED%FIRE 180 %YELLOW%LIGHTNING 180 %BLUE%COLD 120,180 %GREEN%POISON 180%GOLD%)}
-ItemDisplay[t43 ID]:%NAME%{%GOLD%(Sanctuary of Sin Map : %WHITE%PHY 150,180 %ORANGE%MAGIC 180 %RED%FIRE 180 %YELLOW%LIGHTNING 180 %BLUE%COLD 120,180 %GREEN%POISON 180%GOLD%)}
+ItemDisplay[t41 ID]:%NAME%{%NL%%GOLD%(Cathedral of Light Map : %WHITE%PHY 150,180 %ORANGE%MAGIC 180 %RED%FIRE 180 %YELLOW%LIGHTNING 180 %BLUE%COLD 120,180 %GREEN%POISON 180%GOLD%)%NL%}
+ItemDisplay[t42 ID]:%NAME%{%NL%%GOLD%(Plains of Torment Map : %WHITE%PHY 150,180 %ORANGE%MAGIC 180 %RED%FIRE 180 %YELLOW%LIGHTNING 180 %BLUE%COLD 120,180 %GREEN%POISON 180%GOLD%)%NL%}
+ItemDisplay[t43 ID]:%NAME%{%NL%%GOLD%(Sanctuary of Sin Map : %WHITE%PHY 150,180 %ORANGE%MAGIC 180 %RED%FIRE 180 %YELLOW%LIGHTNING 180 %BLUE%COLD 120,180 %GREEN%POISON 180%GOLD%)%NL%}
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID]:%NAME%
-
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                      ARENA                                                  //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-/////////////////////////////////////////////////////////////////////////////////////////////////
-//                                      UBER                                                   //
-/////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[dcho]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[dcso]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[dcbl]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[dcma]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[rtmf]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[rtmo]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[rtmv]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[rtma]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[cwss]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[rid]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[rtp]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[ubaa]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[ubab]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[ubac]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[uba]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-/////////////////////////////////////////////////////////////////////////////////////////////////
-//                                    Uber Keys                                               //
-/////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr OR ubtm OR std)]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %DARK_GREEN%%NAME%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                   QUIVERS&BOLTS                                             //
 /////////////////////////////////////////////////////////////////////////////////////////////////
