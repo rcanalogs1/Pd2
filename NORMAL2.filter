@@ -3564,6 +3564,22 @@ ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW SK241>2 NORM]: %GR
 ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW SK246>2 NORM]: %GRAY%%NAME%%PURPLE%[%SOCKETS%] %NL%%ORANGE%+3 SPIRIT OF BARBS{%ORANGE%(NORMAL)}
 ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW SK247>2 NORM]: %GRAY%%NAME%%PURPLE%[%SOCKETS%] %NL%%ORANGE%+3 GRIZZLY{%ORANGE%(NORMAL)}
 
+						
+																																
+																															   
+																														   
+																							   
+
+																																	  
+																																	 
+																																 
+																									 
+
+																																	
+																																   
+																															   
+																								   
+
 //CRAFT AMULET MARKING
 ItemDisplay[CRAFT amu ID (CLSK1>1 AND STAT105>0)]: %ORANGE%%NAME% %GREEN%+2 SOC %BLUE%FCR %CONTINUE%
 ItemDisplay[CRAFT amu ID (CLSK2>1 AND STAT105>0)]: %ORANGE%%NAME% %GREEN%+2 NEC %BLUE%FCR %CONTINUE%
@@ -3657,6 +3673,22 @@ ItemDisplay[CRAFT rin ID (STAT360>0 AND STAT36=6)]: %NAME% %YELLOW%6%PDR %RED%C
 ItemDisplay[CRAFT (WEAPON OR ARMOR OR aqv OR cqv) ID]: %NAME%%CONTINUE%
 
 
+		 
+																																						   
+																																							
+																																											   
+																																												
+
+																																							   
+																																								
+																																												   
+																																													
+
+																																						 
+																																						  
+																																											 
+																																											  
+
 
 //POLEARM AND SPEARS 4SOC
 ItemDisplay[(WP7 OR WP8) NORM !ETH !RW NMAG SOCK=4]: %GRAY%%NAME%%BLUE% %ORANGE%[STARTER]%PURPLE%[%SOCKETS%]{%NL%%GOLD%INSIGHT:%ORANGE%RAL%WHITE%+%RED%TIR%WHITE%+%YELLOW%TAL%WHITE%+%TAN%SOL%NL%%ORANGE%(NORMAL)}
@@ -3666,6 +3698,329 @@ ItemDisplay[(WP7 OR WP8) NORM ETH !RW NMAG SOCK=4]: %PURPLE%ETH %GRAY%%NAME%%BLU
 ItemDisplay[WP11 !RW !ETH NMAG NORM SK47>1 ILVL<30]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%ORANGE%FIRE BALL{%ORANGE%(NORMAL)}
 ItemDisplay[WP11 !RW !ETH NMAG NORM SK44>1 ILVL<30]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%ORANGE%FROST NOVA{%ORANGE%(NORMAL)}
 ItemDisplay[WP11 !RW !ETH NMAG NORM SK38>2 ILVL<30]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%ORANGE%CHARGED BOLT{%ORANGE%(NORMAL)}
+
+																																													   
+															 
+
+																																																	  
+															 
+
+																																																						 
+																						  
+
+																																											   
+												   
+
+																																																 
+												   
+
+																																															
+												  
+
+																																																						  
+												   
+
+																																																	
+												   
+
+																																																									
+												   
+
+					
+																				
+										
+																																			 
+																																	  
+																																	 
+
+																																				 
+																																		  
+																																		 
+
+																																		   
+																																	
+																																   
+
+																			
+									   
+																																 
+																																  
+																																   
+																																 
+
+																																	 
+																																	  
+																																	   
+																																	 
+
+																															   
+																																
+																																 
+																															   
+
+																			 
+										
+																																			 
+																																			  
+																																		
+																																		   
+																																				
+
+																																				 
+																																				  
+																																			
+																																			   
+																																					
+
+																																		   
+																																			
+																																	  
+																																		 
+																																			  
+
+																					
+									   
+																												  
+																														  
+																													  
+																													 
+																																   
+																																	   
+																																		  
+																																	  
+																						
+
+																													  
+																															  
+																														  
+																														 
+																																	   
+																																		   
+																																			  
+																																		  
+																							
+
+																												
+																														
+																													
+																												   
+																																 
+																																	 
+																																		
+																																	
+																					  
+
+																			
+									   
+																												  
+																													 
+																													
+																														
+																																	  
+																																	   
+																																	
+																																	
+																																	  
+																																	   
+																						
+
+																													  
+																														 
+																														
+																															
+																																		  
+																																		   
+																																		
+																																		
+																																		  
+																																		   
+																							
+
+																												
+																												   
+																												  
+																													  
+																																	
+																																	 
+																																  
+																																  
+																																	
+																																	 
+																					  
+
+																			  
+									   
+																												 
+																												  
+																													   
+																													
+																						
+
+																													 
+																													  
+																														   
+																														
+																							
+
+																											   
+																												
+																													 
+																												  
+																					  
+
+																							
+												 
+																														  
+																															  
+																																	
+																															   
+																								  
+
+																															  
+																																  
+																																		
+																																   
+																									  
+
+																														
+																															
+																																  
+																															 
+																								
+
+																			   
+									  
+																												
+																												 
+																												
+																												 
+																												  
+																												
+																												 
+
+																												 
+																													 
+																												   
+
+																												  
+																													   
+																												   
+
+																													 
+																														   
+																													  
+
+																														   
+																															  
+																															  
+
+																														   
+																													   
+																													 
+
+																													 
+																													
+																														 
+
+																												   
+																													 
+																													  
+																						
+
+  
+																													
+																													 
+																													
+																													 
+																													  
+																													
+																													 
+
+																													 
+																														 
+																													   
+
+																													  
+																														   
+																													   
+
+																														 
+																															   
+																														  
+
+																															   
+																																  
+																																  
+
+																															   
+																														   
+																														 
+
+																														 
+																														
+																															 
+
+																													   
+																														 
+																														  
+																							
+
+  
+																											  
+																											   
+																											  
+																											   
+																												
+																											  
+																											   
+
+																											   
+																												   
+																												 
+
+																												
+																													 
+																												 
+
+																												   
+																														 
+																													
+
+																														 
+																															
+																															
+
+																														 
+																													 
+																												   
+
+																												   
+																												  
+																													   
+
+																												 
+																												   
+																													
+																					  
+
+  
+																								   
+																	 
+																											  
+																	
+																									   
+																	
+																												  
+																   
+
+																														
+																	  
+																																   
+																	 
+																															
+																	 
+																																	   
+																	
 
 
 //RARES/NORM/MAG
@@ -3783,18 +4138,18 @@ ItemDisplay[WEAPON ID UNI ELT SOCK=0]: %NAME%{%ORANGE%(ELITE)}
 ItemDisplay[ARMOR ID UNI NORM SOCK=0]: %NAME%{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%TAL+SHAEL+%ORANGE%P%WHITE%DIAMOND%WHITE%@%YELLOW%)}
 ItemDisplay[ARMOR ID UNI EXC SOCK=0]: %NAME%{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%KO+LEM+%ORANGE%P%WHITE%DIAMOND%WHITE%@%YELLOW%)}
 ItemDisplay[ARMOR ID UNI ELT SOCK=0]: %NAME%{%ORANGE%(ELITE)}
-ItemDisplay[WEAPON ID SET NORM SOCK=0]: %NAME%{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%EL+ETH+%ORANGE%P%WHITE%RUBY%RED%@%YELLOW%)}
-ItemDisplay[WEAPON ID SET EXC SOCK=0]: %NAME%{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%DOL+MAL+%ORANGE%P%WHITE%RUBY%RED%@%YELLOW%)}
+ItemDisplay[WEAPON ID SET NORM SOCK=0]: %NAME%{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%RAL+SOL+%ORANGE%P%WHITE%EMERALD%GREEN%@%YELLOW%)}
+ItemDisplay[WEAPON ID SET EXC SOCK=0]: %NAME%{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%LUM+PUL+%ORANGE%P%WHITE%EMERALD%GREEN%@%YELLOW%)}
 ItemDisplay[WEAPON ID SET ELT SOCK=0]: %NAME%{%ORANGE%(ELITE)}
-ItemDisplay[ARMOR ID SET NORM SOCK=0]: %NAME%{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%ELD+ITH+%ORANGE%P%WHITE%TOPAZ%ORANGE%@%YELLOW%)}
-ItemDisplay[ARMOR ID SET EXC SOCK=0]: %NAME%{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%HEL+IO+%ORANGE%P%WHITE%TOPAZ%ORANGE%@%YELLOW%)}
+ItemDisplay[ARMOR ID SET NORM SOCK=0]: %NAME%{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%TAL+SHAEL+%ORANGE%P%WHITE%DIAMOND%WHITE%@%YELLOW%)}
+ItemDisplay[ARMOR ID SET EXC SOCK=0]: %NAME%{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%KO+LEM+%ORANGE%P%WHITE%DIAMOND%WHITE%@%YELLOW%)}
 ItemDisplay[ARMOR ID SET ELT SOCK=0]: %NAME%{%ORANGE%(NORMAL)}
-ItemDisplay[WEAPON ID RARE NORM SOCK=0]: %NAME%{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%ORT+AMN+%ORANGE%P%WHITE%SAPPHIRE%BLUE%@%YELLOW%)}
-ItemDisplay[WEAPON ID RARE EXC SOCK=0]: %NAME%{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%FAL+UM+%ORANGE%P%WHITE%SAPPHIRE%BLUE%@%YELLOW%)}
-ItemDisplay[WEAPON ID RARE ELT SOCK=0]: %NAME%{%ORANGE%(ELITE)}
-ItemDisplay[ARMOR ID RARE NORM SOCK=0]: %NAME%{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%RAL+THUL+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)}
-ItemDisplay[ARMOR ID RARE EXC SOCK=0]: %NAME%{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%KO+PUL+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)}
-ItemDisplay[ARMOR ID RARE ELT SOCK=0]: %NAME%{%ORANGE%(ELITE)}
+ItemDisplay[WEAPON ID (RARE OR CRAFT) NORM SOCK=0]: %NAME%{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%ORT+AMN+%ORANGE%P%WHITE%SAPPHIRE%BLUE%@%YELLOW%)}
+ItemDisplay[WEAPON ID (RARE OR CRAFT) EXC SOCK=0]: %NAME%{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%FAL+UM+%ORANGE%P%WHITE%SAPPHIRE%BLUE%@%YELLOW%)}
+ItemDisplay[WEAPON ID (RARE OR CRAFT) ELT SOCK=0]: %NAME%{%ORANGE%(ELITE)}
+ItemDisplay[ARMOR ID (RARE OR CRAFT) NORM SOCK=0]: %NAME%{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%RAL+THUL+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)}
+ItemDisplay[ARMOR ID (RARE OR CRAFT) EXC SOCK=0]: %NAME%{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%KO+PUL+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)}
+ItemDisplay[ARMOR ID (RARE OR CRAFT) ELT SOCK=0]: %NAME%{%ORANGE%(ELITE)}
 
 ItemDisplay[WEAPON ID UNI NORM !SOCK=0]:%NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%RAL+SOL+%ORANGE%P%WHITE%EMERALD%GREEN%@%YELLOW%)}
 ItemDisplay[WEAPON ID UNI EXC !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%LUM+PUL+%ORANGE%P%WHITE%EMERALD%GREEN%@%YELLOW%)}
@@ -3808,16 +4163,16 @@ ItemDisplay[(ARMOR OR !EQ4 OR !EQ6 OR !EQ6) ID UNI NORM !SOCK=0]: %NAME% %PURPLE
 ItemDisplay[(ARMOR OR !EQ4 OR !EQ6 OR !EQ6) ID UNI EXC !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%KO+LEM+%ORANGE%P%WHITE%DIAMOND%WHITE%@%YELLOW%)}
 ItemDisplay[(ARMOR OR !EQ4 OR !EQ6 OR !EQ6) ID UNI ELT !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(ELITE)}
 
-ItemDisplay[WEAPON ID SET NORM !SOCK=0]: %NAME%{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%EL+ETH+%ORANGE%P%WHITE%RUBY%RED%@%YELLOW%)}
-ItemDisplay[WEAPON ID SET EXC !SOCK=0]: %NAME%{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%DOL+MAL+%ORANGE%P%WHITE%RUBY%RED%@%YELLOW%)}
+ItemDisplay[WEAPON ID SET NORM !SOCK=0]: %NAME%{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%RAL+SOL+%ORANGE%P%WHITE%EMERALD%GREEN%@%YELLOW%)}
+ItemDisplay[WEAPON ID SET EXC !SOCK=0]: %NAME%{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%LUM+PUL+%ORANGE%P%WHITE%EMERALD%GREEN%@%YELLOW%)}
 ItemDisplay[WEAPON ID SET ELT !SOCK=0]: %NAME%{%ORANGE%(ELITE)}
 
-ItemDisplay[(EQ4 OR EQ6 OR EQ6) ID SET NORM !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%ELD+ITH+%ORANGE%P%WHITE%TOPAZ%ORANGE%@%YELLOW%)}
-ItemDisplay[(EQ4 OR EQ6 OR EQ6) ID SET EXC !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%HEL+IO+%ORANGE%P%WHITE%TOPAZ%ORANGE%@%YELLOW%)}
+ItemDisplay[(EQ4 OR EQ6 OR EQ6) ID SET NORM !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%TAL+SHAEL+%ORANGE%P%WHITE%DIAMOND%WHITE%@%YELLOW%)}
+ItemDisplay[(EQ4 OR EQ6 OR EQ6) ID SET EXC !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%KO+LEM+%ORANGE%P%WHITE%DIAMOND%WHITE%@%YELLOW%)}
 ItemDisplay[(EQ4 OR EQ6 OR EQ6) ID SET ELT !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(NORMAL)}
 
-ItemDisplay[(ARMOR OR !EQ4 OR !EQ6 OR !EQ6) ID SET NORM !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%ELD+ITH+%ORANGE%P%WHITE%TOPAZ%ORANGE%@%YELLOW%)}
-ItemDisplay[(ARMOR OR !EQ4 OR !EQ6 OR !EQ6) ID SET EXC !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%HEL+IO+%ORANGE%P%WHITE%TOPAZ%ORANGE%@%YELLOW%)}
+ItemDisplay[(ARMOR OR !EQ4 OR !EQ6 OR !EQ6) ID SET NORM !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%TAL+SHAEL+%ORANGE%P%WHITE%DIAMOND%WHITE%@%YELLOW%)}
+ItemDisplay[(ARMOR OR !EQ4 OR !EQ6 OR !EQ6) ID SET EXC !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%KO+LEM+%ORANGE%P%WHITE%DIAMOND%WHITE%@%YELLOW%)}
 ItemDisplay[(ARMOR OR !EQ4 OR !EQ6 OR !EQ6) ID SET ELT !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(NORMAL)}
 
 ItemDisplay[WEAPON ID (RARE OR CRAFT) NORM !SOCK=0]: %NAME% %PURPLE%[%SOCKETS%]{%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%ORT+AMN+%ORANGE%P%WHITE%SAPPHIRE%BLUE%@%YELLOW%)}
