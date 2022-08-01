@@ -28,6 +28,7 @@
  3. 7/26 bug fixed 
  4. 7/29 Corruption bug fixed for ring/amulet and armor modification No.40
  5. 7/30 ID/TP/HP4/MP4 activated till Normal
+ 6. 8/1 Added comments for maps such as immunes.
 
 ### DM 
   1. Reddit : DamageFunny3572
