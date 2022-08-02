@@ -33,6 +33,8 @@
  8. 8/2 Corruption+mirrored marking added.
  9. 8/2 Grand Matron Bow+Demon Cross bow Mist Rune word base added.
  10. 8/2 LARZUK PUZZLE BOX / WSS socket info added.
+ 11. 8/2 NORMAL1/NORMAL2 CRAFTING ITEM BASE DELETED.
+ 12. 8/2 MAPS DROP MESSAGE AND COLOR CHANGED
 
 ### DM 
   1. Reddit : DamageFunny3572
