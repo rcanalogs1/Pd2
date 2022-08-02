@@ -32,6 +32,7 @@
  7. 8/2 Jewel fragments+clubs comments added.
  8. 8/2 Corruption+mirrored marking added.
  9. 8/2 Grand Matron Bow+Demon Cross bow Mist Rune word base added.
+ 10. 8/2 LARZUK PUZZLE BOX / WSS socket info added.
 
 ### DM 
   1. Reddit : DamageFunny3572
