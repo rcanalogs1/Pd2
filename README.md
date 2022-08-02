@@ -31,6 +31,7 @@
  6. 8/1 Added comments for maps,PD2 ITEMS.
  7. 8/2 Jewel fragments+clubs comments added.
  8. 8/2 Corruption+mirrored marking added.
+ 9. 8/2 Grand Matron Bow+Demon Cross bow Mist Rune word base added.
 
 ### DM 
   1. Reddit : DamageFunny3572
