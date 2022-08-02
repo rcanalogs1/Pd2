@@ -29,7 +29,7 @@
  4. 7/29 Corruption bug fixed for ring/amulet and armor modification No.40
  5. 7/30 ID/TP/HP4/MP4 activated till Normal
  6. 8/1 Added comments for maps,PD2 ITEMS.
- 7. 8/2 JEWEL FRAGMENTS COMMENTS ADDED
+ 7. 8/2 JEWEL FRAGMENTS/CLUBS COMMENTS ADDED
 
 ### DM 
   1. Reddit : DamageFunny3572
