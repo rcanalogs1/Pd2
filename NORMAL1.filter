@@ -559,13 +559,13 @@ ItemDisplay[rtp]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                               PD2 MAP ORB ITEM                                              //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[imma]: %MAP-0B%    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    {%NL%%GOLD%Arcane Orb : upgrade map (common -> magic) %NL%}
-ItemDisplay[imra]: %MAP-0B%    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    {%NL%%GOLD%Zakarum Orb : upgrade map (common -> rare) %NL%}
-ItemDisplay[upma]: %MAP-0B%    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    {%NL%%GOLD%Angelic Orb : upgrade map (magic -> rare) %NL%}
-ItemDisplay[scou]: %MAP-0B%    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    {%NL%%GOLD%Orb of Destruction : downgrade map (to common) %NL%}
-ItemDisplay[rera]: %MAP-0B%    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    {%NL%%GOLD%Horadrim Orb : reroll rare map %NL%}
-ItemDisplay[upmp]: %MAP-0B%    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    {%NL%%GOLD%Cartographers Orb : combine maps into a higher tier %NL%}
-ItemDisplay[scrb]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%NL%%GOLD%Horadrim Scarab : turns t3 maps into dungeons %NL%}
+ItemDisplay[imma]: %MAP-0B%    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    {%GOLD%Arcane Orb%GOLD%+%WHITE%Map%GOLD%+%BLUE%Jewel%NL%%GOLD%Arcane Orb : upgrade map (common -> magic) %NL%}
+ItemDisplay[imra]: %MAP-0B%    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    {%GOLD%Zakarum Orb%GOLD%+%WHITE%Map%GOLD%+%BLUE%Jewel%GOLD%+%GREEN%RUNE10++%NL%%GOLD%Zakarum Orb : upgrade map (common -> rare) %NL%}
+ItemDisplay[upma]: %MAP-0B%    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    {%GOLD%Angelic Orb%GOLD%+%BLUE%MAGIC Map%GOLD%+%GOLD%P_%ORANGE%SKULL%GOLD%+%GREEN%RUNE10++%NL%%GOLD%Angelic Orb : upgrade map (magic -> rare) %NL%}
+ItemDisplay[scou]: %MAP-0B%    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    {%GOLD%Orb of Destruction%GOLD%+%BLUE%MAGIC/%YELLOW%RARE %WHITE%Map%NL%%GOLD%Orb of Destruction : downgrade map (to common) %NL%}
+ItemDisplay[rera]: %MAP-0B%    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    {%GOLD%Horadrim Orb%GOLD%+%YELLOW%RARE Map%GOLD%+%GOLD%P_%ORANGE%GEM%GOLD%+%GREEN%RUNE10++%NL%%GOLD%Horadrim Orb : reroll rare map %NL%}
+ItemDisplay[upmp]: %MAP-0B%    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    {%GOLD%Cartographers Orb%GOLD%+%WHITE%3 * T1/T2 MAPS%NL%%GOLD%Cartographers Orb : combine maps into a higher tier %NL%}
+ItemDisplay[scrb]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%GOLD%Horadrim Scarab%GOLD%+%WHITE%T3 MAP%NL%%GOLD%Horadrim Scarab : turns t3 maps into dungeons %NL%}
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                      UBER                                                   //
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -587,7 +587,8 @@ ItemDisplay[rtmf]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                    Uber Keys                                               //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr OR std)]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %DARK_GREEN%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
+ItemDisplay[(pk1 OR pk2 OR pk3 OR dhn OR bey OR mbr)]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %DARK_GREEN%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
+ItemDisplay[(std)]: %MAP-0B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %DARK_GREEN%%NAME%%WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@{%GOLD% Standard of Heroes%GOLD%+%ORANGE%MAP %WHITE%OR %RED%DUNGEON%NL%%GOLD% Standard of Heroes : adds Heroic bonuses: +10% Experience, +20% Monster Density, +20% Magic and Gold Find %NL%}
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                      PD2 Maps                                               //
 /////////////////////////////////////////////////////////////////////////////////////////////////
