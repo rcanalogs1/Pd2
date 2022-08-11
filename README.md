@@ -29,17 +29,20 @@
  4. 7/29 Corruption bug fixed for ring/amulet and armor modification No.40
  5. 7/30 ID/TP/HP4/MP4 activated till Normal
  6. 8/1 Added comments for maps,PD2 ITEMS.
- 7. 8/2 Jewel fragments+clubs comments added.
- 8. 8/2 Corruption+mirrored marking added.
- 9. 8/2 Grand Matron Bow+Demon Cross bow Mist Rune word base added.
- 10. 8/2 LARZUK PUZZLE BOX / WSS socket info added.
- 11. 8/2 NORMAL1/NORMAL2 CRAFTING ITEM BASE DELETED.
- 12. 8/2 MAPS DROP MESSAGE AND COLOR CHANGED
- 13. 8/4 PVP AREA MARKING CHANGE
- 14. 8/4 MAPS ITEMS MARKING CHANGE
- 15. 8/8 INFO UPDATED SOC AND UPGRADING STATS(S:STR D:DEX)
- 16. 8/8 INFO OPTIMAZIED TO REDUCE FILE SIZE.
- 17. 8/10
+ 7. 8/2 
+     1) LARZUK PUZZLE BOX / WSS socket info added.
+     2) NORMAL1/NORMAL2 CRAFTING ITEM BASE DELETED.
+     3) MAPS DROP MESSAGE AND COLOR CHANGED
+     4) Jewel fragments+clubs comments added.
+     5) Corruption+mirrored marking added.
+     6) Grand Matron Bow+Demon Cross bow Mist Rune word base added.
+ 8. 8/4 
+     1) PVP AREA MARKING CHANGE
+     2) MAPS ITEMS MARKING CHANGE
+ 9. 8/8 
+     1) INFO UPDATED SOC AND UPGRADING STATS(S:STR D:DEX)
+     2) INFO OPTIMAZIED TO REDUCE FILE SIZE.
+ 10. 8/10
      1) KEY SHOP ITEM ADDED
      2) MAPS COMMENTS MODIFIED FOR IMMUNES
      3) PERFECT GEMS COMMENTS ADDED FOR CRAFTING
@@ -51,7 +54,9 @@
      9) DROP CHANGE FOR RARE AMULET AND JEWEL
      10) COMMENTS MODFICIED FOR RARE CIRCLET
      11) MAGIC AMULET AND RING COMMENTS DELETED
- 18. 8/11 PALADIN SHIELD RES CHANGE FROM 45~30 TO 30 ~ 20
+ 11. 8/11 
+     1) PALADIN SHIELD RES CHANGE FROM 45~30 TO 30 ~ 20
+     2) MAP ORBS AND STANDARD OF HEROES COMMENTS ADDED ABOUT RECIPIES
 
 ### DM 
   1. Reddit : DamageFunny3572
