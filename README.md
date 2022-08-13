@@ -65,6 +65,7 @@
      5) CORRUPTION SYMBOL MODIFICATED FOR STAT360=1 AND STAT360>73 AREA
   13. 8/13
      1) Crafting Base added for Weapon and Bar/Dru helmet in Starter filter.
+     2) Bul-kathos Set added
 
 ### DM 
   1. Reddit : DamageFunny3572
