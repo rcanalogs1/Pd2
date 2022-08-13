@@ -2747,7 +2747,8 @@ ItemDisplay[SET !ID (ci0 OR ult OR 6cs)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DAR
 ItemDisplay[SET !ID (xhm OR xml OR xvg OR ztb)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[Orphan] %GREEN%**** 
 ItemDisplay[SET !ID (bwn OR vgl)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[Sander] %GREEN%**** 
 ItemDisplay[SET !ID (xhl OR 7ls OR upl)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[SAZABI] %GREEN%**** 
-ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%RED%*
+ItemDisplay[SET !ID (7fb OR 7gd)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[Bul-Kathos' Children] %GREEN%****
+ItemDisplay[SET !ID (WEAPON OR ARMOR OR rin)]: %GREEN%%NAME%%RED%*
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                         BASE ITEM                                           //
