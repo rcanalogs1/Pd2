@@ -2735,11 +2735,13 @@ ItemDisplay[SET !ID (WEAPON OR ARMOR)]: %GREEN%%NAME%%RED%*
 /////////////////////////////////////////////////////////////////////////////////////////////////
 ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT GLOVE BASE]
 ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT HELMET BASE]
+ItemDisplay[(baf OR bab OR bad) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT HELMET(Bar) BASE]
+ItemDisplay[(drf OR drd OR drb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT HELMET(Dru) BASE]
 ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT BOOTS BASE]
 ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT BELT BASE]
 ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT SHIELD BASE]
 ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT CHEST BASE]
-//NEEDS TO UPDATE WEAPON BASE
+ItemDisplay[(amc OR 7tw OR 7qr OR 7ws OR 6rx OR 6lw OR 7p7 OR 7gl OR 7b8 OR 7gd OR 7gm) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT WEAPON BASE]
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                         BASE ITEM                                           //
