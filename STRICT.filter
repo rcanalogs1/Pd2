@@ -658,7 +658,7 @@ ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID STAT80>0]:%NAME% %GREEN%MF %CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID STAT360>0]:%NAME% %RED%C %CONTINUE%
 //T1
-ItemDisplay[t11 ID]:%NAME%{%NL%%GOLD%(Ruins of Viz-Jun Map : %ORANGE%MAGIC 100%RED%FIRE 145 %YELLOW%LIGHT 120 %BLUE%COLD 160 %GREEN%POISON 120%GOLD%)%NL%%TAN%ACT5 RIGHT CLICK}
+ItemDisplay[t11 ID]:%NAME%{%NL%%GOLD%(Ruins of Viz-Jun Map : %ORANGE%MAGIC 100 %RED%FIRE 145 %YELLOW%LIGHT 120 %BLUE%COLD 160 %GREEN%POISON 120%GOLD%)%NL%%TAN%ACT5 RIGHT CLICK}
 ItemDisplay[t12 ID]:%NAME%{%NL%%GOLD%(Horazon s Memory Map : %RED%FIRE 135 %YELLOW%LIGHT 100 %GREEN%POSION 120,1000%GOLD%)%NL%%TAN%ACT5 RIGHT CLICK}
 ItemDisplay[t13 ID]:%NAME%{%NL%%GOLD%(Bastion Keep Map : %RED%FIRE 120 %YELLOW%LIGHT 135 %GREEN%POISON 120%GOLD%)%NL%%TAN%ACT5 RIGHT CLICK}
 ItemDisplay[t14 ID]:%NAME%{%NL%%GOLD%(Sanatorium Map : %RED%FIRE 130 %BLUE%COLD 130 %GREEN%POISON 140%GOLD%)%NL%%TAN%ACT5 RIGHT CLICK}
@@ -2621,15 +2621,15 @@ ItemDisplay[SET !ID (WEAPON OR ARMOR OR rin)]: %GREEN%%NAME%%RED%*
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                            CRAFTING                                         //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT GLOVE BASE]
-ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT HELMET BASE]
-ItemDisplay[(baf OR bab OR bad) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT HELMET(Bar) BASE]
-ItemDisplay[(drf OR drd OR drb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT HELMET(Dru) BASE]
-ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT BOOTS BASE]
-ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT BELT BASE]
-ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT SHIELD BASE]
-ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT CHEST BASE]
-ItemDisplay[(am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 7ta OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT WEAPON BASE]
+ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft glove]
+ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft helmet]
+ItemDisplay[(baf OR bab OR bad) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft helmet(Bar)]
+ItemDisplay[(drf OR drd OR drb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft helmet(Dru)]
+ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft boots]
+ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft belt]
+ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft shield]
+ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft chest]
+ItemDisplay[(am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft weapon base]
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                         BASE ITEM                                           //
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -2980,7 +2980,7 @@ ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) !SUP ETH !RW NMAG SOCK=0]: 
 ItemDisplay[(7wc OR 7vo OR 7s8 OR 7h7 OR 7br OR 7p7) ETH !RW NMAG (SOCK=0 OR SOCK>3)]: %PURPLE%ETH %GRAY% %NAME% %PURPLE%[%SOCKETS%] {%NL%%GOLD%INSIGHT:%ORANGE%RAL%WHITE%+%RED%TIR%WHITE%+%YELLOW%TAL%WHITE%+%BLUE%SOL%NL%%GOLD%INFINITY:%ORANGE%BER%WHITE%+%RED%MAL%WHITE%+%YELLOW%BER%WHITE%+%BLUE%IST%NL%%GOLD%BREATHOFDYING:%ORANGE%VEX%WHITE%+%RED%HEL%WHITE%+%YELLOW%EL%WHITE%+%DARK_GREEN%ELD%WHITE%+%GOLD%ZOD%WHITE%+%GREEN%ETH%NL%%GOLD%DOOM:%ORANGE%HEL%WHITE%+%RED%OHM%WHITE%+%YELLOW%UM%WHITE%+%TAN%LO%WHITE%+%BLUE%CHAM%NL%%ORANGE%(ELITE)}
 
 //Amazon Javelins//
-ItemDisplay[(am5 OR ama OR amf) !ID !UNI !RW DIFF=2 NORM]: %DOT-75%%NAME% %NL%%ORANGE%[JAVELLINE SKILL CHECK] {%ORANGE%(NORMAL)}
+ItemDisplay[(am5 OR ama OR amf) !ID !UNI !RW DIFF=2 NORM]: %DOT-75%%NAME% %NL%%ORANGE%[Javelline] {%ORANGE%(NORMAL)}
 ItemDisplay[(am5 OR ama OR amf) !ID !UNI !RW DIFF<2 NORM]: %DOT-75%%NAME% {%ORANGE%(NORMAL)}
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>5 AND IAS>0) NORM]: %DOT-75%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+6 JAVEL %RED%IAS %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%ORANGE%(NORMAL)}%CONTINUE%
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2=5 AND IAS>0) NORM]: %DOT-75%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+5 JAVEL %RED%IAS %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%ORANGE%(NORMAL)}%CONTINUE%
@@ -2990,7 +2990,7 @@ ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2=5 NORM]: %NAME% %ORANGE%+5 JA
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1) NORM]: %NAME% %ORANGE%+3 JAVEL +2 AMA{%ORANGE%(NORMAL)}%CONTINUE%
 ItemDisplay[(am5 OR ama OR amf) ID (MAG OR RARE) NORM]: %NAME%{%ORANGE%(NORMAL)}%CONTINUE%
 
-ItemDisplay[(am5 OR ama OR amf) !ID !UNI !RW DIFF=2 EXC]: %DOT-75%%NAME% %NL%%ORANGE%[JAVELLINE SKILL CHECK] {%ORANGE%(EXCEPTIONAL)}
+ItemDisplay[(am5 OR ama OR amf) !ID !UNI !RW DIFF=2 EXC]: %DOT-75%%NAME% %NL%%ORANGE%[Javelline] {%ORANGE%(EXCEPTIONAL)}
 ItemDisplay[(am5 OR ama OR amf) !ID !UNI !RW DIFF<2 EXC]: %DOT-75%%NAME%{%ORANGE%(EXCEPTIONAL)}
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>5 AND IAS>0) EXC]: %DOT-75%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+6 JAVEL %RED%IAS %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%ORANGE%(EXCEPTIONAL)}%CONTINUE%
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2=5 AND IAS>0) EXC]: %DOT-75%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+5 JAVEL %RED%IAS %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%ORANGE%(EXCEPTIONAL)}%CONTINUE%
@@ -3000,7 +3000,7 @@ ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW TABSK2=5 EXC]: %NAME% %ORANGE%+5 JAV
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>2 AND CLSK0>1) EXC]: %NAME% %ORANGE%+3 JAVEL +2 AMA{%ORANGE%(EXCEPTIONAL)}%CONTINUE%
 ItemDisplay[(am5 OR ama OR amf) ID (MAG OR RARE) EXC]: %NAME%{%ORANGE%(EXCEPTIONAL)}%CONTINUE%
 
-ItemDisplay[(am5 OR ama OR amf) !ID !UNI !RW DIFF=2 ELT]: %DOT-75%%NAME% %NL%%ORANGE%[JAVELLINE SKILL CHECK]{%ORANGE%(ELITE)}
+ItemDisplay[(am5 OR ama OR amf) !ID !UNI !RW DIFF=2 ELT]: %DOT-75%%NAME% %NL%%ORANGE%[Javelline]{%ORANGE%(ELITE)}
 ItemDisplay[(am5 OR ama OR amf) !ID !UNI !RW DIFF<2 ELT]: %DOT-75%%NAME%{%ORANGE%(ELITE)}
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2>5 AND IAS>0) ELT]: %DOT-75%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+6 JAVEL %RED%IAS %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%ORANGE%(ELITE)}%CONTINUE%
 ItemDisplay[(am5 OR ama OR amf) ID !UNI !RW (TABSK2=5 AND IAS>0) ELT]: %DOT-75%%NAME%%PURPLE%[%SOCKETS%]%NL%%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %ORANGE%+5 JAVEL %RED%IAS %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%ORANGE%(ELITE)}%CONTINUE%
