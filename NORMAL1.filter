@@ -554,7 +554,7 @@ ItemDisplay[toa]: %MAP-0B%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%Token%WHIT
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                   PD2 Corruption Items                                      //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[wss]: %MAP-62%%RED%*%YELLOW%*%orange%*    %GOLD%Shard%WHITE%* %GREEN%%QTY%    %orange%**%YELLOW%*%RED%* {%NL%%GOLD%corrupts items%NL%}
+ItemDisplay[wss]: %MAP-62%%RED%*%YELLOW%*%orange%*    %GOLD%Shard%WHITE%* %GREEN%%QTY%    %orange%*%YELLOW%*%RED%* {%NL%%GOLD%corrupts items%NL%}
 ItemDisplay[lbox]: %MAP-62%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%Puzzlebox%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@ {%YELLOW%Others %WHITE%soc : %GREEN%1-2 %WHITE%(based item)%NL%%RED%(Two handed)%YELLOW% weapon %WHITE%soc : %GREEN%2-4 %WHITE%(based item)%NL%%NL%%GOLD%sockets items%NL%}
 ItemDisplay[lpp]: %MAP-62%%RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%Puzzlepiece%WHITE%* %GREEN%%QTY%    %RED%@@%YELLOW%@@%GREEN%@@%BLUE%@@ {%YELLOW%Others %WHITE%soc : %GREEN%1-2 %WHITE%(based item)%NL%%RED%(Two handed)%YELLOW% weapon %WHITE%(Non %TAN%uni/%GREEN%set%WHITE%) %WHITE%soc : %GREEN%2-4 %WHITE%(based item)%NL%%NL%%GOLD%sockets items (not uniques,sets) items%NL%}
 /////////////////////////////////////////////////////////////////////////////////////////////////
