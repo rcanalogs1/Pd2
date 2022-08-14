@@ -1063,22 +1063,11 @@ ItemDisplay[RARE EQ7 !ETH ID CLSK0>1! CLSK1>1! CLSK2>1! CLSK3>1! CLSK4>1! CLSK5>
 
 ItemDisplay[RARE (amu OR rin OR jew) !ID]: %DOT-6F%%GREEN%*****    %YELLOW%%NAME%    %GREEN%****
 ItemDisplay[SET !ID amu]: %DOT-84%%PURPLE%*%GREEN%%NAME%%PURPLE%*
-ItemDisplay[SET !ID rin]: %GREEN%%NAME%
+ItemDisplay[SET !ID rin]: %GREEN%%NAME%%PURPLE%*
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                     ARROWS MARKING                                         //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-																																																																	  
-																																																																		  
-																																																																		 
-																																																																		
-																																																																   
-																																																																											
-																																																																   
-																																																																	 
-																																																																	
-
 ItemDisplay[(aqv OR cqv) RARE (IAS>0 AND STAT127>0)]: %PURPLE%IAS %RED%SKILL %YELLOW%ARROW %WHITE%* %GREEN%%QTY% %CONTINUE%
-																																																																		 
 ItemDisplay[(aqv OR cqv) RARE (IAS>0 AND TABSK0>0)]: %PURPLE%IAS %RED%SKILL %YELLOW%ARROW %WHITE%* %GREEN%%QTY%%CONTINUE%
 ItemDisplay[(aqv OR cqv) RARE (ED>0 AND STAT127>0)]: %PURPLE%ED %RED%SKILL %YELLOW%ARROW %WHITE%* %GREEN%%QTY%%CONTINUE%
 ItemDisplay[(aqv OR cqv) RARE (ED>0 AND TABSK0>0)]: %PURPLE%ED %RED%SKILL %YELLOW%ARROW %WHITE%* %GREEN%%QTY%%CONTINUE%
@@ -1098,7 +1087,6 @@ ItemDisplay[(aqv OR cqv) RARE (IAS>0 AND ED>0 AND STAT62>0 AND RES>0)]: %PURPLE%
 ItemDisplay[(aqv OR cqv) RARE (IAS>0 AND ED>0 AND STAT127>0 AND RES>0)]: %PURPLE%IAS %RED%ED %TAN%SKILL  %YELLOW%ARROW %WHITE%* %GREEN%%QTY%%CONTINUE%
 ItemDisplay[(aqv OR cqv) RARE (IAS>0 AND ED>0 AND TABSK0>0 AND RES>0)]: %PURPLE%IAS %RED%ED %TAN%SKILL  %YELLOW%ARROW %WHITE%* %GREEN%%QTY%%CONTINUE%
 ItemDisplay[(aqv OR cqv) RARE (IAS>0 AND ED>0 AND STAT80>0 AND RES>0)]: %PURPLE%IAS %RED%ED %TAN%MF  %YELLOW%ARROW %WHITE%* %GREEN%%QTY%%CONTINUE%
-																																																																	  
 ItemDisplay[(aqv OR cqv) RARE (IAS>0 AND ED>0 AND STAT240>0 AND RES>0)]: %PURPLE%IAS %RED%ED %TAN%MF  %YELLOW%ARROW %WHITE%* %GREEN%%QTY%%CONTINUE%
 ItemDisplay[(aqv OR cqv) RARE (IAS>0 AND ED>0 AND STAT141>0 AND RES>0)]: %PURPLE%IAS %RED%ED %TAN%DEADLY  %YELLOW%ARROW %WHITE%* %GREEN%%QTY%%CONTINUE%
 
@@ -1193,13 +1181,6 @@ ItemDisplay[(aqv OR cqv) RARE (IAS>0 AND ED>0 AND STAT80>0 AND STAT62>0)]: %RED%
 //ItemDisplay[(aqv OR cqv) RARE (STAT141>0 AND ED>0 AND STAT80>0)]: %PURPLE%DEADLY %RED%ED %GREEN%MF %YELLOW%ARROW %WHITE%* %GREEN%%QTY%
 //ItemDisplay[(aqv OR cqv) RARE (STAT141>0 AND ED>0 AND STAT240>0)]: %PURPLE%DEADLY %RED%ED %GREEN%MF %YELLOW%ARROW %WHITE%* %GREEN%%QTY%
 //ItemDisplay[(aqv OR cqv) RARE (STAT141>0 AND ED>0 AND (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0))]: %PURPLE%DEADLY %RED%ED %GREEN%RESI %YELLOW%ARROW %WHITE%* %GREEN%%QTY%
-
-																												
-																											   
-																											  
-																											 
-																											   
-																										
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                    BELT BOOTS MARKING                                       //
@@ -2771,7 +2752,7 @@ ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) !ETH MAG !ID]
 ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT BELT BASE]
 ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT SHIELD BASE]
 ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT CHEST BASE]
-ItemDisplay[(amc OR 7tw OR 7qr OR 7ws OR 6rx OR 6lw OR 7p7 OR 7gl OR 7b8 OR 7gd OR 7gm) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT WEAPON BASE]
+ItemDisplay[(am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 7ta OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[CRAFT WEAPON BASE]
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                         BASE ITEM                                           //
 /////////////////////////////////////////////////////////////////////////////////////////////////
