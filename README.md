@@ -66,6 +66,10 @@
   13. 8/13
      1) Crafting Base added for Weapon and Bar/Dru helmet in Starter filter.
      2) Bul-kathos Set added
+  14. 8/14
+     1) Crafting base added for weapon(exceptional)
+     2) strict filter udpated (initial version)
+    
 
 ### DM 
   1. Reddit : DamageFunny3572
