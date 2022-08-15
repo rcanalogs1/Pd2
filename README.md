@@ -64,14 +64,14 @@
      4) ARROW MARKING CHANGE AND C SYMBOL ADDED
      5) CORRUPTION SYMBOL MODIFICATED FOR STAT360=1 AND STAT360>73 AREA
   13. 8/13
-     1) Crafting Base added for Weapon and Bar/Dru helmet in Starter filter.
-     2) Bul-kathos Set added
+     1. Crafting Base added for Weapon and Bar/Dru helmet in Starter filter.
+     2. Bul-kathos Set added
   14. 8/14
-     1) Crafting base added for weapon(exceptional)
-     2) strict filter udpated (initial version)
+     1. Crafting base added for weapon(exceptional)
+     2. Strict filter udpated (initial version)
   15. 8/15
-     1) SOME CHARACTER IS CHANGE FROM CAPITALIZATION TO small letters
-     2) ADDED HIGH ED WEAPON : 300~350 PURPLE *,  350 ~ 400 GOLD *
+     1. SOME CHARACTER IS CHANGE FROM CAPITALIZATION TO small letters
+     2. ADDED HIGH ED WEAPON : 300~350 PURPLE *,  350 ~ 400 GOLD *
 
 ### DM 
   1. Reddit : DamageFunny3572
