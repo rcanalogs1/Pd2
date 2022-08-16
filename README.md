@@ -3,24 +3,25 @@
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=PiLLLaa&show_icons=true&theme=synthwave)](https://github.com/PiLLLaa/github-readme-stats)
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPiLLLaa%2Fhit-counter)](https://hits.seeyoufarm.com)
-### Preview
+ 
+ ## NOTICE
 
  ### This is the first Pd2 Filter for Everyone. 
  ### Please feed back to me what is your needs.
- ### SOMEONE TEACH ME WHAT ITEM (WEAPON) IS ESSENTIAL FOR CRAFTING!! *8/12
- ### THE STRICT FITLER IS UPDATING
+ ### Someone teach me what item(weapon) is essential for crafting.
+ ### The strict filter is updating.
+ 
  
  ## PREVIEW
     
-    1. NON MAGIC ITEM is shown until 14(Or Potion LV60)
-    2. Normal and Magic item are shown until Normal
+    1. Miscellaneous item is shown till normal.
+    2. Normal and Magic item are shown til Normal
     3. Item's color level : Rainbow Marking >> RED >> Special Color >> Dark_Green >> Gray
     4. Magic Bolt and arrows are shown until level 10
-    5. The gold is shown  like diabled under 1000gold(40lvl under),diabled under 2000gold(38~69lvl),diabled under 5000gold(over 70lvl)
-    6. The normal item which has 6 soc is able (cristal sword, halberd, and so on)
-    7. Club normal item for rune word is available on starter filter only (Any other equppied with skill is able to open for all fitler)
-    8. Magic Skiller Item (Such as Mag circlets, pelt and so on) is avaliable on starter fitler till Clvl 80
-    9. NORMAL1 and NORMAL2 fitler have differential for symbol system. 
+    5. The normal item which has 6 soc is able (cristal sword, halberd, and so on)
+    6. Club normal item for rune word is available on starter filter only (Any other equppied with skill is able to open for all fitler)
+    7. Magic Skiller Item (Such as Mag circlets, pelt and so on) is avaliable on starter fitler till Clvl 80
+    8. NORMAL1 and NORMAL2 fitler have differential for symbol system. 
  
 ----------------------------------------------------------------------------------------------------------------------
 ### Update
@@ -30,7 +31,7 @@
    4. 7/29 Corruption bug fixed for ring/amulet and armor modification No.40
    5. 7/30 ID/TP/HP4/MP4 activated till Normal
    6. 8/1 Added comments for maps,PD2 ITEMS.
-   7.  8/2 
+   7. 8/2 
  
      1) LARZUK PUZZLE BOX / WSS socket info added.
      2) NORMAL1/NORMAL2 CRAFTING ITEM BASE DELETED.
