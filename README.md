@@ -92,6 +92,11 @@
      1) SOME CHARACTER IS CHANGED FROM uppercase to small case (to reduce the size of character in game)
      2) ADDED HIGH ED WEAPON : 300~350 PURPLE *,  350 ~ 400 GOLD *
 
+   16. 8/16
+     
+     1) BELT/BOOTS MARKING CHANGE 
+     2) MODIFIED HD WEAPON RANGE. FROM 350~400 TO OVER 350
+
 ### DM 
   1. Reddit : DamageFunny3572
  ### 2. Discord : mhpark2359#2972
