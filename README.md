@@ -32,11 +32,16 @@
  7. 8/2 
 
      1) LARZUK PUZZLE BOX / WSS socket info added.
-     2) NORMAL1/NORMAL2 CRAFTING ITEM BASE DELETED.
-     3) MAPS DROP MESSAGE AND COLOR CHANGED
-     4) Jewel fragments+clubs comments added.
-     5) Corruption+mirrored marking added.
-     6) Grand Matron Bow+Demon Cross bow Mist Rune word base added.
+     
+     3) NORMAL1/NORMAL2 CRAFTING ITEM BASE DELETED.
+     
+     5) MAPS DROP MESSAGE AND COLOR CHANGED
+    
+     7) Jewel fragments+clubs comments added.
+     
+     9) Corruption+mirrored marking added.
+     
+     11) Grand Matron Bow+Demon Cross bow Mist Rune word base added.
      
  8. 8/4 
  
