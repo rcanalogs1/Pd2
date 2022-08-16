@@ -3845,12 +3845,17 @@ ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR CRA
 //                            ITEM RECIPES&GRADE MARKING  FOR CUBING                           //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
-
 ItemDisplay[(UNI OR SET OR RARE OR CRAFT) ID !SOCK=0]:%NAME% %PURPLE%%PURPLE%[%SOCKETS%]%CONTINUE%
 ItemDisplay[UNI ID ETH]:%PURPLE%ETH %GOLD%%NAME%%CONTINUE%
 ItemDisplay[SET ID ETH]:%PURPLE%ETH %GREEN%%NAME%%CONTINUE%
 ItemDisplay[RARE ID ETH]:%PURPLE%ETH %YELLOW%%NAME%%CONTINUE%
 ItemDisplay[CRAFT ID ETH]:%PURPLE%ETH %ORANGE%%NAME%%CONTINUE%
+
+ItemDisplay[RARE ID (SOCK=0 OR !SOCK=0) WEAPON (!ETH OR ETH) ED<349 ED>299]:%red%h%orange%i%yellow%g%green%h %purple%E%gold%D %ORANGE%%NAME%%CONTINUE%
+ItemDisplay[RARE ID (SOCK=0 OR !SOCK=0) WEAPON (!ETH OR ETH) ED>349]:%red%h%orange%i%yellow%g%green%h %purple%E%gold%D %ORANGE%%NAME%%CONTINUE%
+
+ItemDisplay[CRAFT ID (SOCK=0 OR !SOCK=0) WEAPON (!ETH OR ETH) ED<349 ED>299]:%red%h%orange%i%yellow%g%green%h %purple%E%gold%D %ORANGE%%NAME%%CONTINUE%
+ItemDisplay[CRAFT ID (SOCK=0 OR !SOCK=0) WEAPON (!ETH OR ETH) ED>349]:%red%h%orange%i%yellow%g%green%h %purple%E%gold%D %ORANGE%%NAME%%CONTINUE%
 
 ItemDisplay[(UNI OR SET) ID (SOCK=0 OR !SOCK=0) WEAPON NORM (!ETH OR ETH)]:%NAME%{%NL%%ORANGE%(NORMAL)%NL%%YELLOW%(Upgrading:%WHITE%RAL+SOL+%ORANGE%P%WHITE%EMERALD%GREEN%@%YELLOW%)}%CONTINUE%
 ItemDisplay[(UNI OR SET) ID (SOCK=0 OR !SOCK=0) WEAPON EXC (!ETH OR ETH)]:%NAME%{%NL%%ORANGE%(EXCEPTIONAL)%NL%%YELLOW%(Upgrading:%WHITE%LUM+PUL+%ORANGE%P%WHITE%EMERALD%GREEN%@%YELLOW%)}%CONTINUE%
