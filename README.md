@@ -29,7 +29,13 @@
  4. 7/29 Corruption bug fixed for ring/amulet and armor modification No.40
  5. 7/30 ID/TP/HP4/MP4 activated till Normal
  6. 8/1 Added comments for maps,PD2 ITEMS.
- 7. 8/2 
+ 7. 8/2
+    
+     1) F
+     
+     2) F
+     
+ 9. 8/2 
 
      1) LARZUK PUZZLE BOX / WSS socket info added.
      
