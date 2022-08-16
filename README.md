@@ -77,7 +77,7 @@
      
   15. 8/15
   
-     1) SOME CHARACTER IS CHANGE uppercase to small case (to reduce the size of character in game)
+     1) SOME CHARACTER IS CHANGED FROM uppercase to small case (to reduce the size of character in game)
      
      2) ADDED HIGH ED WEAPON : 300~350 PURPLE *,  350 ~ 400 GOLD *
 
