@@ -29,14 +29,8 @@
  4. 7/29 Corruption bug fixed for ring/amulet and armor modification No.40
  5. 7/30 ID/TP/HP4/MP4 activated till Normal
  6. 8/1 Added comments for maps,PD2 ITEMS.
- 7. 8/2
-    
-     1) F
-     
-     2) F
-     
- 9. 8/2 
-
+   7  8/2 
+ 
      1) LARZUK PUZZLE BOX / WSS socket info added.
      
      3) NORMAL1/NORMAL2 CRAFTING ITEM BASE DELETED.
@@ -49,17 +43,17 @@
      
      11) Grand Matron Bow+Demon Cross bow Mist Rune word base added.
      
- 8. 8/4 
+   8 8/4 
  
      1) PVP AREA MARKING CHANGE
      2) MAPS ITEMS MARKING CHANGE
      
- 9. 8/8 
+   9 8/8 
  
      1) INFO UPDATED SOC AND UPGRADING STATS(S:STR D:DEX)
      2) INFO OPTIMAZIED TO REDUCE FILE SIZE.
     
- 10. 8/10
+   10 8/10
  
      1) KEY SHOP ITEM ADDED
      2) MAPS COMMENTS MODIFIED FOR IMMUNES
@@ -73,12 +67,12 @@
      10) COMMENTS MODFICIED FOR RARE CIRCLET
      11) MAGIC AMULET AND RING COMMENTS DELETED
      
- 11. 8/11 
+   11 8/11 
  
      1) PALADIN SHIELD RES CHANGE FROM 45~30 TO 30 ~ 20
      2) MAP ORBS AND STANDARD OF HEROES COMMENTS ADDED ABOUT RECIPIES
      
- 12. 8/12
+   12 8/12
  
      1) CRAFTING COMBINED AND RECIPIE COMMENTS DELETED FOR STARTER FILTER
      2) PUZZLE BOX AND PUZZLE PIECE COMMENTS ADDED
@@ -86,19 +80,19 @@
      4) ARROW MARKING CHANGE AND C SYMBOL ADDED
      5) CORRUPTION SYMBOL MODIFICATED FOR STAT360=1 AND STAT360>73 AREA
     
-  13. 8/13
+   13 8/13
   
      1) Crafting Base added for Weapon and Bar/Dru helmet in Starter filter.
      
      2) Bul-kathos Set added
      
-  14. 8/14
+   14 8/14
   
      1) Crafting base added for weapon(exceptional)
      
      2) Strict filter udpated (initial version)
      
-  15. 8/15
+   15 8/15
   
      1) SOME CHARACTER IS CHANGED FROM uppercase to small case (to reduce the size of character in game)
      
