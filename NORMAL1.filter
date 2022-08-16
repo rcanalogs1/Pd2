@@ -2762,13 +2762,13 @@ ItemDisplay[UNI !ID (WEAPON OR ARMOR) ETH]:%PURPLE%ETH %TAN%%NAME%%RED%*
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                             SETS                                            //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[SET !ID ulg]:%DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[DISCIPLE] %GREEN%**** 
-ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]:  %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[ALDUR] %GREEN%**** 
-ItemDisplay[SET !ID (ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[IMMORTAL] %GREEN%**** 
-ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[NATALYA] %GREEN%**** 
-ItemDisplay[SET !ID (oba OR xsk OR zmb)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[TAL RASHA] %GREEN%**** 
-ItemDisplay[SET !ID uth]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[TAL RASHA] %GREEN%**** 
-ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[TRANG OUL] %GREEN%**** 
+ItemDisplay[SET !ID (ulg OR uui OR xlb OR umc)]:%DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[disciple] %GREEN%**** 
+ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt)]:  %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[aldur] %GREEN%**** 
+ItemDisplay[SET !ID (ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[immortal] %GREEN%**** 
+ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[natalya] %GREEN%**** 
+ItemDisplay[SET !ID (oba OR xsk OR zmb)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[tal rasha] %GREEN%**** 
+ItemDisplay[SET !ID uth]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[tal rasha] %GREEN%**** 
+ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[trang oul] %GREEN%**** 
 ItemDisplay[SET !ID (rng OR sbr)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[Angelic] %GREEN%**** 
 ItemDisplay[SET !ID (skp OR ltp OR wst)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[Arcanna] %GREEN%**** 
 ItemDisplay[SET !ID (qui OR vbl OR tgl OR swb)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[Arctic] %GREEN%**** 
@@ -2798,7 +2798,7 @@ ItemDisplay[SET !ID (ci3 OR amc OR uld OR xtg OR zvb)]: %DOT-84%%GREEN%**** %GRE
 ItemDisplay[SET !ID (ci0 OR ult OR 6cs)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[Naj] %GREEN%**** 
 ItemDisplay[SET !ID (xhm OR xml OR xvg OR ztb)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[Orphan] %GREEN%**** 
 ItemDisplay[SET !ID (bwn OR vgl)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[Sander] %GREEN%**** 
-ItemDisplay[SET !ID (xhl OR 7ls OR upl)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[SAZABI] %GREEN%**** 
+ItemDisplay[SET !ID (xhl OR 7ls OR upl)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[sazabi] %GREEN%****
 ItemDisplay[SET !ID (7fb OR 7gd)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[Bul-Kathos' Children] %GREEN%****
 ItemDisplay[SET !ID (WEAPON OR ARMOR OR rin)]: %GREEN%%NAME%%RED%*
 /////////////////////////////////////////////////////////////////////////////////////////////////
