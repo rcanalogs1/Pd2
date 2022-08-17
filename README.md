@@ -99,6 +99,10 @@
      3) ARROW MARKING CHANGE  : 3.1) ED COMBINATION MARKING ADDED 3.2) SKILL MARKING ADDED TABSK1(PASSIVE)
      4) CIRCLET MARKING CHANGE : * DELETED FOR GG ITEM.
      5) BASE ITEM ADDED : GORGON CROSSBOW
+     
+   17. 8/17
+   
+     1) FilterLevel added for Nopotion and ring(Magic ring and Hp5/MP5/Anti is disabled when you choose in the game)
 
 ### DM 
   1. Reddit : DamageFunny3572
