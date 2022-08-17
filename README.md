@@ -103,6 +103,8 @@
    17. 8/17
    
      1) FilterLevel added for (Magic ring and Hp5/MP5/Anti is disabled when you choose in the game)
+     2) Optimized filters
+     3) Short Siege Bow uniq empasized
 
 ### DM 
   1. Reddit : DamageFunny3572
