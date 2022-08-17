@@ -2344,7 +2344,7 @@ ItemDisplay[UNI !ID 8sb]: %GRAY%@@@@      %TAN%Skystrike%TAN%      %GRAY%@@@@
 ItemDisplay[UNI !ID 8hb]: %GRAY%@@@@      %TAN%Riphook%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID 8lb]: %GRAY%@@@@      %TAN%Kuko Shakaku%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID 8cb]: %GRAY%@@@@      %TAN%Endlesshail%TAN%      %GRAY%@@@@ 
-ItemDisplay[UNI !ID 8s8]: %GRAY%@@@@      %TAN%Witchwild String%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID 8s8]: %DOT-0C%%GOLD%@@@@      %RED%Witchwild String      %GOLD%@@@@
 ItemDisplay[UNI !ID 8l8]: %GRAY%@@@@      %TAN%Cliffkiller%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID 8sw]: %GRAY%@@@@      %TAN%Magewrath%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID 8lw]: %GRAY%@@@@      %TAN%Goldstrike Arch%TAN%      %GRAY%@@@@ 
