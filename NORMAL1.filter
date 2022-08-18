@@ -2348,7 +2348,7 @@ ItemDisplay[UNI !ID 8s8]: %DOT-0C%%GOLD%@@@@      %RED%Witchwild String      %GO
 ItemDisplay[UNI !ID 8l8]: %GRAY%@@@@      %TAN%Cliffkiller%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID 8sw]: %GRAY%@@@@      %TAN%Magewrath%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID 8lw]: %GRAY%@@@@      %TAN%Goldstrike Arch%TAN%      %GRAY%@@@@ 
-ItemDisplay[UNI !ID 6l7]: %GRAY%@@@@      %TAN%Eaglehorn%TAN%      %GRAY%@@@@ 
+ItemDisplay[UNI !ID 6l7]: %DOT-0C%%GOLD%@@@@      %red%Eaglehorn%TAN%      %GOLD%@@@@ 
 ItemDisplay[UNI !ID 6sw]: %GRAY%@@@@      %TAN%Widowmaker%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID 6lw]: %GRAY%@@@@      %TAN%Windforce%TAN%      %GRAY%@@@@ 
 ItemDisplay[UNI !ID lxb]: %GRAY%@@@@      %TAN%Leadcrow%TAN%      %GRAY%@@@@ 
