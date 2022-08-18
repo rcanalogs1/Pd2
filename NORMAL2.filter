@@ -2183,8 +2183,8 @@ ItemDisplay[UNI !ID xth !ETH]: %GRAY%****      %TAN%Atma's Wail%TAN%      %GRAY%
 ItemDisplay[UNI !ID xth ETH]: %GRAY%****      %PURPLE%ETH %TAN%Atma's Wail%TAN%      %GRAY%**** 
 ItemDisplay[UNI !ID xul !ETH]: %GRAY%****      %TAN%Black Hades%TAN%      %GRAY%**** 
 ItemDisplay[UNI !ID xul ETH]: %GRAY%****      %PURPLE%ETH %TAN%Black Hades%TAN%      %GRAY%**** 
-ItemDisplay[UNI !ID xar !ETH]: %GRAY%****      %TAN%Corpsemourn%TAN%      %GRAY%**** 
-ItemDisplay[UNI !ID xar ETH]: %GRAY%****      %PURPLE%ETH %TAN%Corpsemourn%TAN%      %GRAY%**** 
+ItemDisplay[UNI !ID xar !ETH]: %DOT-0C%%gold%****      %red%Corpsemourn      %gold%****
+ItemDisplay[UNI !ID xar ETH]: %DOT-0C%%gold%****      %PURPLE%ETH %red%Corpsemourn      %gold%****
 ItemDisplay[UNI !ID uul !ETH]: %GRAY%****      %TAN%Steel Carapace%TAN%      %GRAY%**** 
 ItemDisplay[UNI !ID uul ETH]: %GRAY%****      %PURPLE%ETH %TAN%Steel Carapace%TAN%      %GRAY%**** 
 ItemDisplay[UNI !ID buc !ETH]: %GRAY%****      %TAN%Pelta Lunata%TAN%      %GRAY%**** 
