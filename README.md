@@ -26,7 +26,8 @@
     9. All fitler(excepted stricter filter) have Filter level to active hp5/mp5/anti potion.
     10. Corruption and runeword marking
     11. Item Option marking (belt/glove/arrow(bolt)/circlet/amulet)
-    12. All uniq item have his name when they drop for example hydrabow to be shown as windforce.
+    12. All uniq item have his name when they drop. for example hydrabow to be shown as windforce.
+    13. All sets item will be shown his name what gonna be the items. for example colossus blade to be shown as bul kathos child.
     
  
 ----------------------------------------------------------------------------------------------------------------------
