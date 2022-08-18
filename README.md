@@ -109,7 +109,7 @@
    18. 8/18
      
      1) Craft explanation change in Perfect gems
-     2) Corpsemourn uniq empasized
+     2) Corpsemourn&eagle horn uniq empasized
 
 ### DM 
   1. Reddit : DamageFunny3572
