@@ -28,7 +28,8 @@
     11. Item Option marking (belt/glove/arrow(bolt)/circlet/amulet)
     12. All uniq item have his name when they drop. for example hydrabow to be shown as windforce.
     13. All sets item will be shown his name what gonna be the items. for example colossus blade to be shown as bul kathos child.
-    
+    14. All item have a label for his item grade such as normal, exceptional and elite.
+    15. Perfect Gems have comments for crafting recipe.
  
 ----------------------------------------------------------------------------------------------------------------------
 ### Update
