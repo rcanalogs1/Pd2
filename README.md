@@ -4,14 +4,19 @@
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPiLLLaa%2Fhit-counter)](https://hits.seeyoufarm.com)
  
+ ## INTRODUCE
+   Hello, Maybe someone knows me in POD game because I had been spent a lot of time to develope the filter for diablo2 POD system. Unfortunately, POD is under rest time to upgrade system. This chance gave me joining the PD2 Game. When I'm were doing game, I felt that it's necessary to make new filter by me. During this time, I felt and am feeling very fantastic experience to learn the new system and architecture of PD2 filtering. I have been tring to understand this everyday by seeing the wiki and by asking the others. So, I did fanally launch the filter which is specialized for PD2 system based on experiencing filter design which came from POD. I'm not sure that this filter meet the your favorite. Now, It may be not to fufill the 100% score for you, however it would be getting perfection from hearing your personally opinion and voice, . Once again, I sincerely need to hear your voice and am glad to wait for your feedback always. Thanks for enjoyning and using my filter.
+ 
+ ----------------------------------------------------------------------------------------------------------------------
+ 
  ## NOTICE
 
  ### This is the first Pd2 Filter for Everyone. 
  ### Please feed back to me what is your needs.
  ### Someone teach me what item(weapon) is essential for crafting.
  ### The strict filter is updating.
- 
- 
+  
+ ----------------------------------------------------------------------------------------------------------------------
  ## PREVIEW
     
     1. Miscellaneous item is shown till normal.
@@ -31,6 +36,11 @@
     14. All item have a label for his item grade such as normal, exceptional and elite.
     15. Perfect Gems have comments for crafting recipe.
  
+----------------------------------------------------------------------------------------------------------------------
+## DM 
+     1. Reddit : DamageFunny3572
+     2. Discord : mhpark2359#2972
+
 ----------------------------------------------------------------------------------------------------------------------
 ### UPDATE HISTORY
    1. 7/25 Corruption Option update
@@ -126,9 +136,3 @@
      
      1) Craft explanation change in Perfect gems
      2) Corpsemourn&eagle horn uniq empasized
-
-### DM 
-  1. Reddit : DamageFunny3572
- ### 2. Discord : mhpark2359#2972
-
-
