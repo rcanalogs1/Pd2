@@ -15,22 +15,36 @@
  ## PREVIEW
     
     1. Miscellaneous item is shown till normal.
-    2. Normal and Magic item are shown til Normal
-    3. Item's color level : Rainbow Marking >> RED >> Special Color >> Dark_Green >> Gray
+    2. Normal and Magic item are shown till Normal
+    3. Item's color level : ****Rainbow Marking >> RED >> Special Color >> Dark_Green >> Gray****
     4. Magic Bolt and arrows are shown until level 10
     5. The normal item which has 6 soc is able (cristal sword, halberd, and so on)
-    6. Club normal item for rune word is available on starter filter only (Any other equppied with skill is able to open for all fitler)
-    7. Magic Skiller Item (Such as Mag circlets, pelt and so on) is avaliable on starter fitler till Clvl 80
+    6. 4soc spears and polearm(normal type) is activated till level 79
+    6. only ED and Req base item available on Strict filter(the others is wider than strict)
+    7. Magic Skiller Item (Such as Mag circlets, pelt and bar helmet) is avaliable on starter fitler till level 80
     8. NORMAL1 and NORMAL2 fitler have differential for symbol system. 
+    9. All fitler(excepted stricter filter) have Filter level to active hp5/mp5/anti potion.
+    10. Corruption and runeword marking
+    11. Item Option marking (belt/glove/arrow(bolt)/circlet/amulet)
+    12. All uniq item have his name when they drop for example hydrabow to be shown as windforce.
+    
  
 ----------------------------------------------------------------------------------------------------------------------
 ### Update
    1. 7/25 Corruption Option update
-   2. 7/26 Demoncrossbow added for Faith
-   3. 7/26 bug fixed 
-   4. 7/29 Corruption bug fixed for ring/amulet and armor modification No.40
-   5. 7/30 ID/TP/HP4/MP4 activated till Normal
+  
+   2. 7/26 
+  
+     1) Demoncrossbow added for Faith
+     2) bug fixed 
+     
+   3. 7/29~30
+   
+     1) Corruption bug fixed for ring/amulet and armor modification No.40
+     2) ID/TP/HP4/MP4 activated till Normal
+     
    6. 8/1 Added comments for maps,PD2 ITEMS.
+   
    7. 8/2 
  
      1) LARZUK PUZZLE BOX / WSS socket info added.
