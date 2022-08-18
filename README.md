@@ -32,7 +32,7 @@
     15. Perfect Gems have comments for crafting recipe.
  
 ----------------------------------------------------------------------------------------------------------------------
-### Update
+### UPDATE HISTORY
    1. 7/25 Corruption Option update
   
    2. 7/26 
