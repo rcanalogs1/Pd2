@@ -36,7 +36,14 @@
     15. Perfect Gems have comments for crafting recipe.
     16. Crafting base will be shown from exceptional to elite.
     17. Only weapon crafting base is available on STRICT FILTER (the other filter can show all items)
- 
+    
+    
+    
+    
+    
+----------------------------------------------------------------------------------------------------------------------   
+## IMAGE    
+ ![image](https://user-images.githubusercontent.com/76995697/185507965-8546a887-d6c1-4b69-9acb-40fcfad1a71d.png)
 ----------------------------------------------------------------------------------------------------------------------
 ## DM 
      1. Reddit : DamageFunny3572
