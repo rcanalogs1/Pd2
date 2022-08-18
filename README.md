@@ -78,30 +78,30 @@
     
    10. 8/10
  
-     1) KEY SHOP ITEM ADDED
-     2) MAPS COMMENTS MODIFIED FOR IMMUNES
-     3) PERFECT GEMS COMMENTS ADDED FOR CRAFTING
-     4) SOC AND UPGRADING STATS MODIFIED(PARTIAL)
-     5) SOME BASE ITEMS ADDED FOR CLAW, SCEPTER
-     6) ANNIHILIUS AND TORCH AMRKING ADDED
-     7) PD2 UNIQ ITEM MARKING CHANGE
-     8) PASSIVE GLOVE MARKING ADDED.
-     9) DROP CHANGE FOR RARE AMULET AND JEWEL
-     10) COMMENTS MODFICIED FOR RARE CIRCLET
-     11) MAGIC AMULET AND RING COMMENTS DELETED
+     1) Key is only available on shop
+     2) MAPS comments modfied regarding immune's explanation
+     3) Perfect gems comments added for crafting
+     4) Some item's SOC and upgrading stats comments was modfied partially.
+     5) Some base item are added for claw and scepters
+     6) Annihilius and torch marking added
+     7) PD2 uniq item marking was changed.
+     8) Gloves option for passive and magic's marking was added.
+     9) Drop marking change for rare amulet and jewel
+     10) Modfied for comments of rare circlet
+     11) Magic amulet and ring's comments deleted.
      
    11. 8/11 
  
-     1) PALADIN SHIELD RES CHANGE FROM 45~30 TO 30 ~ 20
-     2) MAP ORBS AND STANDARD OF HEROES COMMENTS ADDED ABOUT RECIPIES
+     1) The area for Pally shield resistance option was change from 45~30 TO 30 ~ 20
+     2) Map orbs(for upgrading) and stadard of heroes flage's comments were added
      
    12. 8/12
  
-     1) CRAFTING COMBINED AND RECIPIE COMMENTS DELETED FOR STARTER FILTER
-     2) PUZZLE BOX AND PUZZLE PIECE COMMENTS ADDED
-     3) MAGIC ETH MARKING CHANGED
-     4) ARROW MARKING CHANGE AND C SYMBOL ADDED
-     5) CORRUPTION SYMBOL MODIFICATED FOR STAT360=1 AND STAT360>73 AREA
+     1) Crafting showing change and those recipe comments deleted at starter filter
+     2) Puzzle box and piece comments added
+     3) Magic ETH marking changed
+     4) Arrow marking change and C cymbol added
+     5) Corruption symbol modified for stat360=1 and stat360>73
     
    13. 8/13
   
