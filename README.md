@@ -13,8 +13,7 @@
 
  ### This is the first Pd2 Filter for Everyone. 
  ### Please feed back to me what is your needs.
- ### Someone teach me what item(weapon) is essential for crafting.
- ### The strict filter is updating.
+ ### The strict filter is updating(90%).
   
  ----------------------------------------------------------------------------------------------------------------------
  ## PREVIEW
