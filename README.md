@@ -35,6 +35,7 @@
     14. All item have a label for his item grade such as normal, exceptional and elite.
     15. Perfect Gems have comments for crafting recipe.
     16. Crafting base will be shown from exceptional to elite.
+    17. Only weapon crafting base is available on STRICT FILTER (the other filter can show all items)
  
 ----------------------------------------------------------------------------------------------------------------------
 ## DM 
@@ -136,3 +137,9 @@
      
      1) Craft explanation change in Perfect gems
      2) Corpsemourn&eagle horn uniq empasized
+     
+       
+   19. 8/19
+     
+     1) Craftbase item etherial type was added
+     2) high ed item length chagne from over 380 to over 379
