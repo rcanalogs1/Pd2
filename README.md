@@ -34,6 +34,7 @@
     13. All sets item will be shown his name what gonna be the items. for example colossus blade to be shown as bul kathos child.
     14. All item have a label for his item grade such as normal, exceptional and elite.
     15. Perfect Gems have comments for crafting recipe.
+    16. Crafting base will be shown from exceptional to elite.
  
 ----------------------------------------------------------------------------------------------------------------------
 ## DM 
