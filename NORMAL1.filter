@@ -2778,6 +2778,16 @@ ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) !ETH MAG !ID]
 ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft belt]
 ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft shield]
 ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft chest]
+
+ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft glove]
+ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft helmet]
+ItemDisplay[(baf OR bab OR bad) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft helmet(Bar)]
+ItemDisplay[(drf OR drd OR drb) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft helmet(Dru)]
+ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft boots]
+ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft belt]
+ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft shield]
+ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft chest]
+
 ItemDisplay[(8lw OR 9ta OR 7ta OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft weapon]
 ItemDisplay[(8lw OR 9ta OR 7ta OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) ETH MAG !ID]: %PURPLE%ETH %BLUE%%NAME%%NL%%ORANGE%[craft weapon]
 /////////////////////////////////////////////////////////////////////////////////////////////////
