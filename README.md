@@ -143,3 +143,4 @@
      
      1) Craftbase item etherial type was added
      2) high ed item length chagne from over 380 to over 379
+     3) pd2 item marking change by following Wss
