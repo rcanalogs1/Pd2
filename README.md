@@ -151,3 +151,4 @@
      1) Craftbase item etherial type was added
      2) high ed item length chagne from over 380 to over 379
      3) pd2 item marking change by following Wss
+     4) Almost uniq item now show his base item name and grade (N->Normal, EX->exceptional, EL->Elite)
