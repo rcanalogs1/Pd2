@@ -7,6 +7,25 @@
 
 ItemDisplayFilterName[]: Stardard
 ItemDisplayFilterName[]: SocketInfo
+ItemDisplayFilterName[]: No Potion,ring
+ItemDisplayFilterName[]: ++No Amulet,LargeCharm
+ItemDisplayFilterName[]: +++No Javel,glove,CraftArmor
+ItemDisplayFilterName[]: ++++No Arrow(bolt),CraftWeapon
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//                                      Filter Level Disable Item                              //
+/////////////////////////////////////////////////////////////////////////////////////////////////
+ItemDisplay[hp5 FILTLVL>2]:
+ItemDisplay[mp5 FILTLVL>2]:
+ItemDisplay[yps FILTLVL>2]:
+ItemDisplay[MAG rin !ID FILTLVL>2]: 
+ItemDisplay[MAG amu !ID FILTLVL>3]:
+//ItemDisplay[SET rin !ID FILTLVL=4]:
+ItemDisplay[MAG cm2 !ID FILTLVL>3]:
+ItemDisplay[MAG cm2 !ID FILTLVL>3]:
+ItemDisplay[MAG (am5 OR ama OR amf) !ID FILTLVL>4]:
+ItemDisplay[EQ4 MAG !ID FILTLVL>4]:
+ItemDisplay[RARE (aqv OR cqv) !ID FILTLVL>5]: 
 ItemDisplay[leg]: %NAME% %ORANGE%[L%ILVL%] %PURPLE%[%SOCKETS%]
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                      Socket Info                                            //
@@ -170,7 +189,7 @@ ItemDisplay[isc DIFF<1]:
 ItemDisplay[isc DIFF>0]:
 ItemDisplay[rvl]:%PURPLE%RP %ORANGE%70%
 ItemDisplay[rvs]:%PURPLE%RP %WHITE%35%
-ItemDisplay[key SHOP]: Key%PURPLE%*
+ItemDisplay[key (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]:Key%PURPLE%*
 ItemDisplay[key CLVL<30]:
 ItemDisplay[key CLVL>29]:
 ItemDisplay[wms CLVL<20]:
@@ -2718,6 +2737,16 @@ ItemDisplay[SET !ID (WEAPON OR ARMOR OR rin)]: %GREEN%%NAME%%RED%*
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                            CRAFTING                                         //
 /////////////////////////////////////////////////////////////////////////////////////////////////
+ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
+ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
+ItemDisplay[(baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTLVL=5]: 
+ItemDisplay[(drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTLVL=5]: 
+ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
+ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
+ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
+ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
+ItemDisplay[(8lw OR 9ta OR 7ta OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) (!ETH OR ETH) MAG !ID FILTLVL>5]:
+
 ItemDisplay[(8lw OR 9ta OR 7ta OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft weapon]
 ItemDisplay[(8lw OR 9ta OR 7ta OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) ETH MAG !ID]: %PURPLE%ETH %BLUE%%NAME%%NL%%ORANGE%[craft weapon]
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -2945,33 +2974,33 @@ ItemDisplay[fla ETH !RW NMAG ED=15  !SOCK=1 !SOCK=3]: %PURPLE%ETH %DARK_GREEN%%N
 
 //Scepters
 ItemDisplay[WP13 NMAG !RW !SOCK=0]:%NAME% %PURPLE%%PURPLE%[%SOCKETS%]%CONTINUE%
-ItemDisplay[WP13 NMAG !RW !sup SOCK=0]:%NAME%{%NL%%YELLOW%(WEAPON SOCKET:%WHITE%RAL+AMN+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)%NL%%RED%(MAX SOCKETS WHEN USING Larzuk)}%CONTINUE%
-ItemDisplay[WP13 NMAG !RW sup SOCK=0]:%NAME%{%NL%%RED%(MAX SOCKETS WHEN USING Larzuk)}%CONTINUE%
 ItemDisplay[WP13 NMAG !RW ETH]:%PURPLE%ETH %DARK_GREEN%%NAME%%CONTINUE%
 
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) NORM]:%NAME%{%NL%%ORANGE%(NORMAL)}%CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) EXC]:%NAME%{%NL%%ORANGE%(EXCEPTIONAL)}%CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) ELT]:%NAME%{%NL%%ORANGE%(ELITE)}%CONTINUE%
-
 ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK97>2]:%NAME% %ORANGE%+3 smite%CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK101>2]:%NAME% %red%+3 holy bolt%CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK106>2]:%NAME% %blue%+3 zeal %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK107>2]:%NAME% %purple%+3 charge %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK111>2]:%NAME% %yellow%+3 vengeance %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK112>2]:%NAME% %dark_green%+3 blessed hamm %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK113>2]:%NAME% %green%+3 concentration %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK115>2]:%NAME% %green%+3 vigor %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK117>2]:%NAME% %gold%+3 holy shield %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK118>2]:%NAME% %tan%+3 holy shock %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK121>2]:%NAME% %white%+3 FOH %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK122>2]:%NAME% %orange%+3 fanaticism %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK123>2]:%NAME% %red%+3 conviction %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK124>2]:%NAME% %blue%+3 redemption %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK125>2]:%NAME% %green%+3 salvation %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK364>2]:%NAME% %dark_green%+3 holy nova %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK371>2]:%NAME% %yellow%+3 holy light %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK378>2]:%NAME% %purple%+3 joust %CONTINUE%
-ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) (SK97>2 OR SK101>2 OR SK106>2 OR SK107>2 OR SK111>2 OR SK112>2 OR SK113>2 OR SK115>2 OR SK117>2 OR SK118>2 OR SK121>2 OR SK122>2 OR SK123>2 OR SK124>2 OR SK125>2 OR SK364>2 OR SK371>2 OR SK378>2)]:%NAME%[phoenix/plague]{%GOLD%PLAGUE:%ORANGE%CHAM%WHITE%+%RED%FAL%WHITE%+%YELLOW%UM%NL%%GOLD%PHOENIX:%ORANGE%VEX%WHITE%+%RED%VEX%WHITE%+%YELLOW%LO%WHITE%+%TAN%JAH}
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK101>2]:%NAME% %red%+3 hbot%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK106>2]:%NAME% %blue%+3 zeal%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK107>2]:%NAME% %purple%+3 chg%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK111>2]:%NAME% %yellow%+3 venge%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK112>2]:%NAME% %dark_green%+3 blh%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK113>2]:%NAME% %green%+3 concent%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK115>2]:%NAME% %green%+3 vig%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK117>2]:%NAME% %gold%+3 hshi%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK118>2]:%NAME% %tan%+3 hshoc%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK121>2]:%NAME% %white%+3 foh%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK122>2]:%NAME% %orange%+3 fana%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK123>2]:%NAME% %red%+3 convic%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK124>2]:%NAME% %blue%+3 redem%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK125>2]:%NAME% %green%+3 salva%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK364>2]:%NAME% %dark_green%+3 hnov%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK371>2]:%NAME% %yellow%+3 hligh%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) SK378>2]:%NAME% %purple%+3 joust%CONTINUE%
+
+ItemDisplay[WP13 NMAG !RW !sup SOCK=0]:%NAME%{%NL%%YELLOW%(WEAPON SOCKET:%WHITE%RAL+AMN+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)%NL%%RED%(MAX SOCKETS WHEN USING Larzuk)}%CONTINUE%
+ItemDisplay[WP13 NMAG !RW sup SOCK=0]:%NAME%{%NL%%RED%(MAX SOCKETS WHEN USING Larzuk)}%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) NORM]:%NAME%{%NL%%ORANGE%(NORMAL)%NAME%}%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) EXC]:%NAME%{%NL%%ORANGE%(EXCEPTIONAL)%NAME%}%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) ELT]:%NAME%{%NL%%ORANGE%(ELITE)%NAME%}%CONTINUE%
+ItemDisplay[WP13 NMAG !RW (!sup OR sup) (SOCK=0 OR SOCK>2) (!ETH OR ETH) (SK97>2 OR SK101>2 OR SK106>2 OR SK107>2 OR SK111>2 OR SK112>2 OR SK113>2 OR SK115>2 OR SK117>2 OR SK118>2 OR SK121>2 OR SK122>2 OR SK123>2 OR SK124>2 OR SK125>2 OR SK364>2 OR SK371>2 OR SK378>2)]:%NAME%%orange%{%GOLD%PLAGUE:%ORANGE%CHAM%WHITE%+%RED%FAL%WHITE%+%YELLOW%UM%NL%%GOLD%PHOENIX:%ORANGE%VEX%WHITE%+%RED%VEX%WHITE%+%YELLOW%LO%WHITE%+%TAN%JAH%NAME%}
 
 ItemDisplay[wsp !RW NMAG !ETH !RW SOCK=4 CLVL<80]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%ORANGE%[holy thunder] {%NL%%GOLD%HOLYTHUNDER:%ORANGE%ETH%WHITE%+%ORANGE%RAL%WHITE%+%YELLOW%ORT%WHITE%+%TAN%TAL%NL%%ORANGE%(NORMAL)}
 ItemDisplay[(wsp OR 7bt) !RW NMAG !ETH !RW SOCK=5 CLVL<80]: %GRAY%%NAME%%PURPLE%[%SOCKETS%]%NL%%ORANGE%[beast] {%NL%%GOLD%BEAST:%ORANGE%BER%WHITE%+%ORANGE%TIR%WHITE%+%YELLOW%UM%WHITE%+%TAN%MAL%WHITE%+%GOLD%LUM%NL%%ORANGE%(NORMAL)}
@@ -3102,12 +3131,7 @@ ItemDisplay[am1 !RW NMAG ED>0 ED<15 (TABSK0>2 OR TABSK0=0) SOCK=0]: %GRAY%%NAME%
 
 //Non magic claws
 ItemDisplay[CL5 NMAG !RW !SOCK=0]:%NAME% %PURPLE%%PURPLE%[%SOCKETS%]%CONTINUE%
-ItemDisplay[CL5 NMAG !RW SOCK=0]:%NAME%{%NL%%YELLOW%(WEAPON SOCKET:%WHITE%RAL+AMN+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)%NL%%RED%(MAX SOCKETS WHEN USING Larzuk)}%CONTINUE%
 ItemDisplay[CL5 NMAG !RW ETH]:%PURPLE%ETH %DARK_GREEN%%NAME%%CONTINUE%
-
-ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) NORM]:%NAME%{%NL%%ORANGE%(NORMAL)}%CONTINUE%
-ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) EXC]:%NAME%{%NL%%ORANGE%(EXCEPTIONAL)}%CONTINUE%
-ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) ELT]:%NAME%{%NL%%ORANGE%(ELITE)}%CONTINUE%
 
 ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK277>2]:%DOT-75%%DARK_GREEN%%NAME% %ORANGE%+3 BS%CONTINUE%
 ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK263>2]:%DOT-75%%DARK_GREEN%%NAME% %ORANGE%+3 WB%CONTINUE%
@@ -3115,7 +3139,7 @@ ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK252>2]:%DOT-75%%DARK
 ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK269>2]:%DOT-75%%DARK_GREEN%%NAME% %RED%+3 COT%CONTINUE%
 ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK262>2]:%DOT-75%%DARK_GREEN%%NAME% %PURPLE%+3 WOF%CONTINUE%
 ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK271>2]:%DOT-75%%DARK_GREEN%%NAME% %GREEN%+3 CLS%CONTINUE%
-ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK267>2]:%DOT-75%%DARK_GREEN%%NAME% %DARK_GREEN%+3 FADE%CONTINUE%
+ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK267>2]:%DOT-75%%DARK_GREEN%%NAME% %GREEN%+3 FADE%CONTINUE%
 ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK278>2]:%DOT-75%%DARK_GREEN%%NAME% %YELLOW%+3 VENOM%CONTINUE%
 ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK273>2]:%DOT-75%%DARK_GREEN%%NAME% %TAN%+3 MB%CONTINUE%
 ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK276>2]:%DOT-75%%DARK_GREEN%%NAME% %GOLD%+3 DS%CONTINUE%
@@ -3126,6 +3150,12 @@ ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK254>2]:%DOT-75%%DARK
 ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK255>2]:%DOT-75%%DARK_GREEN%%NAME% %BLUE%+3 DRAGON%CONTINUE%
 ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK258>2]:%DOT-75%%DARK_GREEN%%NAME% %TAN%+3 BURST%CONTINUE%
 ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) SK270>2]:%DOT-75%%DARK_GREEN%%NAME% %GOLD%+3 DRAGON TAIL%CONTINUE%
+
+ItemDisplay[CL5 NMAG !RW SUP SOCK=0]:%NAME%{%NL%%YELLOW%(%NL%%RED%(MAX SOCKETS WHEN USING Larzuk)}%CONTINUE%
+ItemDisplay[CL5 NMAG !RW !SUP SOCK=0]:%NAME%{%NL%%YELLOW%(WEAPON SOCKET:%WHITE%RAL+AMN+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)%NL%%RED%(MAX SOCKETS WHEN USING Larzuk)}%CONTINUE%
+ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) NORM]:%NAME%{%NL%%ORANGE%(NORMAL)%NAME%}%CONTINUE%
+ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) EXC]:%NAME%{%NL%%ORANGE%(EXCEPTIONAL)%NAME%}%CONTINUE%
+ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) ELT]:%NAME%{%NL%%ORANGE%(ELITE)%NAME%}%CONTINUE%
 ItemDisplay[CL5 NMAG !RW (SOCK=0 OR SOCK=3) (!ETH OR ETH) (SK263 OR SK277>2 OR SK252>2 OR SK269>2 OR SK262>2 OR SK271>2 OR SK267>2 OR SK278>2 OR SK273>2 OR SK276>2 OR SK376>2 OR SK280>2 OR SK265>2 OR SK254>2 OR SK255>2 OR SK258>2 OR SK270>2)]:%NAME%{%NL%%GOLD%PLAGUE:%ORANGE%CHAM%WHITE%+%RED%FAL%WHITE%+%YELLOW%UM%NL%%GOLD%CHAOS:%ORANGE%FAL%WHITE%+%RED%OHM%WHITE%+%YELLOW%UM%NAME%}
 
 //Dream helm+Shield
@@ -3201,8 +3231,8 @@ ItemDisplay[EQ4 (MAG OR RARE) ID !ETH TABSK2=3]:%NAME% %gold%3jav%CONTINUE%
 ItemDisplay[EQ4 (MAG OR RARE) ID !ETH TABSK2=2]:%NAME% %gold%2jav%CONTINUE%
 ItemDisplay[EQ4 (MAG OR RARE) ID !ETH TABSK50=3]:%NAME% %gold%3mart%CONTINUE%
 ItemDisplay[EQ4 (MAG OR RARE) ID !ETH TABSK50=2]:%NAME% %gold%2mart%CONTINUE%
-ItemDisplay[EQ4 (MAG OR RARE) ID !ETH IAS=20]:%NAME% %YELLOW%20ias%CONTINUE%
-ItemDisplay[EQ4 (MAG OR RARE) ID !ETH IAS=10]:%NAME% %YELLOW%10ias%CONTINUE%
+ItemDisplay[EQ4 (MAG OR RARE) ID !ETH IAS=20]:%NAME% %red%20ias%CONTINUE%
+ItemDisplay[EQ4 (MAG OR RARE) ID !ETH IAS=10]:%NAME% %red%10ias%CONTINUE%
 ItemDisplay[EQ4 (MAG OR RARE) ID !ETH FCR>0]:%NAME% %GREEN%FCR%CONTINUE%
 ItemDisplay[EQ4 (MAG OR RARE) ID !ETH (TABSK1>1 OR TABSK0>1 OR TABSK2>1 OR TABSK50>1) (IAS>0 OR FCR>0)]:%NAME%%CONTINUE%
 
@@ -3329,12 +3359,8 @@ ItemDisplay[WP12 MAG SHOP (SUFFIX=594 OR SUFFIX=595)]:%NAME% %ORANGE%LOWER RESI 
 //                                      CLUBS ITEM                                             //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW !SOCK=0]:%GRAY%%NAME% %PURPLE%[%SOCKETS%]%CONTINUE%
-ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW SOCK=0]:%GRAY%%NAME%{%NL%%YELLOW%(WEAPON SOCKET:%WHITE%RAL+AMN+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)%NL%%RED%(MAX SOCKETS WHEN USING Larzuk)}%CONTINUE%
 ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW ETH]:%PURPLE%ETH %GRAY%%NAME%%CONTINUE%
 ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW !ETH]:%GRAY%%NAME%%CONTINUE%
-ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW (!SOCK=0 OR SOCK=0) (!ETH OR ETH) NORM]:%GRAY%%NAME%{%NL%%ORANGE%(NORMAL)}%CONTINUE%
-ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW (!SOCK=0 OR SOCK=0) (!ETH OR ETH) EXC]:%GRAY%%NAME%{%NL%%ORANGE%(EXCEPTIONAL)}%CONTINUE%
-ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW (!SOCK=0 OR SOCK=0) (!ETH OR ETH) ELT]:%GRAY%%NAME%{%NL%%ORANGE%(ELITE)}%CONTINUE%
 
 //Elemental
 ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW SK225>2]:%GRAY%%NAME% %ORANGE%+3 firestorm%CONTINUE%
@@ -3373,7 +3399,12 @@ ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW SK241>2]:%GRAY%%NA
 ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW SK246>2]:%GRAY%%NAME% %WHITE%+3 spirit of barbs%CONTINUE%
 ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW SK247>2]:%GRAY%%NAME% %ORANGE%+3 grizzly%CONTINUE%
 
-ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW (SOCK=3 OR SOCK=0) (!ETH OR ETH) (SK225>2 OR SK229>2 OR SK230>2 OR SK234>2 OR SK235>2 OR SK240>2 OR SK244>2 OR SK245>2 OR SK250>2 OR SK249>2 OR SK370>2 OR SK223>2 OR SK224>2 OR SK228>2 OR SK232>2 OR SK233>2 OR SK238>2 OR SK239>2 OR SK242>2 OR SK243>2 OR SK248>2 OR SK221>2 OR SK222>2 OR SK226>2 OR SK227>2 OR SK231>2 OR SK236>2 OR SK237>2 OR SK241>2 OR SK246>2 OR SK247>2)]:%GRAY%%NAME%{%GOLD%PLAGUE:%ORANGE%CHAM%WHITE%+%RED%FAL%WHITE%+%YELLOW%UM%%NAME%}
+ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !SUP !RW SOCK=0]:%GRAY%%NAME%{%NL%%YELLOW%(WEAPON SOCKET:%WHITE%RAL+AMN+%ORANGE%P%WHITE%AMETHYST%PURPLE%@%YELLOW%)%NL%%RED%(MAX SOCKETS WHEN USING Larzuk)}%CONTINUE%
+ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG SUP !RW SOCK=0]:%NAME%{%NL%%RED%(MAX SOCKETS WHEN USING Larzuk)}%CONTINUE%
+ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW (!SOCK=0 OR SOCK=0) (!ETH OR ETH) NORM]:%GRAY%%NAME%{%NL%%ORANGE%(NORMAL)%NAME%}%CONTINUE%
+ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW (!SOCK=0 OR SOCK=0) (!ETH OR ETH) EXC]:%GRAY%%NAME%{%NL%%ORANGE%(EXCEPTIONAL)%NAME%}%CONTINUE%
+ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW (!SOCK=0 OR SOCK=0) (!ETH OR ETH) ELT]:%GRAY%%NAME%{%NL%%ORANGE%(ELITE)%NAME%}%CONTINUE%
+ItemDisplay[(clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) NMAG !RW (SOCK=3 OR SOCK=0) (!ETH OR ETH) (SK225>2 OR SK229>2 OR SK230>2 OR SK234>2 OR SK235>2 OR SK240>2 OR SK244>2 OR SK245>2 OR SK250>2 OR SK249>2 OR SK370>2 OR SK223>2 OR SK224>2 OR SK228>2 OR SK232>2 OR SK233>2 OR SK238>2 OR SK239>2 OR SK242>2 OR SK243>2 OR SK248>2 OR SK221>2 OR SK222>2 OR SK226>2 OR SK227>2 OR SK231>2 OR SK236>2 OR SK237>2 OR SK241>2 OR SK246>2 OR SK247>2)]:%GRAY%%NAME%{%GOLD%PLAGUE:%ORANGE%CHAM%WHITE%+%RED%FAL%WHITE%+%YELLOW%UM %NAME%}
 
 //CRAFT AMULET MARKING
 ItemDisplay[CRAFT amu ID (CLSK1>1 AND STAT105>0)]: %ORANGE%%NAME% %GREEN%+2 SOC %BLUE%FCR %CONTINUE%
