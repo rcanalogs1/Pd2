@@ -890,28 +890,27 @@ ItemDisplay[skzs]: %ORANGE%P %TAN%%NAME%  %WHITE%* %GREEN%%QTY%{%WHITE%amulet:  
 /////////////////////////////////////////////////////////////////////////////////////////////////
 ItemDisplay[MAG (amu OR rin) !ID ]: 
 
-ItemDisplay[MAG amu ID TABSK0>2]: %BLUE%%NAME% %RED%+3 bow %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK1>2]: %BLUE%%NAME% %RED%+3 passive %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK2>2]: %BLUE%%NAME% %RED%+3 javel %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK8>2]: %BLUE%%NAME% %YELLOW%+3 fire %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK9>2]: %BLUE%%NAME% %YELLOW%+3 lightn %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK10>2]: %BLUE%%NAME% %YELLOW%+3 cold %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK16>2]: %BLUE%%NAME% %PURPLE%+3 curse %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK17>2]: %BLUE%%NAME% %GREEN%+3 poison %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK18>2]: %BLUE%%NAME% %GREEN%+3 summon %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK24>2]: %BLUE%%NAME% %RED%+3 combat %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK25>2]: %BLUE%%NAME% %RED%+3 offensive %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK26>2]: %BLUE%%NAME% %RED%+3 diffensive %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK32>2]: %BLUE%%NAME% %ORANGE%+3 combat %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK33>2]: %BLUE%%NAME% %ORANGE%+3 combat mast %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK34>2]: %BLUE%%NAME% %ORANGE%+3 warcry %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK40>2]: %BLUE%%NAME% %TAN%+3 summon %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK41>2]: %BLUE%%NAME% %TAN%+3 shape %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK42>2]: %BLUE%%NAME% %TAN%+3 elemental %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK48>2]: %BLUE%%NAME% %RED%+3 trap %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK49>2]: %BLUE%%NAME% %RED%+3 shadow %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID TABSK50>2]: %BLUE%%NAME% %RED%+3 marial %ORANGE%[L%ILVL%] %CONTINUE%
-ItemDisplay[MAG amu ID]: %BLUE%%NAME% %ORANGE%[L%ILVL%] %CONTINUE%
+ItemDisplay[MAG amu ID TABSK0>2]: %BLUE%%NAME% %RED%+3 bow%CONTINUE%
+ItemDisplay[MAG amu ID TABSK1>2]: %BLUE%%NAME% %RED%+3 passive%CONTINUE%
+ItemDisplay[MAG amu ID TABSK2>2]: %BLUE%%NAME% %RED%+3 javel%CONTINUE%
+ItemDisplay[MAG amu ID TABSK8>2]: %BLUE%%NAME% %YELLOW%+3 fire%CONTINUE%
+ItemDisplay[MAG amu ID TABSK9>2]: %BLUE%%NAME% %YELLOW%+3 lightn%CONTINUE%
+ItemDisplay[MAG amu ID TABSK10>2]: %BLUE%%NAME% %YELLOW%+3 cold%CONTINUE%
+ItemDisplay[MAG amu ID TABSK16>2]: %BLUE%%NAME% %PURPLE%+3 curse%CONTINUE%
+ItemDisplay[MAG amu ID TABSK17>2]: %BLUE%%NAME% %GREEN%+3 poison%CONTINUE%
+ItemDisplay[MAG amu ID TABSK18>2]: %BLUE%%NAME% %GREEN%+3 summon%CONTINUE%
+ItemDisplay[MAG amu ID TABSK24>2]: %BLUE%%NAME% %RED%+3 combat%CONTINUE%
+ItemDisplay[MAG amu ID TABSK25>2]: %BLUE%%NAME% %RED%+3 offensive%CONTINUE%
+ItemDisplay[MAG amu ID TABSK26>2]: %BLUE%%NAME% %RED%+3 diffensive%CONTINUE%
+ItemDisplay[MAG amu ID TABSK32>2]: %BLUE%%NAME% %ORANGE%+3 combat%CONTINUE%
+ItemDisplay[MAG amu ID TABSK33>2]: %BLUE%%NAME% %ORANGE%+3 combat mast%CONTINUE%
+ItemDisplay[MAG amu ID TABSK34>2]: %BLUE%%NAME% %ORANGE%+3 warcry%CONTINUE%
+ItemDisplay[MAG amu ID TABSK40>2]: %BLUE%%NAME% %TAN%+3 summon%CONTINUE%
+ItemDisplay[MAG amu ID TABSK41>2]: %BLUE%%NAME% %TAN%+3 shape%CONTINUE%
+ItemDisplay[MAG amu ID TABSK42>2]: %BLUE%%NAME% %TAN%+3 elemental%CONTINUE%
+ItemDisplay[MAG amu ID TABSK48>2]: %BLUE%%NAME% %RED%+3 trap%CONTINUE%
+ItemDisplay[MAG amu ID TABSK49>2]: %BLUE%%NAME% %RED%+3 shadow%CONTINUE%
+ItemDisplay[MAG amu ID TABSK50>2]: %BLUE%%NAME% %RED%+3 marial%CONTINUE%
 
 ItemDisplay[MAG amu ID !TABSK0>2 !TABSK1>2 !TABSK2>2 !TABSK8>2 !TABSK9>2 !TABSK10>2 !TABSK16>2 !TABSK17>2 !TABSK18>2 !TABSK24>2 !TABSK25>2 !TABSK26>2 !TABSK32>2 !TABSK33>2 !TABSK34>2 !TABSK40>2 !TABSK41>2 !TABSK42>2 !TABSK48>2 !TABSK49>2 !TABSK50>2]: %BLUE%%NAME%%CONTINUE%
 
