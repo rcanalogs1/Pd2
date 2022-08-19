@@ -36,6 +36,9 @@
     15. Perfect Gems have comments for crafting recipe.
     16. Crafting base will be shown from exceptional to elite.
     17. Only weapon crafting base is available on STRICT FILTER (the other filter can show all items)
+    18. Filter Level Standard > No potion and magic ring > No amulet, Large Charm > No Javeline, Glove(Magic)
+        , CraftArmor > No Arrow(Bolt) Rare and craft weapon. It gonna disabling item while going to down level.
+        The lowest level including the highest level.
     
     
     
