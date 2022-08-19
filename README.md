@@ -157,7 +157,7 @@
    20. 8/20
      
      1) key is activated at the town (MAP ID function)
-     2) Scepter/Claw/Clubs comments fixed (They didn't show all the tings)
+     2) Scepter/Claw/Clubs(Base items) comments fixed (They didn't show all the tings)
      3) Filter Level update : the lowest level includes highest filter level function.
         For example) No Amulet and Large Charm function including disabling No Potion and rings.
      
