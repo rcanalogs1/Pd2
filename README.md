@@ -152,3 +152,4 @@
      2) high ed item length chagne from over 380 to over 379
      3) pd2 item marking change by following Wss
      4) Almost uniq item now show his base item name and grade (N->Normal, EX->exceptional, EL->Elite)
+     5) Deleted quantity of arrow and bolt
