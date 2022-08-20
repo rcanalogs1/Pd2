@@ -715,58 +715,58 @@ ItemDisplay[(std)]:  %MAP-0B%%white%*%RED%--%ORANGE%--%YELLOW%--%GREEN%--%BLUE%-
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                      PD2 Maps                                               //
 /////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[t10 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME%   %WHITE%@@@@
-ItemDisplay[t11 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME%   %WHITE%@@@@
-ItemDisplay[t12 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME%   %WHITE%@@@@
-ItemDisplay[t13 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME%   %WHITE%@@@@
-ItemDisplay[t14 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME%   %WHITE%@@@@
-ItemDisplay[t15 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME%   %WHITE%@@@@
-ItemDisplay[t16 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME%   %WHITE%@@@@
-ItemDisplay[t17 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME%   %WHITE%@@@@
-ItemDisplay[t18 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME%   %WHITE%@@@@
-ItemDisplay[t19 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME%   %WHITE%@@@@
-ItemDisplay[t20 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME%   %WHITE%@@@@
-ItemDisplay[t21 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME%   %WHITE%@@@@
-ItemDisplay[t22 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME%   %WHITE%@@@@
-ItemDisplay[t23 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME%   %WHITE%@@@@
-ItemDisplay[t24 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME%   %WHITE%@@@@
-ItemDisplay[t25 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME%   %WHITE%@@@@
-ItemDisplay[t26 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME%   %WHITE%@@@@
-ItemDisplay[t27 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME%   %WHITE%@@@@
-ItemDisplay[t28 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME%   %WHITE%@@@@
-ItemDisplay[t29 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME%   %WHITE%@@@@
-ItemDisplay[t30 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME%   %WHITE%@@@@
-ItemDisplay[t31 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME%   %WHITE%@@@@
-ItemDisplay[t32 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME%   %WHITE%@@@@
-ItemDisplay[t33 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME%   %WHITE%@@@@
-ItemDisplay[t34 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME%   %WHITE%@@@@
-ItemDisplay[t35 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME%   %WHITE%@@@@
-ItemDisplay[t36 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME%   %WHITE%@@@@
-ItemDisplay[t37 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME%   %WHITE%@@@@
-ItemDisplay[t38 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME%   %WHITE%@@@@
-ItemDisplay[t39 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME%   %WHITE%@@@@
-ItemDisplay[t40 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME%   %WHITE%@@@@
-ItemDisplay[t41 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME%   %WHITE%@@@@
-ItemDisplay[t42 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME%   %WHITE%@@@@
-ItemDisplay[t43 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME%   %WHITE%@@@@
-ItemDisplay[t44 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME%   %WHITE%@@@@
-ItemDisplay[t45 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME%   %WHITE%@@@@
-ItemDisplay[t46 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME%   %WHITE%@@@@
-ItemDisplay[t47 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME%   %WHITE%@@@@
-ItemDisplay[t48 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME%   %WHITE%@@@@
-ItemDisplay[t49 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME%   %WHITE%@@@@
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19) ID NMAG]:%MAP-62%%WHITE%%NAME% %DARK_GREEN%TEAR1 %BLUE%[L%ILVL%]%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19) ID MAG]:%MAP-62%%BLUE%%NAME% %DARK_GREEN%TEAR1 %BLUE%[L%ILVL%]%CONTINUE%
-ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19) ID RARE]:%MAP-62%%YELLOW%%NAME% %DARK_GREEN%TEAR1 %YELLOW%[L%ILVL%]%CONTINUE%
-ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29) ID NMAG]:%MAP-62%%WHITE%%NAME% %GREEN%TEAR2 %BLUE%[L%ILVL%]%CONTINUE%
-ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29) ID MAG]:%MAP-62%%BLUE%%NAME% %GREEN%TEAR2 %BLUE%[L%ILVL%]%CONTINUE%
-ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29) ID RARE]:%MAP-62%%YELLOW%%NAME% %GREEN%TEAR2 %YELLOW%[L%ILVL%]%CONTINUE%
-ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) ID NMAG]:%MAP-62%%WHITE%%NAME% %ORANGE%TEAR3 %BLUE%[L%ILVL%]%CONTINUE%
-ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) ID MAG]:%MAP-62%%BLUE%%NAME% %ORANGE%TEAR3 %BLUE%[L%ILVL%]%CONTINUE%
-ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) ID RARE]:%MAP-62%%YELLOW%%NAME% %ORANGE%TEAR3 %YELLOW%[L%ILVL%]%CONTINUE%
-ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID NMAG]:%MAP-62%%WHITE%%NAME% %RED%TEAR4 %BLUE%[L%ILVL%]%CONTINUE%
-ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID MAG]:%MAP-62%%BLUE%%NAME% %RED%TEAR4 %BLUE%[L%ILVL%]%CONTINUE%
-ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID RARE]:%MAP-62%%YELLOW%%NAME% %RED%TEAR4 %YELLOW%[L%ILVL%]%CONTINUE%
+ItemDisplay[t10 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME% %DARK_GREEN%TIER1   %WHITE%@@@@
+ItemDisplay[t11 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME% %DARK_GREEN%TIER1   %WHITE%@@@@
+ItemDisplay[t12 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME% %DARK_GREEN%TIER1   %WHITE%@@@@
+ItemDisplay[t13 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME% %DARK_GREEN%TIER1   %WHITE%@@@@
+ItemDisplay[t14 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME% %DARK_GREEN%TIER1   %WHITE%@@@@
+ItemDisplay[t15 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME% %DARK_GREEN%TIER1   %WHITE%@@@@
+ItemDisplay[t16 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME% %DARK_GREEN%TIER1   %WHITE%@@@@
+ItemDisplay[t17 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME% %DARK_GREEN%TIER1   %WHITE%@@@@
+ItemDisplay[t18 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME% %DARK_GREEN%TIER1   %WHITE%@@@@
+ItemDisplay[t19 !ID]: %MAP-62%%WHITE%@@@@   %YELLOW%%NAME% %DARK_GREEN%TIER1   %WHITE%@@@@
+ItemDisplay[t20 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME% %GREEN%TIER2   %WHITE%@@@@
+ItemDisplay[t21 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME% %GREEN%TIER2   %WHITE%@@@@
+ItemDisplay[t22 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME% %GREEN%TIER2   %WHITE%@@@@
+ItemDisplay[t23 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME% %GREEN%TIER2   %WHITE%@@@@
+ItemDisplay[t24 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME% %GREEN%TIER2   %WHITE%@@@@
+ItemDisplay[t25 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME% %GREEN%TIER2   %WHITE%@@@@
+ItemDisplay[t26 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME% %GREEN%TIER2   %WHITE%@@@@
+ItemDisplay[t27 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME% %GREEN%TIER2   %WHITE%@@@@
+ItemDisplay[t28 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME% %GREEN%TIER2   %WHITE%@@@@
+ItemDisplay[t29 !ID]: %MAP-62%%WHITE%@@@@   %DARK_GREEN%%NAME% %GREEN%TIER2   %WHITE%@@@@
+ItemDisplay[t30 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME% %ORANGE%TIER3   %WHITE%@@@@
+ItemDisplay[t31 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME% %ORANGE%TIER3   %WHITE%@@@@
+ItemDisplay[t32 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME% %ORANGE%TIER3   %WHITE%@@@@
+ItemDisplay[t33 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME% %ORANGE%TIER3   %WHITE%@@@@
+ItemDisplay[t34 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME% %ORANGE%TIER3   %WHITE%@@@@
+ItemDisplay[t35 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME% %ORANGE%TIER3   %WHITE%@@@@
+ItemDisplay[t36 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME% %ORANGE%TIER3   %WHITE%@@@@
+ItemDisplay[t37 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME% %ORANGE%TIER3   %WHITE%@@@@
+ItemDisplay[t38 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME% %ORANGE%TIER3   %WHITE%@@@@
+ItemDisplay[t39 !ID]: %MAP-62%%WHITE%@@@@   %RED%%NAME% %ORANGE%TIER3   %WHITE%@@@@
+ItemDisplay[t40 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME% %RED%TIER4   %WHITE%@@@@
+ItemDisplay[t41 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME% %RED%TIER4   %WHITE%@@@@
+ItemDisplay[t42 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME% %RED%TIER4   %WHITE%@@@@
+ItemDisplay[t43 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME% %RED%TIER4   %WHITE%@@@@
+ItemDisplay[t44 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME% %RED%TIER4   %WHITE%@@@@
+ItemDisplay[t45 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME% %RED%TIER4   %WHITE%@@@@
+ItemDisplay[t46 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME% %RED%TIER4   %WHITE%@@@@
+ItemDisplay[t47 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME% %RED%TIER4   %WHITE%@@@@
+ItemDisplay[t48 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME% %RED%TIER4   %WHITE%@@@@
+ItemDisplay[t49 !ID]: %MAP-62%%WHITE%@@@@   %GOLD%%NAME% %RED%TIER4   %WHITE%@@@@
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19) ID NMAG]:%MAP-62%%WHITE%%NAME% %DARK_GREEN%TIER1 %BLUE%[L%ILVL%]%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19) ID MAG]:%MAP-62%%BLUE%%NAME% %DARK_GREEN%TIER1 %BLUE%[L%ILVL%]%CONTINUE%
+ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19) ID RARE]:%MAP-62%%YELLOW%%NAME% %DARK_GREEN%TIER1 %YELLOW%[L%ILVL%]%CONTINUE%
+ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29) ID NMAG]:%MAP-62%%WHITE%%NAME% %GREEN%TIER2 %BLUE%[L%ILVL%]%CONTINUE%
+ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29) ID MAG]:%MAP-62%%BLUE%%NAME% %GREEN%TIER2 %BLUE%[L%ILVL%]%CONTINUE%
+ItemDisplay[(t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29) ID RARE]:%MAP-62%%YELLOW%%NAME% %GREEN%TIER2 %YELLOW%[L%ILVL%]%CONTINUE%
+ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) ID NMAG]:%MAP-62%%WHITE%%NAME% %ORANGE%TIER3 %BLUE%[L%ILVL%]%CONTINUE%
+ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) ID MAG]:%MAP-62%%BLUE%%NAME% %ORANGE%TIER3 %BLUE%[L%ILVL%]%CONTINUE%
+ItemDisplay[(t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39) ID RARE]:%MAP-62%%YELLOW%%NAME% %ORANGE%TIER3 %YELLOW%[L%ILVL%]%CONTINUE%
+ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID NMAG]:%MAP-62%%WHITE%%NAME% %RED%TIER4 %BLUE%[L%ILVL%]%CONTINUE%
+ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID MAG]:%MAP-62%%BLUE%%NAME% %RED%TIER4 %BLUE%[L%ILVL%]%CONTINUE%
+ItemDisplay[(t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID RARE]:%MAP-62%%YELLOW%%NAME% %RED%TIER4 %YELLOW%[L%ILVL%]%CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID STAT80>0]:%NAME% %GREEN%MF %CONTINUE%
 ItemDisplay[(t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49) ID STAT360>0]:%NAME% %RED%C %CONTINUE%
 //T1
@@ -874,38 +874,38 @@ ItemDisplay[gsb CLVL>69]:
 ItemDisplay[gsy CLVL>69]:
 ItemDisplay[sku CLVL>69]:
 //Gems flawless
-ItemDisplay[gzv]: %YELLOW%!%ORANGE%AMETHYST[%PURPLE%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GOLD%WEAPON SOC%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_AMETHYST%NL%}
-ItemDisplay[glw]: %YELLOW%!%GRAY%DIAMOND%ORANGE%[%WHITE%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GOLD%WEAPON SOC%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_AMETHYST%NL%}
-ItemDisplay[glg]: %YELLOW%!%ORANGE%EMERALD[%GREEN%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GOLD%UNIQUE WEAPON UP%NL%%ORANGE%RAL%WHITE%+%ORANGE%SOL%WHITE%+%DARK_GREEN%P_EMERALD%RED%<EXC>%NL%%ORANGE%LUM%WHITE%+%ORANGE%PUL%WHITE%+%DARK_GREEN%P_EMERALD%RED%<ELITE>%NL%}
-ItemDisplay[glr]: %YELLOW%!%ORANGE%RUBY[%RED%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GREEN%SET WEAPON UP%NL%%ORANGE%EL%WHITE%+%ORANGE%ETH%WHITE%+%RED%P_RUBY%RED%<EXC>%NL%%ORANGE%DOL%WHITE%+%ORANGE%MAL%WHITE%+%RED%P_RUBY%RED%<ELITE>%NL%}
-ItemDisplay[glb]: %YELLOW%!%GRAY%SAPPHIRE%ORANGE%[%BLUE%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%YELLOW%RARE WEAPON UP%NL%%ORANGE%ORT%WHITE%+%ORANGE%AMN%WHITE%+%BLUE%P_SAPIRE%RED%<EXC>%NL%%ORANGE%FAL%WHITE%+%ORANGE%UM%WHITE%+%BLUE%P_SAPIRE%RED%<ELITE>%NL%}
-ItemDisplay[gly]: %YELLOW%!%GRAY%TOPAZ%ORANGE%[%YELLOW%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GREEN%SET ARMOR UP%NL%%ORANGE%ELD%WHITE%+%ORANGE%ITH%WHITE%+%YELLOW%P_TOPAZ%RED%<EXC>%NL%%ORANGE%HEL%WHITE%+%ORANGE%IO%WHITE%+%YELLOW%P_TOPAZ%RED%<ELITE>%NL%}
-ItemDisplay[skl]: %DOT-50%%YELLOW%!%ORANGE%SKULL[%GOLD%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%YELLOW%RARE OPTION CHANGE: %ORANGE%P_SKULL*6%WHITE%+%YELLOW%RARE ITEM%NL%%YELLOW%RARE OPTION CHANGE(HIGH):%ORANGE%P_SKULL%WHITE%+%TAN%JORDAN%WHITE%+%YELLOW%RARE ITEM}
+ItemDisplay[gzv]: %gray%(F) %PURPLE%amethyst%ORANGE%[%PURPLE%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GOLD%WEAPON SOC%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_AMETHYST%NL%}
+ItemDisplay[glw]: %gray%(F) %WHITE%diamond%ORANGE%[%WHITE%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GOLD%WEAPON SOC%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_AMETHYST%NL%}
+ItemDisplay[glg]: %gray%(F) %GREEN%emerald%ORANGE%[%GREEN%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GOLD%UNIQUE WEAPON UP%NL%%ORANGE%RAL%WHITE%+%ORANGE%SOL%WHITE%+%DARK_GREEN%P_EMERALD%RED%<EXC>%NL%%ORANGE%LUM%WHITE%+%ORANGE%PUL%WHITE%+%DARK_GREEN%P_EMERALD%RED%<ELITE>%NL%}
+ItemDisplay[glr]: %gray%(F) %RED%ruby%ORANGE%[%RED%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GREEN%SET WEAPON UP%NL%%ORANGE%EL%WHITE%+%ORANGE%ETH%WHITE%+%RED%P_RUBY%RED%<EXC>%NL%%ORANGE%DOL%WHITE%+%ORANGE%MAL%WHITE%+%RED%P_RUBY%RED%<ELITE>%NL%}
+ItemDisplay[glb]: %gray%(F) %BLUE%sapphire%ORANGE%%ORANGE%[%BLUE%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%YELLOW%RARE WEAPON UP%NL%%ORANGE%ORT%WHITE%+%ORANGE%AMN%WHITE%+%BLUE%P_SAPIRE%RED%<EXC>%NL%%ORANGE%FAL%WHITE%+%ORANGE%UM%WHITE%+%BLUE%P_SAPIRE%RED%<ELITE>%NL%}
+ItemDisplay[gly]: %gray%(F) %YELLOW%topaz%ORANGE%%ORANGE%[%YELLOW%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GREEN%SET ARMOR UP%NL%%ORANGE%ELD%WHITE%+%ORANGE%ITH%WHITE%+%YELLOW%P_TOPAZ%RED%<EXC>%NL%%ORANGE%HEL%WHITE%+%ORANGE%IO%WHITE%+%YELLOW%P_TOPAZ%RED%<ELITE>%NL%}
+ItemDisplay[skl]: %DOT-50%%gray%(F) %GOLD%skull%ORANGE%[%GOLD%@%ORANGE%]{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%YELLOW%RARE OPTION CHANGE: %ORANGE%P_SKULL*6%WHITE%+%YELLOW%RARE ITEM%NL%%YELLOW%RARE OPTION CHANGE(HIGH):%ORANGE%P_SKULL%WHITE%+%TAN%JORDAN%WHITE%+%YELLOW%RARE ITEM}
 
-ItemDisplay[gzvs]: %YELLOW%!%ORANGE%AMETHYST[%PURPLE%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GOLD%WEAPON SOC%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_AMETHYST%NL%}
-ItemDisplay[glws]: %YELLOW%!%GRAY%DIAMOND%ORANGE%[%WHITE%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GOLD%WEAPON SOC%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_AMETHYST%NL%}
-ItemDisplay[glgs]: %YELLOW%!%ORANGE%EMERALD[%GREEN%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GOLD%UNIQUE WEAPON UP%NL%%ORANGE%RAL%WHITE%+%ORANGE%SOL%WHITE%+%DARK_GREEN%P_EMERALD%RED%<EXC>%NL%%ORANGE%LUM%WHITE%+%ORANGE%PUL%WHITE%+%DARK_GREEN%P_EMERALD%RED%<ELITE>%NL%}
-ItemDisplay[glrs]: %YELLOW%!%ORANGE%RUBY[%RED%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GREEN%SET WEAPON UP%NL%%ORANGE%EL%WHITE%+%ORANGE%ETH%WHITE%+%RED%P_RUBY%RED%<EXC>%NL%%ORANGE%DOL%WHITE%+%ORANGE%MAL%WHITE%+%RED%P_RUBY%RED%<ELITE>%NL%}
-ItemDisplay[glbs]: %YELLOW%!%GRAY%SAPPHIRE%ORANGE%[%BLUE%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%YELLOW%RARE WEAPON UP%NL%%ORANGE%ORT%WHITE%+%ORANGE%AMN%WHITE%+%BLUE%P_SAPIRE%RED%<EXC>%NL%%ORANGE%FAL%WHITE%+%ORANGE%UM%WHITE%+%BLUE%P_SAPIRE%RED%<ELITE>%NL%}
-ItemDisplay[glys]: %YELLOW%!%GRAY%TOPAZ%ORANGE%[%YELLOW%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GREEN%SET ARMOR UP%NL%%ORANGE%ELD%WHITE%+%ORANGE%ITH%WHITE%+%YELLOW%P_TOPAZ%RED%<EXC>%NL%%ORANGE%HEL%WHITE%+%ORANGE%IO%WHITE%+%YELLOW%P_TOPAZ%RED%<ELITE>%NL%}
-ItemDisplay[skls]: %DOT-50%%YELLOW%!%ORANGE%SKULL[%GOLD%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%YELLOW%RARE OPTION CHANGE: %ORANGE%P_SKULL*6%WHITE%+%YELLOW%RARE ITEM%NL%%YELLOW%RARE OPTION CHANGE(HIGH):%ORANGE%P_SKULL%WHITE%+%TAN%JORDAN%WHITE%+%YELLOW%RARE ITEM}
+ItemDisplay[gzvs]: %gray%(F) %PURPLE%amethyst%ORANGE%[%PURPLE%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GOLD%WEAPON SOC%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_AMETHYST%NL%}
+ItemDisplay[glws]: %gray%(F) %WHITE%diamond%ORANGE%[%WHITE%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GOLD%WEAPON SOC%NL%%ORANGE%RAL%WHITE%+%ORANGE%AMN%WHITE%+%RED%P_AMETHYST%NL%}
+ItemDisplay[glgs]: %gray%(F) %GREEN%emerald%ORANGE%[%GREEN%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GOLD%UNIQUE WEAPON UP%NL%%ORANGE%RAL%WHITE%+%ORANGE%SOL%WHITE%+%DARK_GREEN%P_EMERALD%RED%<EXC>%NL%%ORANGE%LUM%WHITE%+%ORANGE%PUL%WHITE%+%DARK_GREEN%P_EMERALD%RED%<ELITE>%NL%}
+ItemDisplay[glrs]: %gray%(F) %RED%ruby%ORANGE%[%RED%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GREEN%SET WEAPON UP%NL%%ORANGE%EL%WHITE%+%ORANGE%ETH%WHITE%+%RED%P_RUBY%RED%<EXC>%NL%%ORANGE%DOL%WHITE%+%ORANGE%MAL%WHITE%+%RED%P_RUBY%RED%<ELITE>%NL%}
+ItemDisplay[glbs]: %gray%(F) %BLUE%sapphire%ORANGE%%ORANGE%[%BLUE%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%YELLOW%RARE WEAPON UP%NL%%ORANGE%ORT%WHITE%+%ORANGE%AMN%WHITE%+%BLUE%P_SAPIRE%RED%<EXC>%NL%%ORANGE%FAL%WHITE%+%ORANGE%UM%WHITE%+%BLUE%P_SAPIRE%RED%<ELITE>%NL%}
+ItemDisplay[glys]: %gray%(F) %YELLOW%topaz%ORANGE%%ORANGE%[%YELLOW%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%GREEN%SET ARMOR UP%NL%%ORANGE%ELD%WHITE%+%ORANGE%ITH%WHITE%+%YELLOW%P_TOPAZ%RED%<EXC>%NL%%ORANGE%HEL%WHITE%+%ORANGE%IO%WHITE%+%YELLOW%P_TOPAZ%RED%<ELITE>%NL%}
+ItemDisplay[skls]: %DOT-50%%gray%(F) %GOLD%skull%ORANGE%[%GOLD%@%ORANGE%] %WHITE%* %GREEN%%QTY%{%YELLOW%UPGRADING:%WHITE%*3FLAWLESS+%TAN%KEY%NL%%YELLOW%RARE OPTION CHANGE: %ORANGE%P_SKULL*6%WHITE%+%YELLOW%RARE ITEM%NL%%YELLOW%RARE OPTION CHANGE(HIGH):%ORANGE%P_SKULL%WHITE%+%TAN%JORDAN%WHITE%+%YELLOW%RARE ITEM}
 
 //Gems Perfect
-ItemDisplay[gpv]: %ORANGE%P %PURPLE%%NAME%{%green%*%orange%amulet:  %TAN%RAL%WHITE%%NL%ring:  %TAN%AMN%NL%%WHITE%belt:  %TAN%ITH%WHITE%%NL%gloves:  %TAN%ORT%NL%%WHITE%boots:  %TAN%THUL%WHITE%%NL%helm:  %TAN%NEF%WHITE%%NL%chest:  %TAN%TAL%WHITE%%NL%shield:  %TAN%ETH%NL%%WHITE%weapon:   %TAN%TIR%NL%%NL%%PURPLE%P_AMETHYST%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[caster craft]}
-ItemDisplay[gpw]: %ORANGE%P %WHITE%%NAME%
-ItemDisplay[gpg]: %ORANGE%P %GREEN%%NAME%{%WHITE%amulet:  %TAN%THUL%NL%%WHITE%ring:  %TAN%AMN%NL%%WHITE%belt:  %TAN%TAL%NL%%WHITE%gloves:  %TAN%RAL%NL%%WHITE%boots:  %TAN%ORT%NL%%WHITE%helm:  %TAN%ITH%NL%%WHITE%chest:  %TAN%ETH%NL%%WHITE%shield:  %TAN%NEF%NL%%gray%(bow/crossbow only)%NL%%red%*%orange%weapon:  %TAN%SOL%NL%%NL%%GREEN%P_EMERALD%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[safety craft]}
-ItemDisplay[gpr]: %ORANGE%P %RED%%NAME%{%WHITE%amulet:  %TAN%AMN%NL%%WHITE%ring:  %TAN%SOL%nl%%WHITE%belt:  %TAN%TAL%nl%%WHITE%gloves:  %TAN%NEF%NL%%WHITE%boots:  %TAN%ETH%nl%%WHITE%helm:  %TAN%RAL%nl%%WHITE%chest:  %TAN%THUL%nl%%WHITE%shield:  %TAN%ITH%nl%%green%*%orange%weapon:  %TAN%ORT%NL%%NL%%RED%P_RUBY%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[blood craft]}
-ItemDisplay[gpb]: %ORANGE%P %BLUE%%NAME%{%WHITE%amulet:  %TAN%THUL%nl%%WHITE%ring:  %TAN%AMN%nl%%WHITE%belt:  %TAN%TAL%nl%%WHITE%gloves:  %TAN%ORT%NL%%WHITE%boots:  %TAN%RAL%nl%%WHITE%helm:  %TAN%ITH%nl%%WHITE%chest:  %TAN%NEF%nl%%WHITE%shield:  %TAN%ETH%nl%%green%*%orange%weapon:  %TAN%TIR%NL%%NL%%BLUE%P_SAPPHIRE%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[hitpower craft]}
-ItemDisplay[gpy]: %ORANGE%P %YELLOW%%NAME%{%WHITE%amulet:  %TAN%KO%nl%%WHITE%ring:  %TAN%LUM%nl%%WHITE%belt:  %TAN%EL%nl%%WHITE%gloves:  %TAN%HEL%NL%%WHITE%boots:  %TAN%IO%nl%%WHITE%helm:  %TAN%TIR%nl%%WHITE%chest:  %TAN%ELD%nl%%WHITE%shield:  %TAN%DOL%nl%%green%*%orange%weapon:  %TAN%SHALE%NL%%NL%%YELLOW%P_TOPAZ%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[bountiful craft]}
-ItemDisplay[skz]: %ORANGE%P %TAN%%NAME%{%WHITE%amulet:  %TAN%DOL%nl%%WHITE%ring:  %TAN%HEL%nl%%WHITE%belt:  %TAN%ELD%nl%%WHITE%gloves:  %TAN%IO%NL%%WHITE%boots:  %TAN%EL%nl%%WHITE%helm:  %TAN%LUM%nl%%WHITE%chest:  %TAN%TIR%nl%%WHITE%shield:  %TAN%SOL%nl%%green%*%orange%weapon:  %TAN%SHARE%NL%%NL%%TAN%P_SKULL%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[vampiric craft]}
+ItemDisplay[gpv]: %DOT-50%%ORANGE%P %PURPLE%%NAME%{%green%*%orange%amulet:  %TAN%RAL%WHITE%%NL%ring:  %TAN%AMN%NL%%WHITE%belt:  %TAN%ITH%WHITE%%NL%gloves:  %TAN%ORT%NL%%WHITE%boots:  %TAN%THUL%WHITE%%NL%helm:  %TAN%NEF%WHITE%%NL%chest:  %TAN%TAL%WHITE%%NL%shield:  %TAN%ETH%NL%%WHITE%weapon:   %TAN%TIR%NL%%NL%%PURPLE%P_AMETHYST%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[caster craft]}
+ItemDisplay[gpw]: %DOT-50%%ORANGE%P %WHITE%%NAME%
+ItemDisplay[gpg]: %DOT-50%%ORANGE%P %GREEN%%NAME%{%WHITE%amulet:  %TAN%THUL%NL%%WHITE%ring:  %TAN%AMN%NL%%WHITE%belt:  %TAN%TAL%NL%%WHITE%gloves:  %TAN%RAL%NL%%WHITE%boots:  %TAN%ORT%NL%%WHITE%helm:  %TAN%ITH%NL%%WHITE%chest:  %TAN%ETH%NL%%WHITE%shield:  %TAN%NEF%NL%%gray%(bow/crossbow only)%NL%%red%*%orange%weapon:  %TAN%SOL%NL%%NL%%GREEN%P_EMERALD%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[safety craft]}
+ItemDisplay[gpr]: %DOT-50%%ORANGE%P %RED%%NAME%{%WHITE%amulet:  %TAN%AMN%NL%%WHITE%ring:  %TAN%SOL%nl%%WHITE%belt:  %TAN%TAL%nl%%WHITE%gloves:  %TAN%NEF%NL%%WHITE%boots:  %TAN%ETH%nl%%WHITE%helm:  %TAN%RAL%nl%%WHITE%chest:  %TAN%THUL%nl%%WHITE%shield:  %TAN%ITH%nl%%green%*%orange%weapon:  %TAN%ORT%NL%%NL%%RED%P_RUBY%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[blood craft]}
+ItemDisplay[gpb]: %DOT-50%%ORANGE%P %BLUE%%NAME%{%WHITE%amulet:  %TAN%THUL%nl%%WHITE%ring:  %TAN%AMN%nl%%WHITE%belt:  %TAN%TAL%nl%%WHITE%gloves:  %TAN%ORT%NL%%WHITE%boots:  %TAN%RAL%nl%%WHITE%helm:  %TAN%ITH%nl%%WHITE%chest:  %TAN%NEF%nl%%WHITE%shield:  %TAN%ETH%nl%%green%*%orange%weapon:  %TAN%TIR%NL%%NL%%BLUE%P_SAPPHIRE%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[hitpower craft]}
+ItemDisplay[gpy]: %DOT-50%%ORANGE%P %YELLOW%%NAME%{%WHITE%amulet:  %TAN%KO%nl%%WHITE%ring:  %TAN%LUM%nl%%WHITE%belt:  %TAN%EL%nl%%WHITE%gloves:  %TAN%HEL%NL%%WHITE%boots:  %TAN%IO%nl%%WHITE%helm:  %TAN%TIR%nl%%WHITE%chest:  %TAN%ELD%nl%%WHITE%shield:  %TAN%DOL%nl%%green%*%orange%weapon:  %TAN%SHALE%NL%%NL%%YELLOW%P_TOPAZ%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[bountiful craft]}
+ItemDisplay[skz]: %DOT-50%%ORANGE%P %TAN%%NAME%{%WHITE%amulet:  %TAN%DOL%nl%%WHITE%ring:  %TAN%HEL%nl%%WHITE%belt:  %TAN%ELD%nl%%WHITE%gloves:  %TAN%IO%NL%%WHITE%boots:  %TAN%EL%nl%%WHITE%helm:  %TAN%LUM%nl%%WHITE%chest:  %TAN%TIR%nl%%WHITE%shield:  %TAN%SOL%nl%%green%*%orange%weapon:  %TAN%SHARE%NL%%NL%%TAN%P_SKULL%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[vampiric craft]}
 
-ItemDisplay[gpvs]: %ORANGE%P %PURPLE%%NAME%  %WHITE%* %GREEN%%QTY%{%green%*%orange%amulet:  %TAN%RAL%WHITE%%NL%ring:  %TAN%AMN%NL%%WHITE%belt:  %TAN%ITH%WHITE%%NL%gloves:  %TAN%ORT%NL%%WHITE%boots:  %TAN%THUL%WHITE%%NL%helm:  %TAN%NEF%WHITE%%NL%chest:  %TAN%TAL%WHITE%%NL%shield:  %TAN%ETH%NL%%WHITE%weapon:   %TAN%TIR%NL%%NL%%PURPLE%P_AMETHYST%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[caster craft]}
-ItemDisplay[gpws]: %ORANGE%P %WHITE%%NAME% %WHITE%* %GREEN%%QTY%
-ItemDisplay[gpgs]: %ORANGE%P %GREEN%%NAME% %WHITE%* %GREEN%%QTY%{%WHITE%amulet:  %TAN%THUL%NL%%WHITE%ring:  %TAN%AMN%NL%%WHITE%belt:  %TAN%TAL%NL%%WHITE%gloves:  %TAN%RAL%NL%%WHITE%boots:  %TAN%ORT%NL%%WHITE%helm:  %TAN%ITH%NL%%WHITE%chest:  %TAN%ETH%NL%%WHITE%shield:  %TAN%NEF%NL%%gray%(bow/crossbow only)%NL%%red%*%orange%weapon:  %TAN%SOL%NL%%NL%%GREEN%P_EMERALD%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[safety craft]}
-ItemDisplay[gprs]: %ORANGE%P %RED%%NAME%  %WHITE%* %GREEN%%QTY%{%WHITE%amulet:  %TAN%AMN%NL%%WHITE%ring:  %TAN%SOL%nl%%WHITE%belt:  %TAN%TAL%nl%%WHITE%gloves:  %TAN%NEF%NL%%WHITE%boots:  %TAN%ETH%nl%%WHITE%helm:  %TAN%RAL%nl%%WHITE%chest:  %TAN%THUL%nl%%WHITE%shield:  %TAN%ITH%nl%%green%*%orange%weapon:  %TAN%ORT%NL%%NL%%RED%P_RUBY%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[blood craft]}
-ItemDisplay[gpbs]: %ORANGE%P %BLUE%%NAME%  %WHITE%* %GREEN%%QTY%{%WHITE%amulet:  %TAN%THUL%nl%%WHITE%ring:  %TAN%AMN%nl%%WHITE%belt:  %TAN%TAL%nl%%WHITE%gloves:  %TAN%ORT%NL%%WHITE%boots:  %TAN%RAL%nl%%WHITE%helm:  %TAN%ITH%nl%%WHITE%chest:  %TAN%NEF%nl%%WHITE%shield:  %TAN%ETH%nl%%green%*%orange%weapon:  %TAN%TIR%NL%%NL%%BLUE%P_SAPPHIRE%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[hitpower craft]}
-ItemDisplay[gpys]: %ORANGE%P %YELLOW%%NAME%  %WHITE%* %GREEN%%QTY%{%WHITE%amulet:  %TAN%KO%nl%%WHITE%ring:  %TAN%LUM%nl%%WHITE%belt:  %TAN%EL%nl%%WHITE%gloves:  %TAN%HEL%NL%%WHITE%boots:  %TAN%IO%nl%%WHITE%helm:  %TAN%TIR%nl%%WHITE%chest:  %TAN%ELD%nl%%WHITE%shield:  %TAN%DOL%nl%%green%*%orange%weapon:  %TAN%SHALE%NL%%NL%%YELLOW%P_TOPAZ%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[bountiful craft]}
-ItemDisplay[skzs]: %ORANGE%P %TAN%%NAME%  %WHITE%* %GREEN%%QTY%{%WHITE%amulet:  %TAN%DOL%nl%%WHITE%ring:  %TAN%HEL%nl%%WHITE%belt:  %TAN%ELD%nl%%WHITE%gloves:  %TAN%IO%NL%%WHITE%boots:  %TAN%EL%nl%%WHITE%helm:  %TAN%LUM%nl%%WHITE%chest:  %TAN%TIR%nl%%WHITE%shield:  %TAN%SOL%nl%%green%*%orange%weapon:  %TAN%SHARE%NL%%NL%%TAN%P_SKULL%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[vampiric craft]}
+ItemDisplay[gpvs]: %DOT-50%%ORANGE%P %PURPLE%%NAME%  %WHITE%* %GREEN%%QTY%{%green%*%orange%amulet:  %TAN%RAL%WHITE%%NL%ring:  %TAN%AMN%NL%%WHITE%belt:  %TAN%ITH%WHITE%%NL%gloves:  %TAN%ORT%NL%%WHITE%boots:  %TAN%THUL%WHITE%%NL%helm:  %TAN%NEF%WHITE%%NL%chest:  %TAN%TAL%WHITE%%NL%shield:  %TAN%ETH%NL%%WHITE%weapon:   %TAN%TIR%NL%%NL%%PURPLE%P_AMETHYST%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[caster craft]}
+ItemDisplay[gpws]: %DOT-50%%ORANGE%P %WHITE%%NAME% %WHITE%* %GREEN%%QTY%
+ItemDisplay[gpgs]: %DOT-50%%ORANGE%P %GREEN%%NAME% %WHITE%* %GREEN%%QTY%{%WHITE%amulet:  %TAN%THUL%NL%%WHITE%ring:  %TAN%AMN%NL%%WHITE%belt:  %TAN%TAL%NL%%WHITE%gloves:  %TAN%RAL%NL%%WHITE%boots:  %TAN%ORT%NL%%WHITE%helm:  %TAN%ITH%NL%%WHITE%chest:  %TAN%ETH%NL%%WHITE%shield:  %TAN%NEF%NL%%gray%(bow/crossbow only)%NL%%red%*%orange%weapon:  %TAN%SOL%NL%%NL%%GREEN%P_EMERALD%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[safety craft]}
+ItemDisplay[gprs]: %DOT-50%%ORANGE%P %RED%%NAME%  %WHITE%* %GREEN%%QTY%{%WHITE%amulet:  %TAN%AMN%NL%%WHITE%ring:  %TAN%SOL%nl%%WHITE%belt:  %TAN%TAL%nl%%WHITE%gloves:  %TAN%NEF%NL%%WHITE%boots:  %TAN%ETH%nl%%WHITE%helm:  %TAN%RAL%nl%%WHITE%chest:  %TAN%THUL%nl%%WHITE%shield:  %TAN%ITH%nl%%green%*%orange%weapon:  %TAN%ORT%NL%%NL%%RED%P_RUBY%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[blood craft]}
+ItemDisplay[gpbs]: %DOT-50%%ORANGE%P %BLUE%%NAME%  %WHITE%* %GREEN%%QTY%{%WHITE%amulet:  %TAN%THUL%nl%%WHITE%ring:  %TAN%AMN%nl%%WHITE%belt:  %TAN%TAL%nl%%WHITE%gloves:  %TAN%ORT%NL%%WHITE%boots:  %TAN%RAL%nl%%WHITE%helm:  %TAN%ITH%nl%%WHITE%chest:  %TAN%NEF%nl%%WHITE%shield:  %TAN%ETH%nl%%green%*%orange%weapon:  %TAN%TIR%NL%%NL%%BLUE%P_SAPPHIRE%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[hitpower craft]}
+ItemDisplay[gpys]: %DOT-50%%ORANGE%P %YELLOW%%NAME%  %WHITE%* %GREEN%%QTY%{%WHITE%amulet:  %TAN%KO%nl%%WHITE%ring:  %TAN%LUM%nl%%WHITE%belt:  %TAN%EL%nl%%WHITE%gloves:  %TAN%HEL%NL%%WHITE%boots:  %TAN%IO%nl%%WHITE%helm:  %TAN%TIR%nl%%WHITE%chest:  %TAN%ELD%nl%%WHITE%shield:  %TAN%DOL%nl%%green%*%orange%weapon:  %TAN%SHALE%NL%%NL%%YELLOW%P_TOPAZ%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[bountiful craft]}
+ItemDisplay[skzs]: %DOT-50%%ORANGE%P %TAN%%NAME%  %WHITE%* %GREEN%%QTY%{%WHITE%amulet:  %TAN%DOL%nl%%WHITE%ring:  %TAN%HEL%nl%%WHITE%belt:  %TAN%ELD%nl%%WHITE%gloves:  %TAN%IO%NL%%WHITE%boots:  %TAN%EL%nl%%WHITE%helm:  %TAN%LUM%nl%%WHITE%chest:  %TAN%TIR%nl%%WHITE%shield:  %TAN%SOL%nl%%green%*%orange%weapon:  %TAN%SHARE%NL%%NL%%TAN%P_SKULL%white%+%blue%JEWEL%white%+%gold%AND...%NL%%gold%[vampiric craft]}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                  MAGIC RING / AMULET                                        //
