@@ -36,6 +36,9 @@
     15. Perfect Gems have comments for crafting recipe.
     16. Crafting base will be shown from exceptional to elite.
     17. Only weapon crafting base is available on STRICT FILTER (the other filter can show all items)
+    18. Filter Level Standard > No potion and magic ring > No amulet, Large Charm > No Javeline, Glove(Magic)
+        , CraftArmor > No Arrow(Bolt) Rare and craft weapon. It gonna disabling item while going to down level.
+        The lowest level including the highest level.
     
     
     
@@ -153,3 +156,11 @@
      3) pd2 item marking change by following Wss
      4) Almost uniq item now show his base item name and grade (N->Normal, EX->exceptional, EL->Elite)
      5) Deleted quantity of arrow and bolt
+     
+   20. 8/20
+     
+     1) key is activated at the town (MAP ID function)
+     2) Scepter/Claw/Clubs(Base items) comments fixed (They didn't show all the tings)
+     3) Filter Level update : the lowest level includes highest filter level function.
+        For example) No Amulet and Large Charm function including disabling No Potion and rings.
+     
