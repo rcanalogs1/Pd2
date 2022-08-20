@@ -816,10 +816,10 @@ ItemDisplay[(r01 OR r02 OR r03 OR r04 OR r05 OR r06 OR r07)]: %TAN%%RUNENAME% %G
 ItemDisplay[(r01s OR r02s OR r03s OR r04s OR r05s OR r06s OR r07s)]: %TAN%%RUNENAME% %GOLD%[%RUNENUM%] %WHITE%* %GREEN%%QTY%
 ItemDisplay[(r08 OR r11 OR r12 OR r15 OR r18 OR r19)]:%DOT-50%%GOLD%****    %TAN%%RUNENAME% %GOLD%[%RUNENUM%]    %GOLD%****
 ItemDisplay[(r08s OR r11s OR r12s OR r15s OR r18s OR r19s)]:%DOT-50%%GOLD%****    %TAN%%RUNENAME% %GOLD%[%RUNENUM%] %WHITE%* %GREEN%%QTY%    %GOLD%****
-ItemDisplay[(r09 OR r10 OR r13 OR r14 OR r16 OR r17)]: %GOLD%****    %TAN%%RUNENAME% %GOLD%[%RUNENUM%]    %GOLD%****
-ItemDisplay[(r09s OR r10s OR r13s OR r14s OR r16s OR r17s)]: %GOLD%****    %TAN%%RUNENAME% %GOLD%[%RUNENUM%] %WHITE%* %GREEN%%QTY%    %GOLD%****
-ItemDisplay[(r20 OR r21 OR r22 OR r23)]:%MAP-9B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%RUNENAME%%GOLD%[%RUNENUM%]    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
-ItemDisplay[(r20s OR r21s OR r22s OR r23s)]:%MAP-9B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%RUNENAME%%GOLD%[%RUNENUM%] %WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
+ItemDisplay[(r09 OR r10 OR r13 OR r14 OR r16 OR r17 OR r20)]: %GOLD%****    %TAN%%RUNENAME% %GOLD%[%RUNENUM%]    %GOLD%****
+ItemDisplay[(r09s OR r10s OR r13s OR r14s OR r16s OR r17s OR r20s)]: %GOLD%****    %TAN%%RUNENAME% %GOLD%[%RUNENUM%] %WHITE%* %GREEN%%QTY%    %GOLD%****
+ItemDisplay[(r21 OR r22 OR r23)]:%MAP-9B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%RUNENAME%%GOLD%[%RUNENUM%]    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
+ItemDisplay[(r21s OR r22s OR r23s)]:%MAP-9B%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@    %GOLD%%RUNENAME%%GOLD%[%RUNENUM%] %WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@
 ItemDisplay[(r24 OR r25 OR r26 OR r27 OR r28 OR r29 OR r30 OR r31 OR r32 OR r33)]:%BORDER-62%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%PURPLE%@@    %GOLD%%RUNENAME%%GOLD%[%RUNENUM%]    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%PURPLE%@@
 ItemDisplay[(r24s OR r25s OR r26s OR r27s OR r28s OR r29s OR r30s OR r31s OR r32s OR r33s)]:%BORDER-62%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%PURPLE%@@    %GOLD%%RUNENAME%%GOLD%[%RUNENUM%] %WHITE%* %GREEN%%QTY%    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%PURPLE%@@
 /////////////////////////////////////////////////////////////////////////////////////////////////
