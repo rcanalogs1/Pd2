@@ -159,8 +159,7 @@
      
    20. 8/20
      
-     1) key is activated at the town (MAP ID function)
-     2) Scepter/Claw/Clubs(Base items) comments fixed (They didn't show all the tings)
-     3) Filter Level update : the lowest level includes highest filter level function.
-        For example) No Amulet and Large Charm function including disabling No Potion and rings.
+     1) LEM rune marking change from middle level to low level.
+     2) STAT360 52 Damage reduce change from DMG redu. to PDR
+     3) Some PD2 item was deleted for quantity
      
