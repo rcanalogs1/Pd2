@@ -168,3 +168,4 @@
      1) Added drop message for Perfect Gems 
      2) Maps message corrected for Tier
      3) Cube recipe's visualization was changed.
+     4) Charm option marking changed.
