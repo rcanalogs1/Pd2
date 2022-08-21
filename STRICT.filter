@@ -158,7 +158,11 @@ ItemDisplay[NMAG !ETH !RW !INF SOCK=0 ILVL>40 (6ws OR 8ws OR wst) FILTLVL=2]: %W
 //                                       MISC                                                  //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 ItemDisplay[box]:%NAME% %ORANGE%[L%ILVL%]%CONTINUE%
-ItemDisplay[box]:%NAME%{%YELLOW%ETH REPAIR/RECHARGE: %TAN%ZOD%WHITE%+PSKULL+%GRAY%ETHEREAL ITEM%NL%%GREEN%JEWEL FRAGMENTS: %YELLOW%JEWEL%WHITE%+%GOLD%KEY%NL%%RED%RelicOfTheAncients(UBER1): %WHITE%MADAWC+%BLUE%TALIC+%GREEN%KORLIC%NL%%ORANGE%PandemoniumTalisman(UBER2):%WHITE%BRAIN OR HORN OR EYE+%GOLD%KEY%NL%%PURPLE%VisionOfTerror(UBER3): %WHITE%EVILSOUL+%BLUE%BLACKSOUL+%RED%PUREDEMONIC%NL%%DARK_GREEN%Voidstone(UBER4): %WHITE%TORCH+%YELLOW%VOID+%GREEN%JAWBONE}
+ItemDisplay[box]:%NAME%{%NL%%YELLOW%eth repair and recharge: %red%zod%WHITE%+%gold%pskull+%GRAY%ethereal item%NL%}%continue%
+ItemDisplay[box]:%NAME%{%NL%%red%(uber1)%gold%relic of the ancients: %orange%sigil of madawc%WHITE%+%BLUE%sigil oftalic%WHITE%+%GREEN%sigil of korlic %NAME%}%continue%
+ItemDisplay[box]:%NAME%{%NL%%red%(uber2)%gold%pandemonium Talisman: %yellow%mephisto's brain%WHITE%+%red%diablo's horn%WHITE%+%blue%baal's eye%WHITE%+%GOLD%key%NAME%}%continue%
+ItemDisplay[box]:%NAME%{%nl%%red%(uber3)%gold%vision of terror:%orange%prime evilsoul%white%+%BLUE%black soulstone%white%+%RED%pure demonicessence%NAME%}%continue%
+ItemDisplay[box]:%NAME%{%NL%%red%(uber4)%gold%voidstone: %red%hellfire torch%white%+%YELLOW%splinter of the void%white%+%GREEN%trang-oul's jawbone %NAME%}
 ItemDisplay[(bbb OR ass OR bkd OR bks OR box OR g34 OR ice OR j34 OR mss OR qbr OR qey OR qhr OR tr1 OR tr2 OR xyz)]:%TAN%%NAME%
 ItemDisplay[tbk]:%WHITE%%NAME% %WHITE%* %GREEN%%QTY%
 ItemDisplay[ibk]:%WHITE%%NAME% %WHITE%* %GREEN%%QTY%
