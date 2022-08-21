@@ -421,161 +421,18 @@ ItemDisplay[cm3 STAT22>13]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPL
 ItemDisplay[cm3 (STAT22>9 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%TAN%MAX %RED%LIFE %BLUE%GC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm3 (STAT22>9 AND STAT96>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%TAN%MAX %ORANGE%FRW %BLUE%GC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm3 (STAT22>9 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%TAN%MAX %ORANGE%FHR %BLUE%GC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm3 (STAT22>6 AND LIFE>0)]: %TAN%MAX %RED%LIFE %BLUE%GC %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (STAT22>6 AND STAT96>0)]: %TAN%MAX %ORANGE%FRW %BLUE%GC %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (STAT22>6 AND STAT99>0)]: %TAN%MAX %ORANGE%FHR %BLUE%GC %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 STAT22>8]: %TAN%MAX %BLUE%GC %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (RES>14 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%ALL %WHITE%RESI %RED%LIFE %BLUE%GC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm3 (RES>14 AND STAT96>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%ALL %WHITE%RESI %ORANGE%FRW %BLUE%GC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm3 (RES>14 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%ALL %WHITE%RESI %ORANGE%FHR %BLUE%GC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm3 (RES>7 AND LIFE>0)]: %PURPLE%ALL %WHITE%RESI %RED%LIFE %BLUE%GC %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (RES>7 AND STAT96>0)]: %PURPLE%ALL %WHITE%RESI %ORANGE%FRW %BLUE%GC %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (RES>7 AND STAT99>0)]: %PURPLE%ALL %WHITE%RESI %ORANGE%FHR %BLUE%GC %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 RES>9]: %PURPLE%ALL %WHITE%RESI %BLUE%GC %ORANGE%[L%ILVL%]
-
-///CHECK WORKING
-ItemDisplay[cm2 !UNI (STAT329>0 AND LIFE>20)]: %RED%fire %RED%LIFE %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT329>0 AND FHR>0)]: %RED%fire %GREEN%FHR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT329>0 AND FRW>0)]: %RED%fire %ORANGE%FWR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT329>0 AND RES>0)]: %RED%fire %WHITE%RESI %BLUE%LC %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm2 !UNI (STAT330>0 AND LIFE>20)]: %YELLOW%lightning %RED%LIFE %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT330>0 AND FHR>0)]: %YELLOW%lightning %GREEN%FHR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT330>0 AND FRW>0)]: %YELLOW%lightning %ORANGE%FWR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT330>0 AND RES>0)]: %YELLOW%lightning %WHITE%RESI %BLUE%LC %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm2 !UNI (STAT331>0 AND LIFE>20)]: %BLUE%cold %RED%LIFE %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT331>0 AND FHR>0)]: %BLUE%cold %GREEN%FHR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT331>0 AND FRW>0)]: %BLUE%cold %ORANGE%FWR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT331>0 AND RES>0)]: %BLUE%cold %WHITE%RESI %BLUE%LC %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm2 !UNI (STAT332>0 AND LIFE>20)]: %GREEN%posion %RED%LIFE %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT332>0 AND FHR>0)]: %GREEN%posion %GREEN%FHR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT332>0 AND FRW>0)]: %GREEN%posion %ORANGE%FWR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT332>0 AND RES>0)]: %GREEN%posion %WHITE%RESI %BLUE%LC %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm2 !UNI (STAT332>0 AND LIFE>20)]: %orange%magic %RED%LIFE %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT332>0 AND FHR>0)]: %orange%magic %GREEN%FHR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT332>0 AND FRW>0)]: %orange%magic %ORANGE%FWR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (STAT332>0 AND RES>0)]: %orange%magic %WHITE%RESI %BLUE%LC %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm2 (STAT329>0)]: %RED%fire %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 (STAT330>0)]: %RED%lightning %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 (STAT331>0)]: %RED%cold %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 (STAT332>0)]: %RED%posion %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 (STAT357>0)]: %RED%magic %BLUE%LC %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm2 (STAT22>3 AND LIFE>0)]: %TAN%MAX %RED%LIFE %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 (STAT22>3 AND STAT2>0)]: %TAN%MAX %GREEN%DEX %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 (STAT22>3 AND STAT0>0)]: %TAN%MAX %DARK_GREEN%STR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 (STAT22>3 AND STAT96>0)]: %TAN%MAX %ORANGE%FRW %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 (STAT22>3 AND STAT99>0)]: %TAN%MAX %ORANGE%FHR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 STAT22>4]: %TAN%MAX %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (RES>4 AND STAT96>0)]: %PURPLE%ALL %WHITE%RESI %ORANGE%FRW %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI (RES>4 AND STAT99>0)]: %PURPLE%ALL %WHITE%RESI %ORANGE%FHR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI ((RES>4 AND LIFE>0) OR (RES>0 AND LIFE>29))]: %PURPLE%ALL %WHITE%RESI %RED%LIFE %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI RES>6]: %PURPLE%ALL %WHITE%RESI %BLUE%LC %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm2 !UNI LIFE>20]: %RED%LIFE %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI FHR>0]: %GREEN%FHR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI FRW>0]: %ORANGE%FWR %BLUE%LC %ORANGE%[L%ILVL%]
-ItemDisplay[cm2 !UNI RES>0]: %WHITE%RESI %BLUE%LC %ORANGE%[L%ILVL%]
-
 ItemDisplay[cm1 (STAT22>2 AND LIFE>19)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%TAN%MAX %RED%LIFE %BLUE%SC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm1 (STAT22>2 AND STAT96>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%TAN%MAX %ORANGE%FRW %BLUE%SC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm1 (STAT22>2 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%TAN%MAX %ORANGE%FHR %BLUE%SC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm1 ((STAT22>1 AND LIFE>0) OR (STAT22>0 AND LIFE>9))]: %TAN%MAX %RED%LIFE %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 (STAT22>1 AND STAT2>0)]: %TAN%MAX %GREEN%DEX %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 (STAT22>1 AND STAT0>0)]: %TAN%MAX %DARK_GREEN%STR %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 (STAT22>1 AND STAT96>0)]: %TAN%MAX %ORANGE%FRW %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 (STAT22>1 AND STAT99>0)]: %TAN%MAX %ORANGE%FHR %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 STAT22>1]: %TAN%MAX %BLUE%SC %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 !UNI (RES>4 AND LIFE>19)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%ALL %WHITE%RESI %RED%LIFE %BLUE%SC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm1 !UNI (RES>4 AND STAT96>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%ALL %WHITE%RESI %ORANGE%FRW %BLUE%SC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm1 !UNI (RES>4 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%ALL %WHITE%RESI %ORANGE%FHR %BLUE%SC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm1 !UNI (RES>4 AND STAT80>6)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%ALL %WHITE%RESI %GREEN%MF %BLUE%SC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm1 !UNI (RES>0 AND LIFE>0)]: %PURPLE%ALL %WHITE%RESI %RED%LIFE %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI (RES>0 AND STAT96>0)]: %PURPLE%ALL %WHITE%RESI %ORANGE%FRW %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI (RES>0 AND STAT99>0)]: %PURPLE%ALL %WHITE%RESI %ORANGE%FHR %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI (RES>0 AND STAT80>0)]: %PURPLE%ALL %WHITE%RESI %GREEN%MF %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI RES>0]: %PURPLE%ALL %WHITE%RESI %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI ((STAT39>9 AND LIFE>0) OR (STAT39>5 AND LIFE>10) OR (STAT39>0 AND LIFE>16))]: %RED%FIRE %WHITE%RESI %RED%LIFE %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI ((STAT41>9 AND LIFE>0) OR (STAT41>5 AND LIFE>10) OR (STAT41>0 AND LIFE>16))]: %YELLOW%LIGHTNING %WHITE%RESI %RED%LIFE %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI ((STAT43>9 AND LIFE>0) OR (STAT43>5 AND LIFE>10) OR (STAT43>0 AND LIFE>16))]: %BLUE%COLD %WHITE%RESI %RED%LIFE %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI ((STAT45>9 AND LIFE>0) OR (STAT45>5 AND LIFE>10) OR (STAT45>0 AND LIFE>16))]: %GREEN%POISON %WHITE%RESI %RED%LIFE %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI (STAT39>4 AND STAT96>0)]: %RED%FIRE %WHITE%RESI %ORANGE%FRW %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI (STAT41>4 AND STAT96>0)]: %YELLOW%LIGHTNING %WHITE%RESI %ORANGE%FRW %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI (STAT43>4 AND STAT96>0)]: %BLUE%COLD %WHITE%RESI %ORANGE%FRW %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI (STAT45>4 AND STAT96>0)]: %GREEN%POISON %WHITE%RESI %ORANGE%FRW %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI (STAT39>4 AND STAT99>0)]: %RED%FIRE %WHITE%RESI %ORANGE%FHR %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI (STAT41>4 AND STAT99>0)]: %YELLOW%LIGHTNING %WHITE%RESI %ORANGE%FHR %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI (STAT43>4 AND STAT99>0)]: %BLUE%COLD %WHITE%RESI %ORANGE%FHR %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI (STAT45>4 AND STAT99>0)]: %GREEN%POISON %WHITE%RESI %ORANGE%FHR %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI ((STAT39>9 AND STAT80>0) OR (STAT39>4 AND STAT80>3) OR (STAT39>0 AND STAT80>5))]: %RED%FIRE %WHITE%RESI %GREEN%MF %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI ((STAT41>9 AND STAT80>0) OR (STAT41>4 AND STAT80>3) OR (STAT41>0 AND STAT80>5))]: %YELLOW%LIGHTNING %WHITE%RESI %GREEN%MF %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI ((STAT43>9 AND STAT80>0) OR (STAT43>4 AND STAT80>3) OR (STAT43>0 AND STAT80>5))]: %BLUE%COLD %WHITE%RESI %GREEN%MF %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI ((STAT45>9 AND STAT80>0) OR (STAT45>4 AND STAT80>3) OR (STAT45>0 AND STAT80>5))]: %GREEN%POISON %WHITE%RESI %GREEN%MF %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI STAT39>9]: %RED%FIRE %WHITE%RESI %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI STAT41>9]: %YELLOW%LIGHTNING %WHITE%RESI %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI STAT43>9]: %BLUE%COLD %WHITE%RESI %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 !UNI STAT45>9]: %GREEN%POISON %WHITE%RESI %BLUE%SC %ORANGE%[L%ILVL%]
-ItemDisplay[cm1 STAT80>5]: %GREEN%MF %BLUE%SC %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 LIFE>19 MANA>16]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%LIFE %BLUE%MANA %BLUE%SC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm1 LIFE>16]: %RED%LIFE %BLUE%SC %ORANGE%[L%ILVL%]
-/////////////////////////////////////////////////////////////////////////////////////////////////
-//                                    CHARM MARKING (SKILLER)                                  //
-/////////////////////////////////////////////////////////////////////////////////////////////////
-ItemDisplay[cm3 (TABSK0>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%bow skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK1>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%passive and magic skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK2>0 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%fhr %PURPLE%javeline skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 
-ItemDisplay[cm3 (TABSK8>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%fire skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK9>0 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%fhr %PURPLE%lightning skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm3 (TABSK10>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%cold skiller %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm3 (TABSK16>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%curse skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK17>0 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%fhr %PURPLE%poison and bone skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm3 (TABSK18>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%summon(nec) skiller %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm3 (TABSK24>0 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%fhr %PURPLE%combat(pally) skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm3 (TABSK25>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%offensive aura skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK26>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%diffensive aura skiller %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm3 (TABSK32>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%combat skiller(bar) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK33>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%combat masteries(bar) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK34>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%warcry(bar) skiller %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm3 (TABSK40>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%summon(dru) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK41>0 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%fhr %PURPLE%shafting skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm3 (TABSK42>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%elemental(dru) skiller %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm3 (TABSK48>0 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%fhr %PURPLE%trap skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm3 (TABSK49>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%shadow disciplines skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK50>0 AND STAT99>0)]: %ORANGE%fhr %PURPLE%martial arts skiller %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm3 (TABSK0>0 AND STAT96>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%frw %PURPLE%bow skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm3 (TABSK1>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%passive and magic skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK2>0 AND STAT96>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%frw %PURPLE%javeline skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm3 (TABSK16>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%curse skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK17>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%poison and bone skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK18>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%summon(nec) skiller %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm3 (TABSK24>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%combat(pally) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK25>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%offensive aura skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK26>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%diffensive aura skiller %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm3 (TABSK32>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%combat skiller(bar) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK33>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%combat masteries(bar) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK34>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%warcry(bar) skiller %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm3 (TABSK40>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%summon(dru) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK41>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%shafting skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK42>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%elemental(dru) skiller %ORANGE%[L%ILVL%]
-
-ItemDisplay[cm3 (TABSK48>0 AND STAT96>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%frw %PURPLE%trap skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
-ItemDisplay[cm3 (TABSK49>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%shadow disciplines skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK50>0 AND STAT96>0)]: %ORANGE%frw %PURPLE%martial arts skiller %ORANGE%[L%ILVL%]
-
+ItemDisplay[cm3 (RES>14 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%ALL %WHITE%RESI %RED%LIFE %BLUE%GC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
+ItemDisplay[cm3 (RES>14 AND STAT96>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%ALL %WHITE%RESI %ORANGE%FRW %BLUE%GC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
+ItemDisplay[cm3 (RES>14 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%PURPLE%ALL %WHITE%RESI %ORANGE%FHR %BLUE%GC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm3 (TABSK0>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%life %PURPLE%bow skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm3 (TABSK1>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%life %PURPLE%passive and magic skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm3 (TABSK2>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%life %PURPLE%javeline skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
@@ -592,7 +449,7 @@ ItemDisplay[cm3 (TABSK24>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%
 ItemDisplay[cm3 (TABSK25>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%life %PURPLE%offensive aura skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm3 (TABSK26>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%life %PURPLE%diffensive aura skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 
-ItemDisplay[cm3 (TABSK32>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%life %PURPLE%combat skiller(bar) skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
+ItemDisplay[cm3 (TABSK32>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%life %PURPLE%combat(bar) skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm3 (TABSK33>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%life %PURPLE%combat masteries(bar) skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm3 (TABSK34>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%life %PURPLE%warcry(bar) skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 
@@ -604,61 +461,449 @@ ItemDisplay[cm3 (TABSK48>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%
 ItemDisplay[cm3 (TABSK49>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%life %PURPLE%shadow disciplines skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 ItemDisplay[cm3 (TABSK50>0 AND LIFE>39)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%RED%life %PURPLE%martial arts skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 
-ItemDisplay[cm3 (TABSK0>0 AND LIFE>0)]: %RED%life %PURPLE%bow skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK1>0 AND LIFE>0)]: %RED%life %PURPLE%passive and magic skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK2>0 AND LIFE>0)]: %RED%life %PURPLE%javeline skiller %ORANGE%[L%ILVL%]
+ItemDisplay[cm3 (TABSK2>0 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%fhr %PURPLE%javeline skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
+ItemDisplay[cm3 (TABSK9>0 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%fhr %PURPLE%lightning skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
+ItemDisplay[cm3 (TABSK17>0 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%fhr %PURPLE%poison and bone skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
+ItemDisplay[cm3 (TABSK24>0 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%fhr %PURPLE%combat(pally) skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
+ItemDisplay[cm3 (TABSK41>0 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%fhr %PURPLE%shafting skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
+ItemDisplay[cm3 (TABSK48>0 AND STAT99>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%fhr %PURPLE%trap skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
+ItemDisplay[cm3 (TABSK0>0 AND STAT96>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%frw %PURPLE%bow skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
+ItemDisplay[cm3 (TABSK2>0 AND STAT96>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%frw %PURPLE%javeline skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
+ItemDisplay[cm3 (TABSK48>0 AND STAT96>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%ORANGE%frw %PURPLE%trap skiller %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
 
-ItemDisplay[cm3 (TABSK8>0 AND LIFE>0)]: %RED%life %PURPLE%fire skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK9>0 AND LIFE>0)]: %RED%life %PURPLE%lightning skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK10>0 AND LIFE>0)]: %RED%life %PURPLE%cold skiller %ORANGE%[L%ILVL%]
+ItemDisplay[cm3 MAG ID !UNI]: %tan%n %BLUE%[%ORANGE%Grand %BLUE%Charm]%CONTINUE%
+ItemDisplay[cm2 MAG ID !UNI]: %tan%n %BLUE%[%white%Large %BLUE%Charm]%CONTINUE%
+ItemDisplay[cm1 MAG ID !UNI]: %tan%n %BLUE%[%green%Small %BLUE%Charm]%CONTINUE%
 
-ItemDisplay[cm3 (TABSK16>0 AND LIFE>0)]: %RED%life %PURPLE%curse skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK17>0 AND LIFE>0)]: %RED%life %PURPLE%poison and bone skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK18>0 AND LIFE>0)]: %RED%life %PURPLE%summon(nec) skiller %ORANGE%[L%ILVL%]
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK0>0]: %tan%n %PURPLE%Bow %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK1>0]: %tan%n %GREEN%Passive and magic %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK2>0]: %tan%n %YELLOW%Javeline %gold%skiller%CONTINUE%
 
-ItemDisplay[cm3 (TABSK24>0 AND LIFE>0)]: %RED%life %PURPLE%combat(pally) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK25>0 AND LIFE>0)]: %RED%life %PURPLE%offensive aura skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK26>0 AND LIFE>0)]: %RED%life %PURPLE%diffensive aura skiller %ORANGE%[L%ILVL%]
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK8>0]: %tan%n %RED%Fire %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK9>0]: %tan%n %YELLOW%Lightning %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK10>0]: %tan%n %BLUE%Cold %gold%skiller%CONTINUE%
 
-ItemDisplay[cm3 (TABSK32>0 AND LIFE>0)]: %RED%life %PURPLE%combat skiller(bar) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK33>0 AND LIFE>0)]: %RED%life %PURPLE%combat masteries(bar) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK34>0 AND LIFE>0)]: %RED%life %PURPLE%warcry(bar) skiller %ORANGE%[L%ILVL%]
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK16>0]: %tan%n %RED%Curse %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK17>0]: %tan%n %GREEN%Poison and bone %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK18>0]: %tan%n %PURPLE%Summon(nec) %gold%skiller%CONTINUE%
 
-ItemDisplay[cm3 (TABSK40>0 AND LIFE>0)]: %RED%life %PURPLE%summon(dru) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK41>0 AND LIFE>0)]: %RED%life %PURPLE%shafting skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK42>0 AND LIFE>0)]: %RED%life %PURPLE%elemental(dru) skiller %ORANGE%[L%ILVL%]
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK24>0]: %tan%n %YELLOW%Combat(pally) %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK25>0]: %tan%n %RED%Offensive aura %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK26>0]: %tan%n %BLUE%Difensive aura %gold%skiller%CONTINUE%
 
-ItemDisplay[cm3 (TABSK48>0 AND LIFE>0)]: %RED%life %PURPLE%trap skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK49>0 AND LIFE>0)]: %RED%life %PURPLE%shadow disciplines skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 (TABSK50>0 AND LIFE>0)]: %RED%life %PURPLE%martial arts skiller %ORANGE%[L%ILVL%]
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK32>0]: %tan%n %yellow%Combat(bar) %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK33>0]: %tan%n %ORANGE%Combat masteries(bar) %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK34>0]: %tan%n %RED%Warcry(bar) %gold%skiller%CONTINUE%
 
-ItemDisplay[cm3 TABSK0>0]: %PURPLE%bow skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK1>0]: %PURPLE%passive and magic skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK2>0]: %PURPLE%javeline skiller %ORANGE%[L%ILVL%]
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK40>0]: %tan%n %blue%Summon(dru) %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK41>0]: %tan%n %white%Shafting %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK42>0]: %tan%n %RED%Elemental(dru) %gold%skiller%CONTINUE%
 
-ItemDisplay[cm3 TABSK8>0]: %PURPLE%fire skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK9>0]: %PURPLE%lightning skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK10>0]: %PURPLE%cold skiller %ORANGE%[L%ILVL%]
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK48>0]: %tan%n %RED%Trap %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK49>0]: %tan%n %green%Shadow disciplines %gold%skiller%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI TABSK50>0]: %tan%n %ORANGE%Martial arts %gold%skiller%CONTINUE%
 
-ItemDisplay[cm3 TABSK16>0]: %PURPLE%curse skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK17>0]: %PURPLE%poison and bone skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK18>0]: %PURPLE%summon(nec) skiller %ORANGE%[L%ILVL%]
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=1]:%TAN%Max: %WHITE%1 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=2]:%TAN%Max: %WHITE%2 %NAME%%CONTINUE%
+ItemDisplay[(cm1) MAG !UNI STAT22=3]:%TAN%Max: %WHITE%3%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm2 OR cm3) MAG !UNI STAT22=3]:%TAN%Max: %WHITE%3 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=4]:%TAN%Max: %WHITE%4 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=5]:%TAN%Max: %WHITE%5 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=6]:%TAN%Max: %WHITE%6 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=7]:%TAN%Max: %WHITE%7 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=8]:%TAN%Max: %WHITE%8 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=9]:%TAN%Max: %WHITE%9 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=10]:%TAN%Max: %WHITE%10%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=11]:%TAN%Max: %WHITE%11%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=12]:%TAN%Max: %WHITE%12%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=13]:%TAN%Max: %WHITE%13%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=14]:%TAN%Max: %WHITE%14%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT22=15]:%TAN%Max: %WHITE%15%RED%* %NAME%%CONTINUE%
 
-ItemDisplay[cm3 TABSK24>0]: %PURPLE%combat(pally) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK25>0]: %PURPLE%offensive aura skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK26>0]: %PURPLE%DIFENSIVE AURA SKILLER %ORANGE%[L%ILVL%]
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STR=1]:%ORANGE%Str: %WHITE%1 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STR=2]:%ORANGE%Str: %WHITE%2 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STR=3]:%ORANGE%Str: %WHITE%3 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STR=4]:%ORANGE%Str: %WHITE%4 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STR=5]:%ORANGE%Str: %WHITE%5 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STR=6]:%ORANGE%Str: %WHITE%6 %NAME%%CONTINUE%
 
-ItemDisplay[cm3 TABSK32>0]: %PURPLE%combat skiller(bar) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK33>0]: %PURPLE%combat masteries(bar) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK34>0]: %PURPLE%warcry(bar) skiller %ORANGE%[L%ILVL%]
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI DEX=1]:%GREEN%Dex: %WHITE%1 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI DEX=2]:%GREEN%Dex: %WHITE%2 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI DEX=3]:%GREEN%Dex: %WHITE%3 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI DEX=4]:%GREEN%Dex: %WHITE%4 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI DEX=5]:%GREEN%Dex: %WHITE%5 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI DEX=6]:%GREEN%Dex: %WHITE%6 %NAME%%CONTINUE%
 
-ItemDisplay[cm3 TABSK40>0]: %PURPLE%summon(dru) skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK41>0]: %PURPLE%shafting skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK42>0]: %PURPLE%elemental(dru) skiller %ORANGE%[L%ILVL%]
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT96=1]:%ORANGE%Frw: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT96=2]:%ORANGE%Frw: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT96=3]:%ORANGE%Frw: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT96=4]:%ORANGE%Frw: %WHITE%4% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT96=5]:%ORANGE%Frw: %WHITE%5% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT96=6]:%ORANGE%Frw: %WHITE%6% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT96=7]:%ORANGE%Frw: %WHITE%7% %NAME%%CONTINUE%
 
-ItemDisplay[cm3 TABSK48>0]: %PURPLE%trap skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK49>0]: %PURPLE%shadow disciplines skiller %ORANGE%[L%ILVL%]
-ItemDisplay[cm3 TABSK50>0]: %PURPLE%martial arts skiller %ORANGE%[L%ILVL%]
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT99=1]:%GREEN%Fhr: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT99=2]:%GREEN%Fhr: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT99=3]:%GREEN%Fhr: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT99=4]:%GREEN%Fhr: %WHITE%4% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT99=5]:%GREEN%Fhr: %WHITE%5% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT99=6]:%GREEN%Fhr: %WHITE%6% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT99=7]:%GREEN%Fhr: %WHITE%7% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT99=8]:%GREEN%Fhr: %WHITE%8% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT99=9]:%GREEN%Fhr: %WHITE%9% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT99=10]:%GREEN%Fhr: %WHITE%10% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT99=11]:%GREEN%Fhr: %WHITE%11% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT99=12]:%GREEN%Fhr: %WHITE%12% %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=1]:%WHITE%Ares: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=2]:%WHITE%Ares: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=3]:%WHITE%Ares: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=4]:%WHITE%Ares: %WHITE%4% %NAME%%CONTINUE%
+ItemDisplay[(cm1) MAG !UNI RES=5]:%WHITE%Ares: %WHITE%5%%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm2 OR cm3) MAG !UNI RES=5]:%WHITE%Ares: %WHITE%5% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=6]:%WHITE%Ares: %WHITE%6% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=7]:%WHITE%Ares: %WHITE%7% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=8]:%WHITE%Ares: %WHITE%8% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=9]:%WHITE%Ares: %WHITE%9% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=10]:%WHITE%Ares: %WHITE%10% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=11]:%WHITE%Ares: %WHITE%11% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=12]:%WHITE%Ares: %WHITE%12% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=13]:%WHITE%Ares: %WHITE%13% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=14]:%WHITE%Ares: %WHITE%14% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI RES=15]:%WHITE%Ares: %WHITE%15%RED%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=1]:%RED%Life: %WHITE%1 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=2]:%RED%Life: %WHITE%2 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=3]:%RED%Life: %WHITE%3 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=4]:%RED%Life: %WHITE%4 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=5]:%RED%Life: %WHITE%5 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=6]:%RED%Life: %WHITE%6 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=7]:%RED%Life: %WHITE%7 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=8]:%RED%Life: %WHITE%8 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=9]:%RED%Life: %WHITE%9 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=10]:%RED%Life: %WHITE%10 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=11]:%RED%Life: %WHITE%11 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=12]:%RED%Life: %WHITE%12 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=13]:%RED%Life: %WHITE%13 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=14]:%RED%Life: %WHITE%14 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=15]:%RED%Life: %WHITE%15 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=16]:%RED%Life: %WHITE%16 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=17]:%RED%Life: %WHITE%17 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=18]:%RED%Life: %WHITE%18 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=19]:%RED%Life: %WHITE%19 %NAME%%CONTINUE%
+ItemDisplay[(cm1) MAG !UNI LIFE=20]:%RED%Life: %WHITE%20%ORANGE%* %NAME%%CONTINUE%
+ItemDisplay[(cm2 OR cm3) MAG !UNI LIFE=20]:%RED%Life: %WHITE%20 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=21]:%RED%Life: %WHITE%21 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=22]:%RED%Life: %WHITE%22 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=23]:%RED%Life: %WHITE%23 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=24]:%RED%Life: %WHITE%24 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=25]:%RED%Life: %WHITE%25 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=26]:%RED%Life: %WHITE%26 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=27]:%RED%Life: %WHITE%27 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=28]:%RED%Life: %WHITE%28 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=29]:%RED%Life: %WHITE%29 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=30]:%RED%Life: %WHITE%30 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=31]:%RED%Life: %WHITE%31 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=32]:%RED%Life: %WHITE%32 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=33]:%RED%Life: %WHITE%33 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=34]:%RED%Life: %WHITE%34 %NAME%%CONTINUE%
+ItemDisplay[(cm2) MAG !UNI LIFE=35]:%RED%Life: %WHITE%35%ORANGE%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm3) MAG !UNI LIFE=35]:%RED%Life: %WHITE%35 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=36]:%RED%Life: %WHITE%36 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=37]:%RED%Life: %WHITE%37 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=38]:%RED%Life: %WHITE%38 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=39]:%RED%Life: %WHITE%39 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=40]:%RED%Life: %WHITE%40%ORANGE%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=41]:%RED%Life: %WHITE%41%ORANGE%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=42]:%RED%Life: %WHITE%42%ORANGE%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=43]:%RED%Life: %WHITE%43%ORANGE%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=44]:%RED%Life: %WHITE%44%ORANGE%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI LIFE=45]:%RED%Life: %WHITE%45%ORANGE%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=1]:%blue%Mana: %WHITE%1 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=2]:%blue%Mana: %WHITE%2 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=3]:%blue%Mana: %WHITE%3 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=4]:%blue%Mana: %WHITE%4 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=5]:%blue%Mana: %WHITE%5 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=6]:%blue%Mana: %WHITE%6 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=7]:%blue%Mana: %WHITE%7 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=8]:%blue%Mana: %WHITE%8 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=9]:%blue%Mana: %WHITE%9 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=10]:%blue%Mana: %WHITE%10 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=11]:%blue%Mana: %WHITE%11 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=12]:%blue%Mana: %WHITE%12 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=13]:%blue%Mana: %WHITE%13 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=14]:%blue%Mana: %WHITE%14 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=15]:%blue%Mana: %WHITE%15 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=16]:%blue%Mana: %WHITE%16 %NAME%%CONTINUE%
+ItemDisplay[(cm1) MAG !UNI MANA=17]:%blue%Mana: %WHITE%17%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm2 OR cm3) MAG !UNI MANA=17]:%blue%Mana: %WHITE%17 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=18]:%blue%Mana: %WHITE%18 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=19]:%blue%Mana: %WHITE%19 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=20]:%blue%Mana: %WHITE%20 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=21]:%blue%Mana: %WHITE%21 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=22]:%blue%Mana: %WHITE%22 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=23]:%blue%Mana: %WHITE%23 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=24]:%blue%Mana: %WHITE%24 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=25]:%blue%Mana: %WHITE%25 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=26]:%blue%Mana: %WHITE%26 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=27]:%blue%Mana: %WHITE%27 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=28]:%blue%Mana: %WHITE%28 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=29]:%blue%Mana: %WHITE%29 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=30]:%blue%Mana: %WHITE%30 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=31]:%blue%Mana: %WHITE%31 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=32]:%blue%Mana: %WHITE%32 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=33]:%blue%Mana: %WHITE%33 %NAME%%CONTINUE%
+ItemDisplay[(cm2) MAG !UNI MANA=34]:%blue%Mana: %WHITE%34%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm3) MAG !UNI MANA=34]:%blue%Mana: %WHITE%34 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=35]:%blue%Mana: %WHITE%35 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=36]:%blue%Mana: %WHITE%36 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=37]:%blue%Mana: %WHITE%37 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=38]:%blue%Mana: %WHITE%38 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=39]:%blue%Mana: %WHITE%39 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=40]:%blue%Mana: %WHITE%40 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=41]:%blue%Mana: %WHITE%41 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=42]:%blue%Mana: %WHITE%42 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=43]:%blue%Mana: %WHITE%43 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=44]:%blue%Mana: %WHITE%44 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=45]:%blue%Mana: %WHITE%45 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=46]:%blue%Mana: %WHITE%46 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=47]:%blue%Mana: %WHITE%47 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=48]:%blue%Mana: %WHITE%48 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=49]:%blue%Mana: %WHITE%49 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=50]:%blue%Mana: %WHITE%50 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=51]:%blue%Mana: %WHITE%51 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=52]:%blue%Mana: %WHITE%52 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=53]:%blue%Mana: %WHITE%53 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=54]:%blue%Mana: %WHITE%54 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=55]:%blue%Mana: %WHITE%55 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=56]:%blue%Mana: %WHITE%56 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=57]:%blue%Mana: %WHITE%57 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=58]:%blue%Mana: %WHITE%58 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI MANA=59]:%blue%Mana: %WHITE%59%RED%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT329=1]:%RED%Fire: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT329=2]:%RED%Fire: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT329=3]:%RED%Fire: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT329=4]:%RED%Fire: %WHITE%4%%ORANGE%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT329=5]:%RED%Fire: %WHITE%5%%ORANGE%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT330=1]:%yellow%Lightning: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT330=2]:%yellow%Lightning: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT330=3]:%yellow%Lightning: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT330=4]:%yellow%Lightning: %WHITE%4%%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT330=5]:%yellow%Lightning: %WHITE%5%%RED%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT331=1]:%blue%Cold: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT331=2]:%blue%Cold: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT331=3]:%blue%Cold: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT331=4]:%blue%Cold: %WHITE%4%%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT331=5]:%blue%Cold: %WHITE%5%%RED%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT332=1]:%green%Poison: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT332=2]:%green%Poison: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT332=3]:%green%Poison: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT332=4]:%green%Poison: %WHITE%4%%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT332=5]:%green%Poison: %WHITE%5%%RED%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT333=1]:%ORANGE%Magic: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT333=2]:%ORANGE%Magic: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT333=3]:%ORANGE%Magic: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT333=4]:%ORANGE%Magic: %WHITE%4%%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT333=5]:%ORANGE%Magic: %WHITE%5%%RED%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT80=1]:%green%Mf: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT80=2]:%green%Mf: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT80=3]:%green%Mf: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT80=4]:%green%Mf: %WHITE%4% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT80=5]:%green%Mf: %WHITE%5% %NAME%%CONTINUE%
+ItemDisplay[(cm2) MAG !UNI STAT80=6]:%green%Mf: %WHITE%6%%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm3) MAG !UNI STAT80=6]:%green%Mf: %WHITE%6% %NAME%%CONTINUE%
+ItemDisplay[(cm1) MAG !UNI STAT80=7]:%green%Mf: %WHITE%7%%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm2 OR cm3) MAG !UNI STAT80=7]:%green%Mf: %WHITE%7% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT80=8]:%green%Mf: %WHITE%8% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT80=9]:%green%Mf: %WHITE%9% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT80=10]:%green%Mf: %WHITE%10% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT80=11]:%green%Mf: %WHITE%11% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT80=12]:%green%Mf: %WHITE%12%%RED%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=1]:%gold%Gf: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=2]:%gold%Gf: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=3]:%gold%Gf :3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=4]:%gold%Gf: %WHITE%4% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=5]:%gold%Gf: %WHITE%5% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=6]:%gold%Gf: %WHITE%6% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=7]:%gold%Gf: %WHITE%7% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=8]:%gold%Gf: %WHITE%8% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=9]:%gold%Gf: %WHITE%9% %NAME%%CONTINUE%
+ItemDisplay[(cm1) MAG !UNI GFIND=10]:%gold%Gf: %WHITE%10%%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm2 OR cm3) MAG !UNI GFIND=10]:%gold%Gf: %WHITE%10% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=11]:%gold%Gf: %WHITE%11% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=12]:%gold%Gf: %WHITE%12% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=13]:%gold%Gf: %WHITE%13% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=14]:%gold%Gf: %WHITE%14% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=15]:%gold%Gf: %WHITE%15% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=16]:%gold%Gf: %WHITE%16% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=17]:%gold%Gf: %WHITE%17% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=18]:%gold%Gf: %WHITE%18% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=19]:%gold%Gf: %WHITE%19% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=20]:%gold%Gf: %WHITE%20% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=21]:%gold%Gf: %WHITE%21% %NAME%%CONTINUE%
+ItemDisplay[(cm2) MAG !UNI GFIND=22]:%gold%Gf: %WHITE%22%%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm3) MAG !UNI GFIND=22]:%gold%Gf: %WHITE%22% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=23]:%gold%Gf: %WHITE%23% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=24]:%gold%Gf: %WHITE%24% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=25]:%gold%Gf: %WHITE%25% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=26]:%gold%Gf: %WHITE%26% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=27]:%gold%Gf: %WHITE%27% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=28]:%gold%Gf: %WHITE%28% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=29]:%gold%Gf: %WHITE%29% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=30]:%gold%Gf: %WHITE%30% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=31]:%gold%Gf: %WHITE%31% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=32]:%gold%Gf: %WHITE%32% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=33]:%gold%Gf: %WHITE%33% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=34]:%gold%Gf: %WHITE%34% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=35]:%gold%Gf: %WHITE%35% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=36]:%gold%Gf: %WHITE%36% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=37]:%gold%Gf: %WHITE%37% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=38]:%gold%Gf: %WHITE%38% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI GFIND=39]:%gold%Gf: %WHITE%39% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2) MAG !UNI GFIND=40]:%gold%Gf: %WHITE%40% %NAME%%CONTINUE%
+ItemDisplay[(cm3) MAG !UNI GFIND=40]:%gold%Gf: %WHITE%40%%RED%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=1 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=2 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=3 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=4 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%4% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=5 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%5% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=6 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%6% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=7 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%7% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=8 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%8% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=9 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%9% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=10 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%10% %NAME%%CONTINUE%
+ItemDisplay[(cm1) MAG !UNI STAT39=11 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%11%%ORANGE%* %NAME%%CONTINUE%
+ItemDisplay[(cm2 OR cm3) MAG !UNI STAT39=11 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%11% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=12 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%12% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=13 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%13% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=14 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%14% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=15 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%15% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=16 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%16% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=17 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%17% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=18 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%18% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=19 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%19% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=20 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%20% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=21 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%21% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=22 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%22% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=23 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%23% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=24 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%24% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=25 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%25% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=26 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%26% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=27 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%27% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=28 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%28% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=29 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%29% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT39=30 AND (!LRES>0 OR !PRES>0 OR !CRES>0)]:%RED%Fres: %WHITE%30%%ORANGE%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=1 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=2 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=3 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=4 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%4% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=5 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%5% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=6 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%6% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=7 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%7% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=8 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%8% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=9 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%9% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=10 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%10% %NAME%%CONTINUE%
+ItemDisplay[(cm1) MAG !UNI STAT41=11 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%11%%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm2 OR cm3) MAG !UNI STAT41=11 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%11% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=12 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%12% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=13 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%13% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=14 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%14% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=15 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%15% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=16 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%16% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=17 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%17% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=18 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%18% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=19 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%19% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=20 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%20% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=21 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%21% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=22 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%22% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=23 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%23% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=24 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%24% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=25 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%25% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=26 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%26% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=27 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%27% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=28 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%28% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=29 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%29% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT41=30 AND (!FRES>0 OR !PRES>0 OR !CRES>0)]:%yellow%Lres: %WHITE%30%%RED%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=1 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=2 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=3 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=4 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%4% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=5 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%5% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=6 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%6% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=7 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%7% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=8 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%8% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=9 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%9% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=10 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%10% %NAME%%CONTINUE%
+ItemDisplay[(cm1) MAG !UNI STAT43=11 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%11%%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm2 OR cm3) MAG !UNI STAT43=11 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%11% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=12 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%12% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=13 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%13% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=14 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%14% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=15 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%15% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=16 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%16% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=17 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%17% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=18 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%18% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=19 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%19% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=20 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%20% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=21 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%21% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=22 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%22% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=23 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%23% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=24 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%24% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=25 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%25% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=26 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%26% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=27 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%27% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=28 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%28% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=29 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%29% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT43=30 AND (!FRES>0 OR !PRES>0 OR !LRES>0)]:%blue%Cres: %WHITE%30%%RED%* %NAME%%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=1 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%1% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=2 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%2% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=3 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%3% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=4 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%4% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=5 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%5% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=6 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%6% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=7 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%7% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=8 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%8% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=9 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%9% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=10 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%10% %NAME%%CONTINUE%
+ItemDisplay[(cm1) MAG !UNI STAT45=11 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%11%%RED%* %NAME%%CONTINUE%
+ItemDisplay[(cm2 OR cm3) MAG !UNI STAT45=11 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%11% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=12 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%12% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=13 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%13% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=14 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%14% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=15 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%15% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=16 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%16% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=17 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%17% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=18 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%18% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=19 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%19% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=20 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%20% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=21 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%21% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=22 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%22% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=23 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%23% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=24 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%24% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=25 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%25% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=26 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%26% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=27 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%27% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=28 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%28% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=29 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%29% %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3) MAG !UNI STAT45=30 AND (!FRES>0 OR !CRES>0 OR !LRES>0)]:%green%Pres: %WHITE%30%%RED%* %NAME%%CONTINUE%
+
+ItemDisplay[cm3 MAG !UNI]: %name% %ORANGE%[L%ILVL%]
+ItemDisplay[cm2 MAG !UNI]: %name% %ORANGE%[L%ILVL%]
+ItemDisplay[cm1 MAG !UNI]: %name% %ORANGE%[L%ILVL%]
+ItemDisplay[(cm3 OR cm2 OR cm1) ID MAG !UNI (GFIND OR !STR>0 OR !DEX>0 !STAT22>0 OR !STAT96>0 OR !STAT99>0 OR !RES>0 OR !LIFE>0 OR !MANA>0 OR !STAT80>0 OR !STAT329>0 OR !STAT330>0 OR !STAT331>0 OR !STAT332>0 OR !STAT333>0 OR !TABSK0>0 OR !TABSK1>0 OR !TABSK2>0 OR !TABSK8>0 OR !TABSK9>0 OR !TABSK10>0 OR !TABSK16>0 OR !TABSK17>0 OR !TABSK18>0 OR !TABSK24>0 OR !TABSK25>0 OR !TABSK26>0 OR !TABSK32>0 OR !TABSK33>0 OR !TABSK34>0 OR !TABSK40>0 OR !TABSK41>0 OR !TABSK42>0 OR !TABSK48>0 OR !TABSK49>0 OR !TABSK50>0)]: %NAME% %ORANGE%[L%ILVL%]
+
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                   Essences (Respec Token)                                   //
 /////////////////////////////////////////////////////////////////////////////////////////////////
