@@ -162,4 +162,9 @@
      1) LEM rune marking change from middle level to low level.
      2) STAT360 52 Damage reduce change from DMG redu. to PDR
      3) Some PD2 item was deleted for quantity
+    
+   21. 8/21
      
+     1) Added drop message for Perfect Gems 
+     2) Maps message corrected for Tier
+     3) Cube recipe's visualization was changed.
