@@ -36,8 +36,8 @@
     15. Perfect Gems have comments for crafting recipe.
     16. Crafting base will be shown from exceptional to elite.
     17. Only weapon crafting base is available on STRICT FILTER (the other filter can show all items)
-    18. Filter Level Standard > No potion and magic ring > No amulet, Large Charm > No Javeline, Glove(Magic)
-        , CraftArmor > No Arrow(Bolt) Rare and normal set > craft weapon and all set. It gonna disabling item while going to down level.
+    18. Filter Level Standard > No potion and magic ring > No amulet, Large Charm > No Javeline, Glove(Magic), CraftArmor > No Arrow(Bolt) Rare and normal set 
+        > craft weapon and all set. It gonna disabling item while going to down level.
         The lowest level including the highest level.
         
         Normal Set list
@@ -46,8 +46,7 @@
         All set list (Amulet + Ring)
         Hwanin, Mavina,Naj,Orphan,Sazabi,griswold,bul-kathos,disciple,aldur,immortal,natalya,tal rasha, trangoul   
         
-        ![image](https://user-images.githubusercontent.com/76995697/185837802-d7649abf-c443-4f26-b64a-31841eddd4dc.png)
-        
+           
     19. Crafting Base item list
     
     ## Armor 
@@ -207,3 +206,7 @@
      2) Maps message corrected for Tier
      3) Cube recipe's visualization was changed.
      4) Charm option marking changed.
+
+   22. 8/22
+     
+     1) Filter Level updated 
