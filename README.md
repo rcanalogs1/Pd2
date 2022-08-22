@@ -69,7 +69,8 @@
      chest : xlt templar coat, ult hellforge plate, xld sharktooth armor, uld kraken shell, xtp mage plate, utp archon plate, xrs cuirass, urs great hauberk
 
     ## weapon 
-      am2 : reflex bow, am7 ceremonial bow, amc grand matron bow 8lw : gothic bow 
+      am2 : reflex bow, am7 ceremonial bow, amc grand matron bow 
+      8lw : gothic bow, 6lw hydra bow
       9ta : francisca, 7ta flying axe 9tw : greater talons, 7tw runic talons 9qr : scissors quhab, 7qr scissors suwayyah 
       9ws : divine scepter, 7ws caduceus 
       8rx : Chu-Ko-Nu, 6rx Demon Crossbow 6lw : Ballista, 6hx Colossus Crossbow 
