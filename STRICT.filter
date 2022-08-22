@@ -3026,12 +3026,15 @@ ItemDisplay[SET !ID (bwn OR vgl)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN
 ItemDisplay[SET !ID (xhl OR 7ls OR upl)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[sazabi] %GREEN%****
 ItemDisplay[SET !ID (7fb OR 7gd)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[Bul-Kathos' Children] %GREEN%****
 ItemDisplay[SET !ID (WEAPON OR ARMOR OR rin)]: %GREEN%%NAME%%RED%*
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//                                            CRAFTING                                         //
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 //armor
 //Gloves : xvg Sharkskin gloves,uvg Vampirebone gloves, xmg heavy bracers, umg vambraces, xlg Demonhide glove, ulg bramble mitts, xhg war gauntlets, uhg ogre gauntlets.
 //helmet : xlm casque, ulm armet, xhl basinet, uhl giant conch, xsk death mask, usk bone visage, xrn grand crown, urn corona
-//Bar heltmet : baf guardian crown, bab carnage helm, bad destoyer helm
-//Pelt : drf dream spirit, drd earth spirit, drb blood spirit
+//Bar heltmet : baf guardian crown, bab carnage helm, bad destoyer helm, ba4 assault helemt, ba9 savage helemt, ba5 avenger guard, baa slayer guard
+//Pelt : drf dream spirit, drd earth spirit, drb blood spirit, dra totemic mask, dr8 hunter's guise
 //boots : xtb battle boots, utb mirroed boots, xmb mesh boots, umb boneweave boots, xlb demonhide boots, ulb wymhide boots, xhb war boots, uhb mymidon greaves
 //belt : zmb mesh belt, umc mithril coil, ztb battle belt, utc troll belt, zvb sharkskin belt, uvc vampirefang belt, zlb demonhide sash, ulc spiderweb sash
 //Shield : xpk barbed shield, upk blade barrier, xts ancient shield, uts ward, xml round shield, uml luna, xit dragon shield, uit monarch, xow pavise, uow aegis, xrg scutum, urg hyperion
@@ -3057,8 +3060,8 @@ ItemDisplay[SET !ID (WEAPON OR ARMOR OR rin)]: %GREEN%%NAME%%RED%*
 
 ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
 ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
-ItemDisplay[(baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
-ItemDisplay[(drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
+ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
+ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
 ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
 ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
 ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
@@ -3067,8 +3070,8 @@ ItemDisplay[(9gm OR 8lw OR 9ta OR 7ta OR am2 OR am7 OR amc OR 9tw OR 7tw OR 9qr 
 
 ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft glove]
 ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft helmet]
-ItemDisplay[(baf OR bab OR bad) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft helmet(Bar)]
-ItemDisplay[(drf OR drd OR drb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft helmet(Dru)]
+ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft helmet(Bar)]
+ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft helmet(Dru)]
 ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft boots]
 ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft belt]
 ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft shield]
@@ -3076,8 +3079,8 @@ ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) !ETH MAG !ID]
 
 ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft glove]
 ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft helmet]
-ItemDisplay[(baf OR bab OR bad) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft helmet(Bar)]
-ItemDisplay[(drf OR drd OR drb) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft helmet(Dru)]
+ItemDisplay[(ba4 OR ba5 OR ba9 OR baa OR baf OR bab OR bad) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft helmet(Bar)]
+ItemDisplay[(dr8 OR dra OR drf OR drd OR drb) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft helmet(Dru)]
 ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft boots]
 ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft belt]
 ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft shield]
