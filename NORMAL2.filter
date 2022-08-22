@@ -7,11 +7,11 @@
 
 ItemDisplayFilterName[]: Stardard
 ItemDisplayFilterName[]: SocketInfo
-ItemDisplayFilterName[]: No Potion,ring
+ItemDisplayFilterName[]: No Potion, Ring
 ItemDisplayFilterName[]: ++No Amulet,LargeCharm
 ItemDisplayFilterName[]: +++No Javel,glove,CraftArmor
-ItemDisplayFilterName[]: ++++No Arrow(bolt),CraftWeapon
-
+ItemDisplayFilterName[]: ++++No Arrow(bolt), NormalSet
+ItemDisplayFilterName[]: +++++No CraftWeapon, AllSet(rin+amu)
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                      Filter Level Disable Item                              //
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -27,6 +27,49 @@ ItemDisplay[MAG (am5 OR ama OR amf) !ID FILTLVL>4]:
 ItemDisplay[EQ4 MAG !ID FILTLVL>4]:
 ItemDisplay[RARE (aqv OR cqv) !ID FILTLVL>5]: 
 ItemDisplay[leg]: %NAME% %ORANGE%[L%ILVL%] %PURPLE%[%SOCKETS%]
+
+//angelic,arcanna,arctic,berserker,cathan,civerb,cleglaw,death,hsarus,infernal,sander,iratha,isenhart,milabrega,sigon,tancred,vidala,cowking,heaven,sander
+ItemDisplay[SET !ID (rng OR sbr) FILTLVL>5]: 
+ItemDisplay[SET !ID (skp OR ltp OR wst) FILTLVL>5]: 
+ItemDisplay[SET !ID (qui OR vbl OR tgl OR swb) FILTLVL>5]: 
+ItemDisplay[SET !ID (hlm OR spl OR 2ax) FILTLVL>5]: 
+ItemDisplay[SET !ID (msk OR chn OR bst) FILTLVL>5]: 
+ItemDisplay[SET !ID (gsc OR lrg) FILTLVL>5]: 
+ItemDisplay[SET !ID (lsd OR mgl OR sml) FILTLVL>5]: 
+ItemDisplay[SET !ID (wsd OR lgl OR lbl) FILTLVL>5]: 
+ItemDisplay[SET !ID (buc OR mbt) FILTLVL>5]: 
+ItemDisplay[SET !ID mbl FILTLVL>5]: 
+ItemDisplay[SET !ID cap FILTLVL>5]: 
+ItemDisplay[SET !ID tbl FILTLVL>5]: 
+ItemDisplay[SET !ID gwn FILTLVL>5]: 
+ItemDisplay[SET !ID (bsd OR fhl OR brs OR gts) FILTLVL>5]: 
+ItemDisplay[SET !ID crn FILTLVL>5]: 
+ItemDisplay[SET !ID (aar OR kit OR wsp) FILTLVL>5]: 
+ItemDisplay[SET !ID (ghm OR gth OR hbt OR tow OR hbl OR hgl) FILTLVL>5]: 
+ItemDisplay[SET !ID (bhm OR ful OR lbt OR mpi) FILTLVL>5]: 
+ItemDisplay[SET !ID (lbb OR lea OR tbt) FILTLVL>5]: 
+ItemDisplay[SET !ID (xap OR stu) FILTLVL>5]: 
+ItemDisplay[SET !ID vbt FILTLVL>5]: 
+ItemDisplay[SET !ID (xrs OR 7ma OR uts OR uhm) FILTLVL>5]: 
+ItemDisplay[SET !ID (bwn OR vgl) FILTLVL>5]: 
+
+//Hwanin, Mavina,Naj,Orphan,Sazabi,griswold,bul-kathos,disciple,aldur,immortal,natalya,tal rasha, trangoul, amulet, ring
+ItemDisplay[SET !ID (xrn OR 9vo OR xcl) FILTLVL>6]: 
+ItemDisplay[SET !ID (ci3 OR amc OR uld OR xtg OR zvb) FILTLVL>6]: 
+ItemDisplay[SET !ID (ci0 OR ult OR 6cs) FILTLVL>6]: 
+ItemDisplay[SET !ID (xhm OR xml OR xvg OR ztb) FILTLVL>6]: 
+ItemDisplay[SET !ID (xhl OR 7ls OR upl) FILTLVL>6]: 
+ItemDisplay[SET !ID (xar OR urn OR 7ws OR paf) FILTLVL>6]: 
+ItemDisplay[SET !ID (7gd OR 7wd) FILTLVL>6]: 
+ItemDisplay[SET !ID (7fb OR 7gd) FILTLVL>6]: 
+ItemDisplay[SET !ID (ulg OR uui OR xlb OR umc) FILTLVL>6]:
+ItemDisplay[SET !ID (dr8 OR xtb OR uul OR 9mt) FILTLVL>6]:
+ItemDisplay[SET !ID (ba5 OR 7m7 OR uar OR zhb OR xhg OR xhb) FILTLVL>6]:
+ItemDisplay[SET !ID (xh9 OR 7qr OR ucl OR xmb) FILTLVL>6]:
+ItemDisplay[SET !ID (oba OR xsk OR zmb) FILTLVL>6]:
+ItemDisplay[SET !ID uth FILTLVL>6]:
+ItemDisplay[SET !ID (uh9 OR xul OR ne9 OR utc OR xmg) FILTLVL>6]:
+ItemDisplay[SET !ID (WEAPON OR ARMOR OR rin OR amulet) FILTLVL>6]:
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                      Socket Info                                            //
 /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -2746,9 +2789,9 @@ ItemDisplay[UNI !ID 7sp ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Demon Limb[Tyrant Club
 ItemDisplay[UNI !ID 7mt !ETH]:%ORANGE%@@  %TAN%Baranar's Star[Devil Star] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID 7mt ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Baranar's Star[Devil Star] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID 7fl !ETH]:%ORANGE%@@  %TAN%Horizon's Tornado or Stormlash[Scourge] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID 7fl ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Horizon's Tornado or ETH Stormlash[Scourge] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID 7wh !ETH]:%GOLD%@  %RED%Stone Crusher or Schaefer's Hammer[Legendary Mallet] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID 7wh ETH]:%GOLD%@  %PURPLE%ETH %RED%Stone Crusher or ETH Schaefer's Hammer[Legendary Mallet] %ORANGE%(EL) %ORANGE%@@
+ItemDisplay[UNI !ID 7fl ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Horizon'sTornado or Stormlash[Scourge] %ORANGE%(EL) %ORANGE%@@
+ItemDisplay[UNI !ID 7wh !ETH]:%GOLD%@  %RED%StoneCrusheror Schaefer'sHammer[LegendaryMallet] %ORANGE%(EL) %ORANGE%@@
+ItemDisplay[UNI !ID 7wh ETH]:%GOLD%@  %PURPLE%ETH %RED%StoneCrusherorSchaefer's Hammer[LegendaryMallet] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID 7m7 !ETH]:%ORANGE%@@  %TAN%Windhammer[Ogre Maul] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID 7m7 ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Windhammer[Ogre Maul] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID bar !ETH]:%ORANGE%@@  %TAN%Dimoak's Hew[Bardiche] %ORANGE%(N) %ORANGE%@@
@@ -3094,18 +3137,53 @@ ItemDisplay[SET !ID (bwn OR vgl)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN
 ItemDisplay[SET !ID (xhl OR 7ls OR upl)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[sazabi] %GREEN%****
 ItemDisplay[SET !ID (7fb OR 7gd)]: %DOT-84%%GREEN%**** %GREEN%%NAME% %DARK_GREEN%[Bul-Kathos' Children] %GREEN%****
 ItemDisplay[SET !ID (WEAPON OR ARMOR OR rin)]: %GREEN%%NAME%%RED%*
-/////////////////////////////////////////////////////////////////////////////////////////////////
-//                                            CRAFTING                                         //
-/////////////////////////////////////////////////////////////////////////////////////////////////
+
+//armor
+//Gloves : xvg Sharkskin gloves,uvg Vampirebone gloves, xmg heavy bracers, umg vambraces, xlg Demonhide glove, ulg bramble mitts, xhg war gauntlets, uhg ogre gauntlets.
+//helmet : xlm casque, ulm armet, xhl basinet, uhl giant conch, xsk death mask, usk bone visage, xrn grand crown, urn corona
+//Bar heltmet : baf guardian crown, bab carnage helm, bad destoyer helm
+//Pelt : drf dream spirit, drd earth spirit, drb blood spirit
+//boots : xtb battle boots, utb mirroed boots, xmb mesh boots, umb boneweave boots, xlb demonhide boots, ulb wymhide boots, xhb war boots, uhb mymidon greaves
+//belt : zmb mesh belt, umc mithril coil, ztb battle belt, utc troll belt, zvb sharkskin belt, uvc vampirefang belt, zlb demonhide sash, ulc spiderweb sash
+//Shield : xpk barbed shield, upk blade barrier, xts ancient shield, uts ward, xml round shield, uml luna, xit dragon shield, uit monarch, xow pavise, uow aegis, xrg scutum, urg hyperion
+//chest : xlt templar coat, ult hellforge plate, xld sharktooth armor, uld kraken shell, xtp mage plate, utp archon plate, xrs  cuirass, urs great hauberk
+
+//weapon
+//am2 : reflex bow, am7 ceremonial bow, amc grand matron bow
+//8lw : gothic bow
+//9ta : francisca, 7ta flying axe
+//9tw : greater talons, 7tw runic talons
+//9qr : scissors quhab, 7qr scissors suwayyah
+//9ws : divine scepter, 7ws caduceus
+//8rx : Chu-Ko-Nu, 6rx Demon Crossbow
+//6lw : Ballista, 6hx Colossus Crossbow
+//9p9 : Lance, 7p7 War Pike
+//9gl : Spiculum, 7gl Ghost Glaive
+//9s9 : Simbilan, 7s7 Balrog Spear
+//9ts : Harpoon, 7ts Winged Harpoon
+//9b8 : Hurlbat, 7b8 Winged Axe
+//9gd : Executioner Sword, 7gd Colossus Blade
+//9gm : Martel de Fer, 7gm Thunder Maul
+//9ls : Rune Sword, 7ls Cryptic Sword
+
 ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
 ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
-ItemDisplay[(baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTLVL=5]: 
-ItemDisplay[(drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTLVL=5]: 
+ItemDisplay[(baf OR bab OR bad) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
+ItemDisplay[(drf OR drd OR drb) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
 ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
 ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
 ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
 ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) (!ETH OR ETH) MAG !ID FILTLVL>4]: 
-ItemDisplay[(8lw OR 9ta OR 7ta OR am2 OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) (!ETH OR ETH) MAG !ID FILTLVL>5]:
+ItemDisplay[(9gm OR 8lw OR 9ta OR 7ta OR am2 OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) (!ETH OR ETH) MAG !ID FILTLVL>6]:
+
+ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft glove]
+ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft helmet]
+ItemDisplay[(baf OR bab OR bad) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft helmet(Bar)]
+ItemDisplay[(drf OR drd OR drb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft helmet(Dru)]
+ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft boots]
+ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft belt]
+ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft shield]
+ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft chest]
 
 ItemDisplay[(xvg OR uvg OR xmg OR umg OR xlg OR ulg OR xhg OR uhg) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft glove]
 ItemDisplay[(xlm OR ulm OR xhl OR uhl OR xsk OR usk OR xrn OR urn) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft helmet]
@@ -3113,11 +3191,11 @@ ItemDisplay[(baf OR bab OR bad) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%
 ItemDisplay[(drf OR drd OR drb) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft helmet(Dru)]
 ItemDisplay[(xtb OR utb OR xmb OR umb OR xlb OR ulb OR xhb OR uhb) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft boots]
 ItemDisplay[(zmb OR umc OR ztb OR utc OR zvb OR uvc OR zlb OR ulc) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft belt]
-ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft shield]
+ItemDisplay[(xpk OR upk OR xts OR uts OR xml OR uml OR xit OR uit OR xrg OR urg OR xow OR uow) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft shield]
 ItemDisplay[(xlt OR ult OR xld OR uld OR xtp OR utp OR xrs OR urs) ETH MAG !ID]: %PURPLE%ETH %BLUE%%BLUE%%NAME%%NL%%ORANGE%[craft chest]
 
-ItemDisplay[(8lw OR 9ta OR 7ta OR am2 OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft weapon]
-ItemDisplay[(8lw OR 9ta OR 7ta OR am2 OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) ETH MAG !ID]: %PURPLE%ETH %BLUE%%NAME%%NL%%ORANGE%[craft weapon]
+ItemDisplay[(9gm OR 8lw OR 9ta OR 7ta OR am2 OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) !ETH MAG !ID]: %BLUE%%NAME%%NL%%ORANGE%[craft weapon]
+ItemDisplay[(9gm OR 8lw OR 9ta OR 7ta OR am2 OR am7 OR amc OR 9tw OR 7tw OR 9qr OR 7qr OR 9ws OR 7ws OR 8rx OR 6rx OR 6lw OR 6hx OR 9p9 OR 7p7 OR 9gl OR 7gl OR 9s9 OR 7s7 OR 9ts OR 7ts OR 9b8 OR 7b8 OR 9gd OR 7gd OR 7gm OR 9ls OR 7ls) ETH MAG !ID]: %PURPLE%ETH %BLUE%%NAME%%NL%%ORANGE%[craft weapon]
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                         BASE ITEM                                           //
 /////////////////////////////////////////////////////////////////////////////////////////////////
