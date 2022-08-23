@@ -1390,7 +1390,7 @@ ItemDisplay[(aqv OR cqv) RARE (ED>0 AND STAT96>0 AND (TABSK0>0 OR TABSK1>0))]: %
 ItemDisplay[(aqv OR cqv) RARE (ED>0 AND RES>0 AND (TABSK0>0 OR TABSK1>0))]: %RED%ED %ORANGE%RES %TAN%SKILL %YELLOW%ARROW %CONTINUE%
 ItemDisplay[(aqv OR cqv) RARE (ED>0 AND (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0) AND (TABSK0>0 OR TABSK1>0))]: %RED%ED %ORANGE%RES %TAN%SKILL %YELLOW%ARROW %CONTINUE%
 ItemDisplay[(aqv OR cqv) RARE (ED>0 AND FRW>0 AND (TABSK0>0 OR TABSK1>0))]: %RED%ED %ORANGE%FRW %TAN%SKILL %YELLOW%ARROW %CONTINUE%
-ItemDisplay[(aqv OR cqv) RARE (ED>0 AND (TABSK0>0 OR TABSK1>0) AND (TABSK0>0 OR TABSK1>0))]: %RED%ED %ORANGE%SKILL%TAN%SKILL %YELLOW%ARROW %CONTINUE%
+ItemDisplay[(aqv OR cqv) RARE (ED>0 AND (TABSK0>0 OR TABSK1>0) AND ALLSK>0)]: %RED%ED %ORANGE%SKILL %TAN%SKILL %YELLOW%ARROW %CONTINUE%
 
 ItemDisplay[(aqv OR cqv) RARE (ED>0 AND STAT96>0 AND STAT127>0)]: %RED%ED %ORANGE%FRW %TAN%SKILL %YELLOW%ARROW %CONTINUE%
 ItemDisplay[(aqv OR cqv) RARE (ED>0 AND (TABSK0>0 OR TABSK1>0) AND STAT127>0)]: %RED%ED %ORANGE%BOW SKILL %TAN%SKILL %YELLOW%ARROW %CONTINUE%
@@ -2048,7 +2048,7 @@ ItemDisplay[UNI !ID xmb ETH]: %DOT-0C% %GOLD%@@@@     %TAN%ETH Silkweave     %GO
 ItemDisplay[UNI !ID xtb !ETH]: %BORDER-62%%RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%PURPLE%@@    %RED%War Traveler    %RED%@@%ORANGE%@@%YELLOW%@@%GREEN%@@%BLUE%@@%PURPLE%@@
 ItemDisplay[UNI !ID xtb ETH]: %DOT-0C% %GOLD%@@@@     %TAN%ETH War Traveler     %GOLD%@@@@ 
 ItemDisplay[UNI !ID xhb !ETH]: %DOT-0C% %GOLD%@@@@     %RED%Gore Rider     %GOLD%@@@@ 
-ItemDisplay[UNI !ID xhb ETH]: %DOT-0C% %GOLD%@@@@     %TAN%ETH Gore Rider     %GOLD%@@@@ 
+ItemDisplay[UNI !ID xhb ETH]: %DOT-0C% %GOLD%@@@@     %TAN%ETH %RED%Gore Rider     %GOLD%@@@@ 
 ItemDisplay[UNI !ID uvb !ETH]: %DOT-0C% %GOLD%@@@@     %RED%Sandstorm Trek     %GOLD%@@@@ 
 ItemDisplay[UNI !ID uvb ETH]: %DOT-0C% %GOLD%@@@@     %TAN%ETH Sandstorm Trek     %GOLD%@@@@ 
 //Unique Belts
@@ -2154,10 +2154,10 @@ ItemDisplay[UNI !ID xsk !ETH]:%ORANGE%@@  %TAN%Blackhorn's Face[Death Mask] %ORA
 ItemDisplay[UNI !ID xsk ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Blackhorn's Face[Death Mask] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID xrn !ETH]:%ORANGE%@@  %TAN%Crown of Thieves[Grand Crown] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID xrn ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Crown of Thieves[Grand Crown] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID uhm !ETH]:%ORANGE%@@  %TAN%VeilofSteel or NightwingsVeil[Spired Helm] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID uhm ETH]:%ORANGE%@@  %TAN%%PURPLE%ETH VeilofSteel or NightwingsVeil[Spired Helm] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID urn !ETH]:%ORANGE%@@  %TAN%Crown of Ages[Corona] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID urn ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Crown of Ages[Corona] %ORANGE%(EL) %ORANGE%@@
+ItemDisplay[UNI !ID uhm !ETH]:%DOT-0C%%GOLD%@@  %RED%VeilofSteel or NightwingsVeil[Spired Helm] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID uhm ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%VeilofSteel or NightwingsVeil[Spired Helm] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID urn !ETH]:%DOT-0C%%GOLD%@@  %RED%Crown of Ages[Corona] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID urn ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Crown of Ages[Corona] %ORANGE%(EL) %GOLD%@@
 ItemDisplay[UNI !ID uh9 !ETH]:%ORANGE%@@  %TAN%Giant Skull[Bone Visage] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID uh9 ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Giant Skull[Bone Visage] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID qui !ETH]:%ORANGE%@@  %TAN%Greyform[Quilted Armor] %ORANGE%(N) %ORANGE%@@
@@ -2168,8 +2168,8 @@ ItemDisplay[UNI !ID hla !ETH]:%ORANGE%@@  %TAN%The Centurion[Hard Leather Armor]
 ItemDisplay[UNI !ID hla ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%The Centurion[Hard Leather Armor] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID stu !ETH]:%ORANGE%@@  %TAN%Twitchthroe[Studded Leather] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID stu ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Twitchthroe[Studded Leather] %ORANGE%(N) %ORANGE%@@
-ItemDisplay[UNI !ID rng !ETH]:%ORANGE%@@  %TAN%Darkglow[Ring Mail] %ORANGE%(N) %ORANGE%@@
-ItemDisplay[UNI !ID rng ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Darkglow[Ring Mail] %ORANGE%(N) %ORANGE%@@
+ItemDisplay[UNI !ID rng !ETH]:%DOT-0C%%GOLD%@@  %RED%Darkglow[Ring Mail] %ORANGE%(N) %GOLD%@@
+ItemDisplay[UNI !ID rng ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Darkglow[Ring Mail] %ORANGE%(N) %GOLD%@@
 ItemDisplay[UNI !ID scl !ETH]:%ORANGE%@@  %TAN%Hawkmail[Scale Mail] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID scl ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Hawkmail[Scale Mail] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID brs !ETH]:%ORANGE%@@  %TAN%Venom Ward[Breast Plate] %ORANGE%(N) %ORANGE%@@
@@ -2206,14 +2206,14 @@ ItemDisplay[UNI !ID xpl !ETH]:%ORANGE%@@  %TAN%Skullder's Ire[Russet Armor] %ORA
 ItemDisplay[UNI !ID xpl ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Skullder's Ire[Russet Armor] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID xld !ETH]:%ORANGE%@@  %TAN%Toothrow[Sharktooth] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID xld ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Toothrow[Sharktooth] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID xth !ETH]:%ORANGE%@@  %TAN%Atma's Wail[Embossed Plate] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID xth ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Atma's Wail[Embossed Plate] %ORANGE%(EX) %ORANGE%@@
+ItemDisplay[UNI !ID xth !ETH]:%DOT-0C%%GOLD%@@  %RED%Atma's Wail[Embossed Plate] %ORANGE%(EX) %GOLD%@@
+ItemDisplay[UNI !ID xth ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Atma's Wail[Embossed Plate] %ORANGE%(EX) %GOLD%@@
 ItemDisplay[UNI !ID xul !ETH]:%ORANGE%@@  %TAN%Black Hades[Chaos Armor] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID xul ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Black Hades[Chaos Armor] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID xar !ETH]: %DOT-0C%%gold%@ %red%Corpsemourn[Ornate Armor] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID xar ETH]: %DOT-0C%%gold%@ %PURPLE%ETH %red%Corpsemourn[Ornate Armor] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID uul !ETH]:%ORANGE%@@  %TAN%Steel Carapace[Shadow Plate] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID uul ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Steel Carapace[Shadow Plate] %ORANGE%(EL) %ORANGE%@@
+ItemDisplay[UNI !ID xar !ETH]:%DOT-0C%%GOLD%@@ %RED%Corpsemourn[Ornate Armor] %ORANGE%(EX) %GOLD%@@
+ItemDisplay[UNI !ID xar ETH]:%DOT-0C%%GOLD%@@ %PURPLE%ETH %RED%Corpsemourn[Ornate Armor] %ORANGE%(EX) %GOLD%@@
+ItemDisplay[UNI !ID uul !ETH]:%DOT-0C%%GOLD%@@  %RED%Steel Carapace[Shadow Plate] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID uul ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Steel Carapace[Shadow Plate] %ORANGE%(EL) %GOLD%@@
 ItemDisplay[UNI !ID buc !ETH]:%ORANGE%@@  %TAN%Pelta Lunata[Buckler] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID buc ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Pelta Lunata[Buckler] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID sml !ETH]:%ORANGE%@@  %TAN%Umbral Disk[Small Shield] %ORANGE%(N) %ORANGE%@@
@@ -2240,10 +2240,10 @@ ItemDisplay[UNI !ID xit !ETH]:%ORANGE%@@  %TAN%Tiamat's Rebuke[Dragon Shield] %O
 ItemDisplay[UNI !ID xit ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Tiamat's Rebuke[Dragon Shield] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID xpk !ETH]:%ORANGE%@@  %TAN%Lance Guard[Barbed Shield] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID xpk ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Lance Guard[Barbed Shield] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID xow !ETH]:%ORANGE%@@  %TAN%Gerke's Sanctuary[Pavise] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID xow ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Gerke's Sanctuary[Pavise] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID xsh !ETH]:%ORANGE%@@  %TAN%Lidless Wall[Grim Shield] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID xsh ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Lidless Wall[Grim Shield] %ORANGE%(EX) %ORANGE%@@
+ItemDisplay[UNI !ID xow !ETH]:%DOT-0C%%GOLD%@@  %RED%Gerke's Sanctuary[Pavise] %ORANGE%(EX) %GOLD%@@
+ItemDisplay[UNI !ID xow ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Gerke's Sanctuary[Pavise] %ORANGE%(EX) %GOLD%@@
+ItemDisplay[UNI !ID xsh !ETH]:%DOT-0C%%GOLD%@@  %RED%Lidless Wall[Grim Shield] %ORANGE%(EX) %GOLD%@@
+ItemDisplay[UNI !ID xsh ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Lidless Wall[Grim Shield] %ORANGE%(EX) %GOLD%@@
 ItemDisplay[UNI !ID xts !ETH]:%ORANGE%@@  %TAN%Radament's Sphere[Ancient Shield] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID xts ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Radament's Sphere[Ancient Shield] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID uml !ETH]:%ORANGE%@@  %TAN%Blackoak Shield[Luna] %ORANGE%(EL) %ORANGE%@@
@@ -2252,10 +2252,10 @@ ItemDisplay[UNI !ID upk !ETH]:%ORANGE%@@  %TAN%Spike Thorn[Blade Barrier] %ORANG
 ItemDisplay[UNI !ID upk ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Spike Thorn[Blade Barrier] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID uow !ETH]:%ORANGE%@@  %TAN%Medusa's Gaze[Aegis] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID uow ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Medusa's Gaze[Aegis] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID ush !ETH]:%ORANGE%@@  %TAN%Head Hunter's Glory[Troll Nest] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID ush ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Head Hunter's Glory[Troll Nest] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID uts !ETH]:%ORANGE%@@  %TAN%Spirit Ward[Ward] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID uts ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Spirit Ward[Ward] %ORANGE%(EL) %ORANGE%@@
+ItemDisplay[UNI !ID ush !ETH]:%DOT-0C%%GOLD%@@  %RED%Head Hunter's Glory[Troll Nest] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID ush ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Head Hunter's Glory[Troll Nest] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID uts !ETH]:%DOT-0C%%GOLD%@@  %RED%Spirit Ward[Ward] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID uts ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Spirit Ward[Ward] %ORANGE%(EL) %GOLD%@@
 ItemDisplay[UNI !ID lgl !ETH]:%ORANGE%@@  %TAN%The Hand of Broc[Leather Gloves] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID lgl ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%The Hand of Broc[Leather Gloves] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID vgl !ETH]:%ORANGE%@@  %TAN%Bloodfist[Heavy Gloves] %ORANGE%(N) %ORANGE%@@
@@ -2268,14 +2268,14 @@ ItemDisplay[UNI !ID xmg !ETH]:%ORANGE%@@  %TAN%Ghoulhide[Heavy Bracers] %ORANGE%
 ItemDisplay[UNI !ID xmg ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Ghoulhide[Heavy Bracers] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID xtg !ETH]:%ORANGE%@@  %TAN%Lava Gout[Battle Gauntlets] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID xtg ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Lava Gout[Battle Gauntlets] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID xhg !ETH]:%ORANGE%@@  %TAN%Hellmouth[War Gauntlets] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID xhg ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Hellmouth[War Gauntlets] %ORANGE%(EX) %ORANGE%@@
+ItemDisplay[UNI !ID xhg !ETH]:%DOT-0C%%GOLD%@@  %RED%Hellmouth[War Gauntlets] %ORANGE%(EX) %GOLD%@@
+ItemDisplay[UNI !ID xhg ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Hellmouth[War Gauntlets] %ORANGE%(EX) %GOLD%@@
 ItemDisplay[UNI !ID lbt !ETH]:%ORANGE%@@  %TAN%Hotspur[Boots] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID lbt ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Hotspur[Boots] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID vbt !ETH]:%ORANGE%@@  %TAN%Gorefoot[Heavy Boots] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID vbt ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Gorefoot[Heavy Boots] %ORANGE%(N) %ORANGE%@@
-ItemDisplay[UNI !ID mbt !ETH]:%ORANGE%@@  %TAN%Treads of Cthon[Chain Boots] %ORANGE%(N) %ORANGE%@@
-ItemDisplay[UNI !ID mbt ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Treads of Cthon[Chain Boots] %ORANGE%(N) %ORANGE%@@
+ItemDisplay[UNI !ID mbt !ETH]:%DOT-0C%%GOLD%@@  %RED%Treads of Cthon[Chain Boots] %ORANGE%(N) %GOLD%@@
+ItemDisplay[UNI !ID mbt ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Treads of Cthon[Chain Boots] %ORANGE%(N) %GOLD%@@
 ItemDisplay[UNI !ID tbt !ETH]:%ORANGE%@@  %TAN%Goblin Toe[Light Plated Boots] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID tbt ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Goblin Toe[Light Plated Boots] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID hbt !ETH]:%ORANGE%@@  %TAN%Tearhaunch[Greaves] %ORANGE%(N) %ORANGE%@@
@@ -2383,7 +2383,7 @@ ItemDisplay[UNI !ID mxb]:%ORANGE%@@  %TAN%Ichorsting[Crossbow] %ORANGE%(N) %ORAN
 ItemDisplay[UNI !ID hxb]:%ORANGE%@@  %TAN%Hellcast[Heavy Crossbow] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID rxb]:%ORANGE%@@  %TAN%Doomslinger[Repeating Crossbow] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID 8lx]:%ORANGE%@@  %TAN%Langer Briser[Arbalest] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID 8mx]:%ORANGE%@@  %TAN%Pus Spitter[Siege Crossbow] %ORANGE%(EX) %ORANGE%@@
+ItemDisplay[UNI !ID 8mx]:%DOT-0C%%GOLD%@@  %RED%Pus Spitter[Siege Crossbow] %ORANGE%(EX) %GOLD%@@
 ItemDisplay[UNI !ID 8hx]:%ORANGE%@@  %TAN%Buriza-Do Kyanon[Ballista] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID 8rx]:%ORANGE%@@  %TAN%Demon Machine[Chu-Ko-Nu] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID 6hx]:%ORANGE%@@  %TAN%Hellrack[Colossus Crossbow] %ORANGE%(EL) %ORANGE%@@
@@ -2402,8 +2402,8 @@ ItemDisplay[UNI !ID 9di !ETH]:%ORANGE%@@  %TAN%Heart Carver[Rondel] %ORANGE%(EX)
 ItemDisplay[UNI !ID 9di ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Heart Carver[Rondel] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID 9kr !ETH]:%ORANGE%@@  %TAN%Blackbog's Sharp[Cinquedeas] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID 9kr ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Blackbog's Sharp[Cinquedeas] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID 9bl !ETH]:%ORANGE%@@  %TAN%Stormspike[Stilleto] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID 9bl ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Stormspike[Stilleto] %ORANGE%(EX) %ORANGE%@@
+ItemDisplay[UNI !ID 9bl !ETH]:%DOT-0C%%GOLD%@@  %RED%Stormspike[Stilleto] %ORANGE%(EX) %GOLD%@@
+ItemDisplay[UNI !ID 9bl ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Stormspike[Stilleto] %ORANGE%(EX) %GOLD%@@
 ItemDisplay[UNI !ID 7dg !ETH]:%ORANGE%@@  %TAN%Wizardspike[Bone Knife] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID 7dg ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Wizardspike[Bone Knife] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID 7bl ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Ghostflame[Legend Spike] %ORANGE%(EL) %ORANGE%@@
@@ -2477,8 +2477,8 @@ ItemDisplay[UNI !ID 9wc !ETH]:%ORANGE%@@  %TAN%Grim's Burning Dead[Grim Scythe] 
 ItemDisplay[UNI !ID 9wc ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Grim's Burning Dead[Grim Scythe] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID 7o7 !ETH]:%ORANGE%@@  %TAN%Bonehew[Ogre Axe] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID 7o7 ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Bonehew[Ogre Axe] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID 7wc !ETH]:%ORANGE%@@  %TAN%Stormspire[Giant Thresher] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID 7wc ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Stormspire[Giant Thresher] %ORANGE%(EL) %ORANGE%@@
+ItemDisplay[UNI !ID 7wc !ETH]:%DOT-0C%%GOLD%@@  %RED%Stormspire[Giant Thresher] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID 7wc ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Stormspire[Giant Thresher] %ORANGE%(EL) %GOLD%@@
 ItemDisplay[UNI !ID scp !ETH]:%ORANGE%@@  %TAN%Knell Striker[Scepter] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID scp ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Knell Striker[Scepter] %ORANGE%(N) %ORANGE%@@
 ItemDisplay[UNI !ID gsc !ETH]:%ORANGE%@@  %TAN%Rusthandle[Grand Scepter] %ORANGE%(N) %ORANGE%@@
@@ -2571,8 +2571,8 @@ ItemDisplay[UNI !ID 9ss !ETH]:%ORANGE%@@  %TAN%Bloodletter[Gladius] %ORANGE%(EX)
 ItemDisplay[UNI !ID 9ss ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Bloodletter[Gladius] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID 9sm !ETH]:%ORANGE%@@  %TAN%Coldsteel Eye[Cutlass] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID 9sm ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Coldsteel Eye[Cutlass] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID 9sb !ETH]:%ORANGE%@@  %TAN%Hexfire[Shamshir] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID 9sb ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Hexfire[Shamshir] %ORANGE%(EX) %ORANGE%@@
+ItemDisplay[UNI !ID 9sb !ETH]:%DOT-0C%%GOLD%@@  %RED%Hexfire[Shamshir] %ORANGE%(EX) %GOLD%@@
+ItemDisplay[UNI !ID 9sb ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Hexfire[Shamshir] %ORANGE%(EX) %GOLD%@@
 ItemDisplay[UNI !ID 9fc !ETH]:%ORANGE%@@  %TAN%Blade of Ali Baba[Tulwar] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID 9fc ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Blade of Ali Baba[Tulwar] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID 9cr !ETH]:%ORANGE%@@  %TAN%Ginther's Rift[Dimensional Blade] %ORANGE%(EX) %ORANGE%@@
@@ -2627,19 +2627,19 @@ ItemDisplay[UNI !ID 9tk !ETH]:%ORANGE%@@  %TAN%Deathbit[Battle Dart] %ORANGE%(EX
 ItemDisplay[UNI !ID 9tk ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Deathbit[Battle Dart] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID 9ta !ETH]:%ORANGE%@@  %TAN%The Scalper[Francisca] %ORANGE%(EX) %ORANGE%@@
 ItemDisplay[UNI !ID 9ta ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%The Scalper[Francisca] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID 7ta !ETH]:%ORANGE%@@  %TAN%Gimmershred[Flying Axe] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID 7ta ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Gimmershred[Flying Axe] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID 7s7 !ETH]:%ORANGE%@@  %TAN%Demon's Arch[Balrog Spear] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID 7s7 ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Demon's Arch[Balrog Spear] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID 7gl ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Wraith Flight[Ghost Glaive] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID 7ts !ETH]:%ORANGE%@@  %TAN%Gargoyle's Bite[Winged Harpoon] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID 7ts ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Gargoyle's Bite[Winged Harpoon] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID amd !ETH]:%ORANGE%@@  %TAN%Stoneraven[Matriarchal Spear] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID amd ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Stoneraven[Matriarchal Spear] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID am9 !ETH]:%ORANGE%@@  %TAN%Lycander's Flank[Ceremonial Pike] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID am9 ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Lycander's Flank[Ceremonial Pike] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID am7]:%ORANGE%@@  %TAN%Lycander's Aim[Ceremonial Bow] %ORANGE%(EX) %ORANGE%@@
-ItemDisplay[UNI !ID amb]:%ORANGE%@@  %TAN%Blood raven's Charge[Matriarchal Bow] %ORANGE%(EL) %ORANGE%@@
+ItemDisplay[UNI !ID 7ta !ETH]:%DOT-0C%%GOLD%@@  %RED%Gimmershred[Flying Axe] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID 7ta ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Gimmershred[Flying Axe] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID 7s7 !ETH]:%DOT-0C%%GOLD%@@  %RED%Demon's Arch[Balrog Spear] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID 7s7 ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Demon's Arch[Balrog Spear] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID 7gl ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Wraith Flight[Ghost Glaive] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID 7ts !ETH]:%DOT-0C%%GOLD%@@  %RED%Gargoyle's Bite[Winged Harpoon] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID 7ts ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Gargoyle's Bite[Winged Harpoon] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID amd !ETH]:%DOT-0C%%GOLD%@@  %RED%Stoneraven[Matriarchal Spear] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID amd ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Stoneraven[Matriarchal Spear] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID am9 !ETH]:%DOT-0C%%GOLD%@@  %RED%Lycander's Flank[Ceremonial Pike] %ORANGE%(EX) %GOLD%@@
+ItemDisplay[UNI !ID am9 ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Lycander's Flank[Ceremonial Pike] %ORANGE%(EX) %GOLD%@@
+ItemDisplay[UNI !ID am7]:%DOT-0C%%GOLD%@@  %RED%Lycander's Aim[Ceremonial Bow] %ORANGE%(EX) %GOLD%@@
+ItemDisplay[UNI !ID amb]:%DOT-0C%%GOLD%@@  %RED%Blood raven's Charge[Matriarchal Bow] %ORANGE%(EL) %GOLD%@@
 ItemDisplay[UNI !ID 7cs ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Shadow Killer[Battle Cestus] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID 7wb !ETH]:%ORANGE%@@  %TAN%Jade Talon[Wrist Sword] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID 7wb ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Jade Talon[Wrist Sword] %ORANGE%(EL) %ORANGE%@@
@@ -2653,12 +2653,12 @@ ItemDisplay[UNI !ID bac !ETH]:%ORANGE%@@  %TAN%Wolfhowl[Fury Visor] %ORANGE%(EL)
 ItemDisplay[UNI !ID bac ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Wolfhowl[Fury Visor] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID bad !ETH]:%ORANGE%@@  %TAN%Demonhorn's Edge[Destroyer Helm] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID bad ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Demonhorn's Edge[Destroyer Helm] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID bae !ETH]:%ORANGE%@@  %TAN%Halaberd's Reign[Conqueror Crown] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID bae ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Halaberd's Reign[Conqueror Crown] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID drb !ETH]:%ORANGE%@@  %TAN%Cerebus' Bite[Blood Spirit] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID drb ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Cerebus' Bite[Blood Spirit] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID dre !ETH]:%ORANGE%@@  %TAN%ravenlore[Sky Spirit] %ORANGE%(EL) %ORANGE%@@
-ItemDisplay[UNI !ID dre ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%%ravenlore[Sky Spirit] %ORANGE%(EL) %ORANGE%@@
+ItemDisplay[UNI !ID bae !ETH]:%DOT-0C%%GOLD%@@  %RED%Halaberd's Reign[Conqueror Crown] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID bae ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Halaberd's Reign[Conqueror Crown] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID drb !ETH]:%DOT-0C%%GOLD%@@  %RED%Cerebus' Bite[Blood Spirit] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID drb ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%Cerebus' Bite[Blood Spirit] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID dre !ETH]:%DOT-0C%%GOLD%@@  %RED%ravenlore[Sky Spirit] %ORANGE%(EL) %GOLD%@@
+ItemDisplay[UNI !ID dre ETH]:%DOT-0C%%GOLD%@@  %PURPLE%ETH %RED%%ravenlore[Sky Spirit] %ORANGE%(EL) %GOLD%@@
 ItemDisplay[UNI !ID drd !ETH]:%ORANGE%@@  %TAN%Spirit Keeper[Earth Spirit] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID drd ETH]:%ORANGE%@@  %PURPLE%ETH %TAN%Spirit Keeper[Earth Spirit] %ORANGE%(EL) %ORANGE%@@
 ItemDisplay[UNI !ID pae !ETH]:%ORANGE%@@  %TAN%Dragonscale[Zakarum Shield] %ORANGE%(EL) %ORANGE%@@
@@ -3579,10 +3579,10 @@ ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=25]:%NAME% %ORANGE%Deadly+ED %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=26]:%NAME% %ORANGE%AR+ED %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=27]:%NAME% %ORANGE%Allsk %RED%C%continue%
-ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=28]:%NAME% %ORANGE%FMaste+FCR %RED%C%continue%
-ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=29]:%NAME% %ORANGE%CMaste+FCR %RED%C%continue%
-ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=30]:%NAME% %ORANGE%LMaste+FCR %RED%C%continue%
-ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=31]:%NAME% %ORANGE%PMaste+FCR %RED%C%continue%
+ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=28]:%NAME% %ORANGE%FSKILL+FCR %RED%C%continue%
+ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=29]:%NAME% %ORANGE%CSKILL+FCR %RED%C%continue%
+ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=30]:%NAME% %ORANGE%LSKILL+FCR %RED%C%continue%
+ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=31]:%NAME% %ORANGE%PSKILL+FCR %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=32]:%NAME% %RED%C %continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=33]:%NAME% %ORANGE%Def %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=34]:%NAME% %ORANGE%Rep.Life %RED%C%continue%
@@ -3600,9 +3600,9 @@ ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=44]:%NAME% %ORANGE%FRW %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=45]:%NAME% %ORANGE%CBF %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=46]:%NAME% %ORANGE%DMGredu. %RED%C%continue%
-ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=47]:%NAME% %ORANGE%MagicDMGredu. %RED%C%continue%
+ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=47]:%NAME% %ORANGE%MDR %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=48]:%NAME% %ORANGE%indest.+ED* %RED%C%continue%
-ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=49]:%NAME% %ORANGE%CurseResi* %RED%C%continue%
+ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=49]:%NAME% %ORANGE%CurseRedu* %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=50]:%NAME% %ORANGE%Allsk %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=51]:%NAME% %ORANGE%AllRes %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (MAG OR RARE OR SET OR UNI OR RW) STAT360=52]:%NAME% %ORANGE%PDR* %RED%C%continue%
@@ -3657,10 +3657,10 @@ ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=24]
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=25]:%NAME% %YELLOW%Deadly+ED %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=26]:%NAME% %YELLOW%AR+ED %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=27]:%NAME% %YELLOW%Allsk %RED%C%continue%
-ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=28]:%NAME% %YELLOW%FMaste+FCR %RED%C%continue%
-ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=29]:%NAME% %YELLOW%CMaste+FCR %RED%C%continue%
-ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=30]:%NAME% %YELLOW%LMaste+FCR %RED%C%continue%
-ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=31]:%NAME% %YELLOW%PMaste+FCR %RED%C%continue%
+ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=28]:%NAME% %YELLOW%FSKILL+FCR %RED%C%continue%
+ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=29]:%NAME% %YELLOW%CSKILL+FCR %RED%C%continue%
+ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=30]:%NAME% %YELLOW%LSKILL+FCR %RED%C%continue%
+ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=31]:%NAME% %YELLOW%PSKILL+FCR %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=32]:%NAME% %RED%C %continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=33]:%NAME% %YELLOW%Def %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=34]:%NAME% %YELLOW%Rep.Life %RED%C%continue%
@@ -3678,9 +3678,9 @@ ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=43]
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=44]:%NAME% %YELLOW%FRW %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=45]:%NAME% %YELLOW%CBF %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=46]:%NAME% %YELLOW%DMGredu. %RED%C%continue%
-ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=47]:%NAME% %YELLOW%MagicDMGredu. %RED%C%continue%
+ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=47]:%NAME% %YELLOW%MDR %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=48]:%NAME% %YELLOW%indest.+ED* %RED%C%continue%
-ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=49]:%NAME% %YELLOW%CurseResi* %RED%C%continue%
+ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=49]:%NAME% %YELLOW%CurseRedu* %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=50]:%NAME% %YELLOW%Allsk %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=51]:%NAME% %YELLOW%AllRes %RED%C%continue%
 ItemDisplay[(WEAPON OR ARMOR OR cqv OR aqv OR rin OR amu) ID (CRAFT) STAT360=52]:%NAME% %YELLOW%PDR* %RED%C%continue%
