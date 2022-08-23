@@ -211,3 +211,10 @@
    22. 8/22
      
      1) Filter Level updated 
+
+   22. 8/23
+     
+     1) Annihilius corrupted option added
+     2) Runewrod Marking partially added
+     3) Bug fixed (SK366 Lightning Sentry and Coronet/Circlet comments and Annihilius option marking)
+  
