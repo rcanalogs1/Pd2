@@ -223,6 +223,7 @@
      1) base item looting structure is changed (ED and res and AR is marked on the item and runeword item is able to show the his base item with ED)
      2) base sup item is marked by (sup)
      3) base item is able to show possible max socket based on his item level.
+     4) Adde much more rune word recipe (now automatically rune word recipe attached to base item if socked)
      
      
   
