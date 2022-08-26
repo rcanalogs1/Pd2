@@ -207,17 +207,20 @@
      2) Maps message corrected for Tier
      3) Cube recipe's visualization was changed.
      4) Charm option marking changed.
+  ![image](https://user-images.githubusercontent.com/76995697/186830225-97728e05-76b9-420e-8065-0418dd1e3111.png)
 
    22. 8/22
      
      1) Filter Level updated 
+  ![image](https://user-images.githubusercontent.com/76995697/186830215-520f8915-349c-44a1-a6d5-9dc22bb9d348.png)
 
    22. 8/23
      
      1) Annihilius corrupted option added
      2) Runewrod Marking partially added
      3) Bug fixed (SK366 Lightning Sentry and Coronet/Circlet comments and Annihilius option marking)
-  
+  ![image](https://user-images.githubusercontent.com/76995697/186830200-2088fa1b-0c8d-488e-8712-3cd32a1bb7da.png)
+
    23. 8/25
      
      1) base item looting structure is changed (ED and res and AR is marked on the item and runeword item is able to show the his base item with ED)
