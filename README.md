@@ -235,6 +235,7 @@
      1) Rune comments added (Crafting, Cubing and upgrade recipe
      2) Mirror and Lightsong marking changed
      3) PUL UM MAL IST marking changed
+     4) Jew Marking change similar like charm
     
      
      
