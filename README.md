@@ -225,7 +225,7 @@
      3) base item is able to show possible max socket based on his item level.
      4) Adde much more rune word recipe (now automatically rune word recipe attached to base item if socketed)
 
-   ![image](https://user-images.githubusercontent.com/76995697/186828838-00648726-a2af-43a0-9660-347fc0a9f8f7.png)
+   ![image](https://user-images.githubusercontent.com/76995697/186829048-b1c7062a-8d3f-462c-aed8-73c782a641a4.png)
    
    23. 8/26
      
