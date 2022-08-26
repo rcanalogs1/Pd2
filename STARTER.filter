@@ -354,6 +354,106 @@ ItemDisplay[UNI ID cm1 STAT3=31]:%NAME% %RED%V:31%WHITE%)
 ItemDisplay[UNI ID cm1 STAT3=30]:%NAME% %RED%V:30%WHITE%)
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
+//                                         JEW MARKING                                         //
+/////////////////////////////////////////////////////////////////////////////////////////////////
+//IAS, STAT17=ed, STAT22=max, STAT86=each kill life, FHR, STAT91=req
+ItemDisplay[RARE jew (IAS>0 AND STAT17>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%ED %RED%IAS %YELLOW%JEWEL%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
+ItemDisplay[RARE jew (IAS>0 AND STAT138>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %RED%IAS %GREEN%MANA %YELLOW%JEWEL%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
+ItemDisplay[RARE jew (IAS>0 AND RES>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %PURPLE%IAS %DARK_GREEN%RES%YELLOW%JEWEL%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
+ItemDisplay[RARE jew (FHR>0 AND STAT138>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %GREEN%MANA %YELLOW%FHR %YELLOW%JEWEL%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
+ItemDisplay[MAG jew (IAS>0 AND STAT17>29)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%ED %RED%IAS %BLUE%%NAME%%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
+ItemDisplay[MAG jew (IAS>0 AND STAT17>19)]: %RED%*%ORANGE%*%YELLOW%* %WHITE%ED %RED%IAS %BLUE%%NAME%%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
+ItemDisplay[MAG jew (IAS>0 AND STAT138=3)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %RED%IAS %GREEN%+3 MANA(Each) %BLUE%%NAME%%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
+ItemDisplay[MAG jew (IAS>0 AND STAT138=2)]: %RED%*%ORANGE%*%YELLOW%* %RED%IAS %GREEN%+3 MANA(Each) %BLUE%%NAME%%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
+ItemDisplay[MAG jew (IAS>0 AND RES=30)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %PURPLE%IAS %DARK_GREEN%RES %BLUE%%NAME%%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
+ItemDisplay[MAG jew (IAS>0 AND RES>19)]: %RED%*%ORANGE%*%YELLOW%* %PURPLE%IAS %DARK_GREEN%RES %BLUE%%NAME%%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
+
+ItemDisplay[(MAG OR RARE) jew]:%NAME%{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}%CONTINUE%
+ItemDisplay[(MAG) jew]:%BLUE%Magic %WHITE%Jewel{%NAME%}%CONTINUE%
+ItemDisplay[(RARE) jew]:%YELLOW%Rare %WHITE%Jewel{%NAME%}%CONTINUE%
+
+ItemDisplay[(MAG) jew]:%tan%n %BLUE%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(RARE) jew]:%tan%n %YELLOW%%NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew IAS=15]:%RED%IAS: %WHITE%15% %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT91=-15]:%GOLD%REQ: %WHITE%-15% %NAME%{%NAME%}%CONTINUE%
+
+ItemDisplay[(MAG OR RARE) jew STAT3=10]:%GREEN%Vit: %WHITE%10 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT3=9]:%GREEN%Vit: %WHITE%9 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT3=8]:%GREEN%Vit: %WHITE%8 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT3=7]:%GREEN%Vit: %WHITE%7 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT3=6]:%GREEN%Vit: %WHITE%6 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT3=5]:%GREEN%Vit: %WHITE%5 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT3=4]:%GREEN%Vit: %WHITE%4 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT3=3]:%GREEN%Vit: %WHITE%3 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT3=2]:%GREEN%Vit: %WHITE%2 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT3=1]:%GREEN%Vit: %WHITE%1 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT3=0]:%GREEN%Vit: %WHITE%0 %NAME%%CONTINUE%
+
+ItemDisplay[(MAG OR RARE) jew STAT1=10]:%GREEN%Ene: %WHITE%10 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT1=9]:%GREEN%Ene: %WHITE%9 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT1=8]:%GREEN%Ene: %WHITE%8 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT1=7]:%GREEN%Ene: %WHITE%7 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT1=6]:%GREEN%Ene: %WHITE%6 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT1=5]:%GREEN%Ene: %WHITE%5 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT1=4]:%GREEN%Ene: %WHITE%4 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT1=3]:%GREEN%Ene: %WHITE%3 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT1=2]:%GREEN%Ene: %WHITE%2 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT1=1]:%GREEN%Ene: %WHITE%1 %NAME%%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT1=0]:%GREEN%Ene: %WHITE%0 %NAME%%CONTINUE%
+
+ItemDisplay[(MAG OR RARE) jew ED=40]:%RED%[%PURPLE%ED: %WHITE%40%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=39]:%RED%[%PURPLE%ED: %WHITE%39%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=38]:%RED%[%PURPLE%ED: %WHITE%38%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=37]:%RED%[%PURPLE%ED: %WHITE%37%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=36]:%RED%[%PURPLE%ED: %WHITE%36%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=35]:%RED%[%PURPLE%ED: %WHITE%35%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=34]:%RED%[%PURPLE%ED: %WHITE%34%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=33]:%RED%[%PURPLE%ED: %WHITE%33%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=32]:%RED%[%PURPLE%ED: %WHITE%32%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=31]:%RED%[%PURPLE%ED: %WHITE%31%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=30]:%RED%[%PURPLE%ED: %WHITE%30%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=29]:%RED%[%PURPLE%ED: %WHITE%29%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=28]:%RED%[%PURPLE%ED: %WHITE%28%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=27]:%RED%[%PURPLE%ED: %WHITE%27%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=26]:%RED%[%PURPLE%ED: %WHITE%26%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=25]:%RED%[%PURPLE%ED: %WHITE%25%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=24]:%RED%[%PURPLE%ED: %WHITE%24%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=23]:%RED%[%PURPLE%ED: %WHITE%23%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=22]:%RED%[%PURPLE%ED: %WHITE%22%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=21]:%RED%[%PURPLE%ED: %WHITE%21%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=20]:%RED%[%PURPLE%ED: %WHITE%20%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=19]:%RED%[%PURPLE%ED: %WHITE%19%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=18]:%RED%[%PURPLE%ED: %WHITE%18%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=17]:%RED%[%PURPLE%ED: %WHITE%17%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=16]:%RED%[%PURPLE%ED: %WHITE%16%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=15]:%RED%[%PURPLE%ED: %WHITE%15%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=14]:%RED%[%PURPLE%ED: %WHITE%14%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=13]:%RED%[%PURPLE%ED: %WHITE%13%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=12]:%RED%[%PURPLE%ED: %WHITE%12%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=11]:%RED%[%PURPLE%ED: %WHITE%11%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=10]:%RED%[%PURPLE%ED: %WHITE%10%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=9]:%RED%[%PURPLE%ED: %WHITE%9%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=8]:%RED%[%PURPLE%ED: %WHITE%8%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=7]:%RED%[%PURPLE%ED: %WHITE%7%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=6]:%RED%[%PURPLE%ED: %WHITE%6%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=5]:%RED%[%PURPLE%ED: %WHITE%5%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=4]:%RED%[%PURPLE%ED: %WHITE%4%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=3]:%RED%[%PURPLE%ED: %WHITE%3%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=2]:%RED%[%PURPLE%ED: %WHITE%2%%RED%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew ED=1]:%RED%[%PURPLE%ED: %WHITE%1%%RED%] %NAME%{%NAME%}%CONTINUE%
+
+ItemDisplay[(MAG OR RARE) jew STAT138=3]:%PURPLE%[%ORANGE%mana(each): %WHITE%3%%PURPLE%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT138=2]:%PURPLE%[%ORANGE%mana(each): %WHITE%2%%PURPLE%] %NAME%{%NAME%}%CONTINUE%
+ItemDisplay[(MAG OR RARE) jew STAT138=1]:%PURPLE%[%ORANGE%mana(each): %WHITE%1%%PURPLE%] %NAME%{%NAME%}%CONTINUE%
+
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STR=7]:%ORANGE%Str: %WHITE%7 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STR=8]:%ORANGE%Str: %WHITE%8 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI STR=9]:%ORANGE%Str: %WHITE%9 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI DEX=7]:%GREEN%Dex: %WHITE%7 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI DEX=8]:%GREEN%Dex: %WHITE%8 %NAME%%CONTINUE%
+ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) (MAG OR RARE) !UNI DEX=9]:%GREEN%Dex: %WHITE%9 %NAME%%CONTINUE%
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
 //                                    CHARM MARKING                                            //
 /////////////////////////////////////////////////////////////////////////////////////////////////
 ItemDisplay[cm3 STAT22>13]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*%TAN%MAX %BLUE%GC %ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*
@@ -1276,50 +1376,6 @@ ItemDisplay[MAG rin ID ILVL=83]: %BLUE%%NAME%%GRAY%[CL87-]%CONTINUE%
 ItemDisplay[MAG rin ID ILVL=84]: %BLUE%%NAME%%GRAY%[CL86-]%CONTINUE%
 ItemDisplay[MAG rin ID ILVL=85]: %BLUE%%NAME%%GRAY%[CL85-]%CONTINUE%
 ItemDisplay[MAG rin ID ]: %BLUE%%NAME%%CONTINUE%
-/////////////////////////////////////////////////////////////////////////////////////////////////
-//                                         JEW MARKING                                         //
-/////////////////////////////////////////////////////////////////////////////////////////////////
-//IAS, STAT17=ed, STAT22=max, STAT86=each kill life, FHR, STAT91=req
-ItemDisplay[RARE jew (IAS>0 AND STAT17>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%ED %RED%IAS %YELLOW%JEWEL%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew (IAS>0 AND STAT22>0)]: %PURPLE%MAX %RED%IAS %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew (STAT22>0 AND STAT17>0)]: %PURPLE%MAX %WHITE%ED %YELLOW%%NAME%%ORANGE%[L%ILVL%] {%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew (IAS>0 AND STAT138>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %RED%IAS %GREEN%MANA %YELLOW%JEWEL%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew (IAS>0 AND RES>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %PURPLE%IAS %DARK_GREEN%RES%YELLOW%JEWEL%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew (IAS>0 AND (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0))]: %PURPLE%IAS %DARK_GREEN%RES %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew (STAT91>0 AND RES>0)]:%GOLD%REQ %DARK_GREEN%RES %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew (IAS>0 AND FHR>0)]: %RED%IAS %YELLOW%FHR %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew ((STAT0>0 OR STAT1>0 OR STAT2>0 OR STAT3>0) AND STAT17>0)]: %PURPLE%ED %TAN%STAT %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew ((STAT0>0 OR STAT1>0 OR STAT2>0 OR STAT3>0) AND STAT138>0)]: %PURPLE%MANA %TAN%STAT %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew (FHR>0 AND STAT138>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %GREEN%MANA %YELLOW%FHR %YELLOW%JEWEL%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew (STAT138>0 AND STAT91>0)]: %GREEN%MANA %GOLD%REQ %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew RES>0]: %GREEN%ALLRES %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0)]: %PURPLE%RES %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew STAT17>0]: %WHITE%ED %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew IAS>0]: %RED%IAS %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew STAT91>0]: %GOLD%REQ %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew STAT138>0]: %GREEN%MANA %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[RARE jew STAT22>0]: %PURPLE%MAX %YELLOW%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew (IAS>0 AND STAT17>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %WHITE%ED %RED%IAS %BLUE%%NAME%%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew (IAS>0 AND STAT22>0)]: %PURPLE%MAX %RED%IAS %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew (STAT22>0 AND STAT17>0)]: %PURPLE%MAX %WHITE%ED %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew (IAS>0 AND STAT138>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %RED%IAS %GREEN%MANA %BLUE%%NAME%%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew (IAS>0 AND RES>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %PURPLE%IAS %DARK_GREEN%RES %BLUE%%NAME%%ORANGE%[L%ILVL%] %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew (IAS>0 AND (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0))]: %PURPLE%IAS %DARK_GREEN%RES %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew (STAT91>0 AND RES>0)]: %GOLD%REQ %DARK_GREEN%RES %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew (IAS>0 AND FHR>0)]: %RED%IAS %YELLOW%FHR %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew ((STAT0>0 OR STAT1>0 OR STAT2>0 OR STAT3>0) AND STAT17>0)]: %PURPLE%ED %TAN%STAT %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew ((STAT0>0 OR STAT1>0 OR STAT2>0 OR STAT3>0) AND STAT138>0)]: %PURPLE%MANA %TAN%STAT %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew (FHR>0 AND STAT138>0)]: %RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%* %GREEN%MANA %YELLOW%FHR %BLUE%%NAME%%ORANGE%[L%ILVL%]%RED%*%ORANGE%*%YELLOW%*%GREEN%*%BLUE%*%GRAY%*%PURPLE%*{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew (STAT138>0 AND STAT91>0)]: %GREEN%MANA %GOLD%REQ %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew RES>0]: %GREEN%ALLRES %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew (STAT39>0 OR STAT41>0 OR STAT43>0 OR STAT45>0)]: %PURPLE%RES %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew STAT17>0]: %WHITE%ED %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew IAS>0]: %RED%IAS %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew STAT91>0]: %GOLD%REQ %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew STAT138>0]: %GREEN%MANA %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG jew STAT22>0]: %PURPLE%MAX %BLUE%%NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
-ItemDisplay[MAG (cm1 OR cm2 OR cm3)]: %BLUE%%NAME%%ORANGE%[L%ILVL%]
-ItemDisplay[(MAG OR RARE) ID jew]: %NAME%%ORANGE%[L%ILVL%]{%NL%%GOLD%Jewel Fragments : %ORANGE%Key%WHITE%+%GREEN%Jewel}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 //                                        CIRCLET                                              //
