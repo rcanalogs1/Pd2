@@ -230,7 +230,7 @@
      1) Rune comments added (Crafting, Cubing and upgrade recipe
      2) Mirror and Lightsong marking changed
      3) PUL UM MAL IST marking changed
-     
+     ![그림1](https://user-images.githubusercontent.com/76995697/186828502-134088a6-c110-4893-ae15-c58ec0ac013c.png)
      
      
   
