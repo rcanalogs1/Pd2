@@ -4074,8 +4074,8 @@ ItemDisplay[NMAG SOCK=0 !RW ILVL<26 uar ETH]:%NAME%{%WHITE%(item level:%ORANGE%L
 
 ItemDisplay[(xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar OR xld OR gth OR aar) !SOCK=0 !SOCK=1 !RW NMAG !ETH (ED>0 OR STAT91=-10)]:%NAME%{%NAME%}
 ItemDisplay[(xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar OR xld OR gth OR aar) !SOCK=0 !SOCK=1 !RW NMAG ETH]:%NAME%{%NAME%}
-ItemDisplay[(xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar OR xld OR gth OR aar) SOCK=3 !RW NMAG ETH]:%NAME%{%NAME%}
-ItemDisplay[(xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar OR xld OR gth OR aar) SOCK=4 !RW NMAG ETH]:%NAME%{%NAME%}
+ItemDisplay[(xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar OR xld OR gth OR aar) SOCK=3 !RW NMAG !ETH]:%NAME%{%NAME%}
+ItemDisplay[(xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar OR xld OR gth OR aar) SOCK=4 !RW NMAG !ETH]:%NAME%{%NAME%}
 
 //helm / BAR HELM
 ItemDisplay[NMAG SOCK=0 !RW ILVL>40 msk ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
