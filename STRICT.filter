@@ -2896,10 +2896,18 @@ ItemDisplay[uts NMAG !RW]:%DARK_GREEN%Ward%CONTINUE%
 ItemDisplay[urg NMAG !RW]:%DARK_GREEN%Hyperion%CONTINUE%
 ItemDisplay[ush NMAG !RW]:%DARK_GREEN%Troll Nest%CONTINUE%
 
-//sword(normal)
-ItemDisplay[crs NMAG !RW]:%DARK_GREEN%Crystal Sword%CONTINUE%
-ItemDisplay[bsd NMAG !RW]:%DARK_GREEN%Broad Sword%CONTINUE%
-ItemDisplay[lsd NMAG !RW]:%DARK_GREEN%Long Sword%CONTINUE%
+ItemDisplay[pa1 NMAG !RW]:%DARK_GREEN%Targe%CONTINUE%
+ItemDisplay[pa6 NMAG !RW]:%DARK_GREEN%Akaran Targe%CONTINUE%
+ItemDisplay[pa2 NMAG !RW]:%DARK_GREEN%Rondache%CONTINUE%
+ItemDisplay[pa7 NMAG !RW]:%DARK_GREEN%Akaran Rondache%CONTINUE%
+ItemDisplay[pa3 NMAG !RW]:%DARK_GREEN%Heraldic Shield%CONTINUE%
+ItemDisplay[pa8 NMAG !RW]:%DARK_GREEN%Protector Shield%CONTINUE%
+ItemDisplay[pad NMAG !RW]:%DARK_GREEN%Kurast Shield%CONTINUE%
+ItemDisplay[pa4 NMAG !RW]:%DARK_GREEN%Aerin Shield%CONTINUE%
+ItemDisplay[pa9 NMAG !RW]:%DARK_GREEN%Gilded Shield%CONTINUE%
+ItemDisplay[pae NMAG !RW]:%DARK_GREEN%Zakarum Shield%CONTINUE%
+ItemDisplay[pa5 NMAG !RW]:%DARK_GREEN%Crown Shield%CONTINUE%
+ItemDisplay[paa NMAG !RW]:%DARK_GREEN%Royal Shield%CONTINUE%
 
 //TIPPED MACE
 //Mace, Flanged Mace, Reinforced Mace
@@ -2930,9 +2938,25 @@ ItemDisplay[7wa NMAG !RW]:%DARK_GREEN%Berserker Axe%CONTINUE%
 ItemDisplay[7gi NMAG !RW]:%DARK_GREEN%Glorious Axe%CONTINUE%
 
 //SCEPTERS
+ItemDisplay[scp NMAG !RW]:%DARK_GREEN%Scepter%CONTINUE%
+ItemDisplay[9sc NMAG !RW]:%DARK_GREEN%Rune Scepter%CONTINUE%
+ItemDisplay[7sc NMAG !RW]:%DARK_GREEN%Mighty Scepter%CONTINUE%
+ItemDisplay[gsc NMAG !RW]:%DARK_GREEN%Grand Scepter%CONTINUE%
+ItemDisplay[9qs NMAG !RW]:%DARK_GREEN%Holy Water Sprinkler%CONTINUE%
+ItemDisplay[7qs NMAG !RW]:%DARK_GREEN%Seraph Rod%CONTINUE%
+ItemDisplay[wsp NMAG !RW]:%DARK_GREEN%War Scepter%CONTINUE%
+ItemDisplay[9ws NMAG !RW]:%DARK_GREEN%Divine Scepter%CONTINUE%
+ItemDisplay[7ws NMAG !RW]:%DARK_GREEN%Caduceus%CONTINUE%
+
+//club 
+ItemDisplay[clb NMAG !RW]:%DARK_GREEN%Club%CONTINUE%
+ItemDisplay[9cl NMAG !RW]:%DARK_GREEN%Cudgel%CONTINUE%
+ItemDisplay[7cl NMAG !RW]:%DARK_GREEN%Truncheon%CONTINUE%
+ItemDisplay[spc NMAG !RW]:%DARK_GREEN%Spiked Club%CONTINUE%
+ItemDisplay[9sp NMAG !RW]:%DARK_GREEN%Barbed Club%CONTINUE%
+ItemDisplay[7sp NMAG !RW]:%DARK_GREEN%Tyrant Club%CONTINUE%
 
 //Polearm+SPEAR ALL
-//giant thresher 7wc/ colossus voulge 7vo/thresher 7s8/great poleaxe 7h7/mancatcher 7br/war pike 7p7
 ItemDisplay[7wc NMAG !RW]:%DARK_GREEN%Giant Thresher%CONTINUE%
 ItemDisplay[7vo NMAG !RW]:%DARK_GREEN%Colossus Voulge%CONTINUE%
 ItemDisplay[7s8 NMAG !RW]:%DARK_GREEN%Thresher%CONTINUE%
@@ -2943,6 +2967,12 @@ ItemDisplay[7p7 NMAG !RW]:%DARK_GREEN%War Pike%CONTINUE%
 ItemDisplay[7tr NMAG !RW]:%DARK_GREEN%Stygian Pike%CONTINUE%
 ItemDisplay[amd NMAG !RW]:%DARK_GREEN%Matriarchal Spear%CONTINUE%
 ItemDisplay[ame NMAG !RW]:%DARK_GREEN%Matriarchal Pike%CONTINUE%
+ItemDisplay[am9 NMAG !RW]:%DARK_GREEN%Ceremonial Pike%CONTINUE%
+
+//sword(normal)
+ItemDisplay[crs NMAG !RW]:%DARK_GREEN%Crystal Sword%CONTINUE%
+ItemDisplay[bsd NMAG !RW]:%DARK_GREEN%Broad Sword%CONTINUE%
+ItemDisplay[lsd NMAG !RW]:%DARK_GREEN%Long Sword%CONTINUE%
 
 //SWORD (ELITE)
 ItemDisplay[7cr NMAG !RW]:%DARK_GREEN%Phase Blade%CONTINUE%
@@ -2950,18 +2980,23 @@ ItemDisplay[72h NMAG !RW]:%DARK_GREEN%Legend Sword%CONTINUE%
 ItemDisplay[7fb NMAG !RW]:%DARK_GREEN%Colossus Sword%CONTINUE%
 ItemDisplay[7gd NMAG !RW]:%DARK_GREEN%Colossus Blade%CONTINUE%
 ItemDisplay[7gs NMAG !RW]:%DARK_GREEN%Balrog Blade%CONTINUE%
+ItemDisplay[7ls NMAG !RW]:%DARK_GREEN%Cryptic Sword%CONTINUE%
 
 //Staves
-//6ws Archon Staff
 ItemDisplay[6ws NMAG !RW]:%DARK_GREEN%Archon Staff%CONTINUE%
+ItemDisplay[lst NMAG !RW]:%DARK_GREEN%Long Staff%CONTINUE%
+ItemDisplay[8ls NMAG !RW]:%DARK_GREEN%Quarterstaff%CONTINUE%
+ItemDisplay[6ls NMAG !RW]:%DARK_GREEN%Stalagmite%CONTINUE%
+ItemDisplay[cst NMAG !RW]:%DARK_GREEN%Gnarled Staff%CONTINUE%
+ItemDisplay[8cs NMAG !RW]:%DARK_GREEN%Cedar Staff%CONTINUE%
+ItemDisplay[6cs NMAG !RW]:%DARK_GREEN%Elder Staff%CONTINUE%
+ItemDisplay[bst NMAG !RW]:%DARK_GREEN%Battle Staff%CONTINUE%
+ItemDisplay[8bs NMAG !RW]:%DARK_GREEN%Gothic Staff%CONTINUE%
+ItemDisplay[6bs NMAG !RW]:%DARK_GREEN%Shillelagh%CONTINUE%
+ItemDisplay[wst NMAG !RW]:%DARK_GREEN%War Staff%CONTINUE%
+ItemDisplay[8ws NMAG !RW]:%DARK_GREEN%Rune Staff%CONTINUE%
 
 //BOWS
-//amb OR amc OR 6hb OR 6cb OR 6lw OR 6rx OR 6mx
-
-//6mx	Gorgon Crossbow
-//6hx	Colossus Crossbow
-//6rx	Demon Crossbow
-
 ItemDisplay[amb NMAG !RW]:%DARK_GREEN%Matriarchal Bow%CONTINUE%
 ItemDisplay[amc NMAG !RW]:%DARK_GREEN%Grand Matron Bow%CONTINUE%
 ItemDisplay[6hb NMAG !RW]:%DARK_GREEN%Blade Bow%CONTINUE%
@@ -2971,11 +3006,65 @@ ItemDisplay[6rx NMAG !RW]:%DARK_GREEN%Demon Crossbow%CONTINUE%
 ItemDisplay[6mx NMAG !RW]:%DARK_GREEN%Gorgon Crossbow%CONTINUE%
 ItemDisplay[6hx NMAG !RW]:%DARK_GREEN%Colossus Crossbow%CONTINUE%
 ItemDisplay[am1 NMAG !RW]:%DARK_GREEN%Stag Bow%CONTINUE%
+ItemDisplay[am7 NMAG !RW]:%DARK_GREEN%Ceremonial Bow%CONTINUE%
+
+//Claw
+ItemDisplay[9ar NMAG !RW]:%DARK_GREEN%Quhab%CONTINUE%
+ItemDisplay[7ar NMAG !RW]:%DARK_GREEN%Suwayyah%CONTINUE%
+ItemDisplay[9wb NMAG !RW]:%DARK_GREEN%Wrist Spike%CONTINUE%
+ItemDisplay[7wb NMAG !RW]:%DARK_GREEN%Wrist Sword%CONTINUE%
+ItemDisplay[9xf NMAG !RW]:%DARK_GREEN%Fascia%CONTINUE%
+ItemDisplay[7xf NMAG !RW]:%DARK_GREEN%War Fist%CONTINUE%
+ItemDisplay[9cs NMAG !RW]:%DARK_GREEN%Hand Scythe%CONTINUE%
+ItemDisplay[7cs NMAG !RW]:%DARK_GREEN%Battle Cestus%CONTINUE%
+ItemDisplay[clw NMAG !RW]:%DARK_GREEN%Claws%CONTINUE%
+ItemDisplay[9lw NMAG !RW]:%DARK_GREEN%Greater Claws%CONTINUE%
+ItemDisplay[7lw NMAG !RW]:%DARK_GREEN%Feral Claws%CONTINUE%
+ItemDisplay[btl NMAG !RW]:%DARK_GREEN%Blade Talons%CONTINUE%
+ItemDisplay[9tw NMAG !RW]:%DARK_GREEN%Greater Talons%CONTINUE%
+ItemDisplay[7tw NMAG !RW]:%DARK_GREEN%Runic Talons%CONTINUE%
+ItemDisplay[skr NMAG !RW]:%DARK_GREEN%Scissors Katar%CONTINUE%
+ItemDisplay[9qr NMAG !RW]:%DARK_GREEN%Scissors Quhab%CONTINUE%
+ItemDisplay[7qr NMAG !RW]:%DARK_GREEN%Scissors Suwayyah%CONTINUE%
 
 //helmet
 ItemDisplay[msk NMAG !RW]:%DARK_GREEN%Mask%CONTINUE%
 ItemDisplay[uh9 NMAG !RW]:%DARK_GREEN%Bone Visage%CONTINUE%
 ItemDisplay[urn NMAG !RW]:%DARK_GREEN%Corona%CONTINUE%
+ItemDisplay[ci3 NMAG !RW]:%DARK_GREEN%Diadem%CONTINUE%
+
+//pelt
+ItemDisplay[dr1 NMAG !RW]:%DARK_GREEN%Wolf Head%CONTINUE%
+ItemDisplay[dr6 NMAG !RW]:%DARK_GREEN%Alpha Helm%CONTINUE%
+ItemDisplay[drb NMAG !RW]:%DARK_GREEN%Blood Spirit%CONTINUE%
+ItemDisplay[dr2 NMAG !RW]:%DARK_GREEN%Hawk Helm%CONTINUE%
+ItemDisplay[dr7 NMAG !RW]:%DARK_GREEN%Griffon Headress%CONTINUE%
+ItemDisplay[drc NMAG !RW]:%DARK_GREEN%Sun Spirit%CONTINUE%
+ItemDisplay[dr3 NMAG !RW]:%DARK_GREEN%Antlers%CONTINUE%
+ItemDisplay[dr8 NMAG !RW]:%DARK_GREEN%Hunter's Guise%CONTINUE%
+ItemDisplay[drd NMAG !RW]:%DARK_GREEN%Earth Spirit%CONTINUE%
+ItemDisplay[dr4 NMAG !RW]:%DARK_GREEN%Falcon Mask%CONTINUE%
+ItemDisplay[dr9 NMAG !RW]:%DARK_GREEN%Sacred Feathers%CONTINUE%
+ItemDisplay[dre NMAG !RW]:%DARK_GREEN%Sky Spirit%CONTINUE%
+ItemDisplay[dr5 NMAG !RW]:%DARK_GREEN%Spirit Mask%CONTINUE%
+ItemDisplay[dra NMAG !RW]:%DARK_GREEN%Totemic Mask%CONTINUE%
+ItemDisplay[drf NMAG !RW]:%DARK_GREEN%Dream Spirit%CONTINUE%
+
+//orb
+ItemDisplay[ob5 NMAG !RW]:%DARK_GREEN%Jared's Stone%CONTINUE%
+ItemDisplay[oba NMAG !RW]:%DARK_GREEN%Swirling Crystal%CONTINUE%
+ItemDisplay[obf NMAG !RW]:%DARK_GREEN%Dimensional Shard%CONTINUE%
+
+//wand
+ItemDisplay[7wn NMAG !RW]:%DARK_GREEN%Polished Wand%CONTINUE%
+ItemDisplay[9yw NMAG !RW]:%DARK_GREEN%Petrified Wand%CONTINUE%
+ItemDisplay[7yw NMAG !RW]:%DARK_GREEN%Ghost Wand%CONTINUE%
+ItemDisplay[bwn NMAG !RW]:%DARK_GREEN%Bone Wand%CONTINUE%
+ItemDisplay[9bw NMAG !RW]:%DARK_GREEN%Tomb Wand%CONTINUE%
+ItemDisplay[7bw NMAG !RW]:%DARK_GREEN%Lich Wand%CONTINUE%
+ItemDisplay[gwn NMAG !RW]:%DARK_GREEN%Grim Wand%CONTINUE%
+ItemDisplay[9gw NMAG !RW]:%DARK_GREEN%Grave Wand%CONTINUE%
+ItemDisplay[7gw NMAG !RW]:%DARK_GREEN%Unearthed Wand%CONTINUE%
 
 //IDENTIFY
 ItemDisplay[(WEAPON OR ARMOR) !RW NMAG !SOCK=0]:%DARK_GREEN%%NAME% %PURPLE%[%SOCKETS%]%CONTINUE%
@@ -3334,7 +3423,6 @@ ItemDisplay[NMAG SOCK=0 !RW ILVL<26 amd ETH]:%NAME%{%WHITE%(item level:%ORANGE%L
 ItemDisplay[NMAG SOCK=0 !RW ILVL<26 am9 ETH]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL<26 ame ETH]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
 
-
 ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 crs ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%4 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 bsd ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%4 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 lsd ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%4 %RED%max soc by larzuk%WHITE%)%NAME%}
@@ -3602,7 +3690,6 @@ ItemDisplay[NMAG SOCK=0 !RW ILVL>40 obf (SK63>2 OR SK58>2 OR SK57>2 OR SK48>2 OR
 ItemDisplay[(ob5 and oba and obf) !RW NMAG !ETH (SOCK=3) (SK63>2 OR SK58>2 OR SK57>2 OR SK48>2 OR SK50>2 OR SK60>2 OR SK59>2 OR SK64>2 OR SK65>2 OR SK61>2 OR SK369>2 OR SK376>2 OR SK383>2 OR SK62>2)]:%NAME%{%NAME%}
 
 //wand -COMPLETE
-
 ItemDisplay[NMAG SOCK=0 !RW ILVL<26 7wn (SK84>2 OR SK92>2 OR SK83>2 OR SK74>2 OR SK67>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL<26 9yw (SK84>2 OR SK92>2 OR SK83>2 OR SK74>2 OR SK67>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL<26 7yw (SK84>2 OR SK92>2 OR SK83>2 OR SK74>2 OR SK67>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
@@ -3632,7 +3719,6 @@ ItemDisplay[NMAG SOCK=0 !RW ILVL>40 7bw (SK84>2 OR SK92>2 OR SK83>2 OR SK74>2 OR
 ItemDisplay[NMAG SOCK=0 !RW ILVL>40 gwn (SK84>2 OR SK92>2 OR SK83>2 OR SK74>2 OR SK67>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL>40 9gw (SK84>2 OR SK92>2 OR SK83>2 OR SK74>2 OR SK67>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL>40 7gw (SK84>2 OR SK92>2 OR SK83>2 OR SK74>2 OR SK67>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
-
 
 ItemDisplay[WP12 !RW !wnd !ywn !9wn !RW !RW NMAG !ETH (SOCK=2) (SK84>2 OR SK92>2 OR SK83>2 OR SK74>2 OR SK67>2)]:%NAME%{%NAME%}
 
@@ -3924,12 +4010,13 @@ ItemDisplay[NMAG SOCK=0 !RW ILVL<26 uar ETH]:%NAME%{%WHITE%(item level:%ORANGE%L
 
 ItemDisplay[(xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar OR xld OR gth OR aar) !SOCK=0 !SOCK=1 !RW NMAG !ETH (ED>0 OR STAT91=-10)]:%NAME%{%NAME%}
 ItemDisplay[(xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar OR xld OR gth OR aar) !SOCK=0 !SOCK=1 !RW NMAG ETH]:%NAME%{%NAME%}
+ItemDisplay[(xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar OR xld OR gth OR aar) SOCK=3 !RW NMAG ETH]:%NAME%{%NAME%}
+ItemDisplay[(xtp OR uui OR ula OR utu OR ung OR ucl OR urs OR uhn OR upl OR utp OR uld OR ult OR uth OR uul OR uar OR xld OR gth OR aar) SOCK=4 !RW NMAG ETH]:%NAME%{%NAME%}
 
 //helm / BAR HELM
-
-ItemDisplay[NMAG SOCK=0 !RW ILVL>40 msk]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
-ItemDisplay[NMAG SOCK=0 !RW ILVL>40 uh9]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
-ItemDisplay[NMAG SOCK=0 !RW ILVL>40 urn]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
+ItemDisplay[NMAG SOCK=0 !RW ILVL>40 msk ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
+ItemDisplay[NMAG SOCK=0 !RW ILVL>40 uh9 ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
+ItemDisplay[NMAG SOCK=0 !RW ILVL>40 urn ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL>40 ba1 (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL>40 ba6 (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL>40 bab (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
@@ -3946,9 +4033,9 @@ ItemDisplay[NMAG SOCK=0 !RW ILVL>40 ba5 (SK146>2 OR SK155>2 OR SK154>2 OR SK150>
 ItemDisplay[NMAG SOCK=0 !RW ILVL>40 baa (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL>40 baf (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
 
-ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 msk]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
-ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 uh9]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
-ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 urn]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
+ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 msk ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
+ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 uh9 ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
+ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 urn ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 ba1 (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 ba6 (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 bab (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
@@ -3965,9 +4052,9 @@ ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 ba5 (SK146>2 OR SK155>2 OR SK154>2 O
 ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 baa (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL>25 ILVL<41 baf (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
 
-ItemDisplay[NMAG SOCK=0 !RW ILVL<26 msk]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
-ItemDisplay[NMAG SOCK=0 !RW ILVL<26 uh9]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
-ItemDisplay[NMAG SOCK=0 !RW ILVL<26 urn]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
+ItemDisplay[NMAG SOCK=0 !RW ILVL<26 msk ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
+ItemDisplay[NMAG SOCK=0 !RW ILVL<26 uh9 ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
+ItemDisplay[NMAG SOCK=0 !RW ILVL<26 urn ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL<26 ba1 (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL<26 ba6 (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
 ItemDisplay[NMAG SOCK=0 !RW ILVL<26 bab (SK146>2 OR SK155>2 OR SK154>2 OR SK150>2 OR SK149>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%2 %RED%max soc by larzuk%WHITE%)%NAME%}
@@ -4037,7 +4124,6 @@ ItemDisplay[NMAG SOCK=0 !RW ILVL>40 dra (SK249>2 OR SK250>2 OR SK245>2 OR SK235>
 ItemDisplay[NMAG SOCK=0 !RW ILVL>40 drf (SK249>2 OR SK250>2 OR SK245>2 OR SK235>2 OR SK237>2 OR SK247>2 OR SK227>2)]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%3 %RED%max soc by larzuk%WHITE%)%NAME%}
 
 ItemDisplay[CL1 NMAG !RW (SOCK>1) (SK249>2 OR SK250>2 OR SK245>2 OR SK235>2 OR SK237>2 OR SK247>2 OR SK227>2)]:%NAME%{%NAME%}
-
 
 //BOW ACTIVE
 ItemDisplay[NMAG SOCK=0 !RW ILVL>40 6cb ED>0]:%NAME%{%WHITE%(item level:%ORANGE%L%ILVL%,%WHITE% max soc: %PURPLE%4 %RED%max soc by larzuk%WHITE%)%NAME%}
