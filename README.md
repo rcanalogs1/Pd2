@@ -224,7 +224,9 @@
      2) base sup item is marked by (sup)
      3) base item is able to show possible max socket based on his item level.
      4) Adde much more rune word recipe (now automatically rune word recipe attached to base item if socketed)
-       
+
+   ![image](https://user-images.githubusercontent.com/76995697/186828838-00648726-a2af-43a0-9660-347fc0a9f8f7.png)
+   
    23. 8/26
      
      1) Rune comments added (Crafting, Cubing and upgrade recipe
